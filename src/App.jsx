@@ -7,6 +7,12 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Background Balls */}
+      <div className="background-balls">
+        <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
+        <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
+      </div>
+
       {!gameStarted ? (
         <div className="card home-card">
           <h1>Foot<span>Quiz</span> ⚽</h1>
