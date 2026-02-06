@@ -1,55 +1,61 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState } from 'react';
 import questionsData from './questions.json';
 
-const Quiz = ({ onBackToMenu }) => {
-  const [questions, setQuestions] = useState([]);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [loading, setLoading] = useState(true);
-  const [gameOver, setGameOver] = useState(false);
-  const [userAnswer, setUserAnswer] = useState(null);
-  const [shuffledAnswers, setShuffledAnswers] = useState([]);
+// Fonction pure pour préparer les questions (hors du composant)
+const prepareQuestions = (difficulty) => {
+  const shuffleArray = (array) => [...array].sort(() => 0.5 - Math.random());
 
-  // Fonction utilitaire pour mélanger un tableau
-  const shuffleArray = (array) => {
-    return [...array].sort(() => 0.5 - Math.random());
+  const categorizeQuestion = (q) => {
+    const text = (q.question + q.correctAnswer).toLowerCase();
+    if (text.match(/messi|ronaldo|mbappé|neymar|zidane|psg|om|marseille|france|2018|2022|barcelone|real madrid/)) return 'easy';
+    if (text.match(/1930|1934|1938|1950|1954|1958|1962|1966|1970|hongrie|tchécoslovaquie|urss|lev yachine|puskas|garrincha|just fontaine|record|date|combien/)) return 'hard';
+    return 'medium';
   };
 
-  // Charger les questions et mélanger les réponses de la première
-  const loadQuestions = useCallback(() => {
-    setLoading(true);
-    setGameOver(false);
-    setScore(0);
-    setCurrentQuestionIndex(0);
-    setUserAnswer(null);
+  const categorizedQuestions = questionsData.map(q => ({
+    ...q,
+    difficultyTag: categorizeQuestion(q)
+  }));
 
-    // Mélanger toutes les questions disponibles et en prendre 10
-    const shuffledQuestions = shuffleArray(questionsData).slice(0, 10);
-    setQuestions(shuffledQuestions);
+  let filteredQuestions = categorizedQuestions;
+  if (difficulty !== 'mix') {
+    filteredQuestions = categorizedQuestions.filter(q => q.difficultyTag === difficulty);
+    if (filteredQuestions.length < 5) filteredQuestions = categorizedQuestions;
+  }
 
-    // Préparer les réponses pour la première question
-    if (shuffledQuestions.length > 0) {
-      const firstQ = shuffledQuestions[0];
-      const answers = shuffleArray([...firstQ.incorrectAnswers, firstQ.correctAnswer]);
-      setShuffledAnswers(answers);
+  // On retourne 10 questions mélangées
+  return shuffleArray(filteredQuestions).slice(0, 10);
+};
+
+const Quiz = ({ onBackToMenu, difficulty, onReplay }) => {
+  // Initialisation lazy : on prépare les questions une seule fois au montage
+  const [questions] = useState(() => prepareQuestions(difficulty));
+  
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [score, setScore] = useState(0);
+  const [gameOver, setGameOver] = useState(false);
+  const [userAnswer, setUserAnswer] = useState(null);
+  
+  // On initialise les réponses mélangées directement avec la première question
+  const [shuffledAnswers, setShuffledAnswers] = useState(() => {
+    if (questions.length > 0) {
+      const q = questions[0];
+      return [...q.incorrectAnswers, q.correctAnswer].sort(() => 0.5 - Math.random());
     }
+    return [];
+  });
 
-    setLoading(false);
-  }, []);
-
-  // Initialisation du jeu
-  useEffect(() => {
-    loadQuestions();
-  }, [loadQuestions]);
-
-  // Mettre à jour les réponses mélangées quand on change de question
-  useEffect(() => {
-    if (questions.length > 0 && currentQuestionIndex < questions.length) {
-      const currentQ = questions[currentQuestionIndex];
-      const answers = shuffleArray([...currentQ.incorrectAnswers, currentQ.correctAnswer]);
-      setShuffledAnswers(answers);
+  const nextQuestion = (nextIndex) => {
+    if (nextIndex < questions.length) {
+      setCurrentQuestionIndex(nextIndex);
+      setUserAnswer(null);
+      // Mélanger les réponses de la nouvelle question
+      const nextQ = questions[nextIndex];
+      setShuffledAnswers([...nextQ.incorrectAnswers, nextQ.correctAnswer].sort(() => 0.5 - Math.random()));
+    } else {
+      setGameOver(true);
     }
-  }, [currentQuestionIndex, questions]);
+  };
 
   const handleAnswerClick = (answer) => {
     if (userAnswer) return;
@@ -64,28 +70,17 @@ const Quiz = ({ onBackToMenu }) => {
     }
 
     setTimeout(() => {
-      if (currentQuestionIndex + 1 < questions.length) {
-        setCurrentQuestionIndex(prev => prev + 1);
-        setUserAnswer(null);
-      } else {
-        setGameOver(true);
-      }
+      nextQuestion(currentQuestionIndex + 1);
     }, 1500);
   };
 
   const handleSkip = () => {
-    if (userAnswer) return; 
-
-    if (currentQuestionIndex + 1 < questions.length) {
-      setCurrentQuestionIndex(prev => prev + 1);
-      setUserAnswer(null);
-    } else {
-      setGameOver(true);
-    }
+    if (userAnswer) return;
+    nextQuestion(currentQuestionIndex + 1);
   };
 
-  if (loading) return <div className="loading">Préparation du match... ⚽</div>;
-  
+  if (questions.length === 0) return <div>Erreur : Pas de questions trouvées.</div>;
+
   if (gameOver) {
     return (
       <div className="card game-over">
@@ -93,14 +88,12 @@ const Quiz = ({ onBackToMenu }) => {
         <div className="score-display">{score} / {questions.length}</div>
         <p>Bien joué champion !</p>
         <div>
-          <button onClick={loadQuestions} className="restart-btn">Rejouer</button>
-          <button onClick={onBackToMenu} className="home-btn">Menu Principal</button>
+          <button onClick={onReplay} className="restart-btn">Rejouer ce niveau</button>
+          <button onClick={onBackToMenu} className="home-btn">Changer difficulté</button>
         </div>
       </div>
     );
   }
-
-  if (questions.length === 0) return <div>Erreur de chargement.</div>;
 
   const currentQ = questions[currentQuestionIndex];
 

@@ -4,6 +4,18 @@ import Quiz from './Quiz'
 
 function App() {
   const [gameStarted, setGameStarted] = useState(false);
+  const [difficulty, setDifficulty] = useState('mix');
+  const [gameId, setGameId] = useState(0); // Clé unique pour forcer le reset du Quiz
+
+  const startGame = (level) => {
+    setDifficulty(level);
+    setGameId(prev => prev + 1); // Nouvelle partie = nouvelle clé
+    setGameStarted(true);
+  };
+
+  const replayGame = () => {
+    setGameId(prev => prev + 1); // Reset complet du composant Quiz
+  };
 
   return (
     <div className="app-container">
@@ -16,18 +28,34 @@ function App() {
       {!gameStarted ? (
         <div className="card home-card">
           <h1>Foot<span>Quiz</span> ⚽</h1>
-          <p>Teste tes connaissances sur le football !</p>
-          <div style={{ margin: '2rem 0' }}>
-            <p>🌍 Questions internationales</p>
-            <p>🇫🇷 Traduites en français</p>
-            <p>⏱️ Mode rapide</p>
+          <p>Choisis ton niveau pour entrer sur le terrain :</p>
+          
+          <div className="difficulty-grid">
+            <button className="diff-btn easy" onClick={() => startGame('easy')}>
+              Échauffement
+              <span>(Facile)</span>
+            </button>
+            <button className="diff-btn medium" onClick={() => startGame('medium')}>
+              Pro
+              <span>(Moyen)</span>
+            </button>
+            <button className="diff-btn hard" onClick={() => startGame('hard')}>
+              Légende
+              <span>(Difficile)</span>
+            </button>
+            <button className="diff-btn mix" onClick={() => startGame('mix')}>
+              Match Amical
+              <span>(Mix de tout)</span>
+            </button>
           </div>
-          <button className="start-btn" onClick={() => setGameStarted(true)}>
-            Coup d'envoi
-          </button>
         </div>
       ) : (
-        <Quiz onBackToMenu={() => setGameStarted(false)} />
+        <Quiz 
+          key={gameId} // Force le remontage complet du composant quand ça change
+          difficulty={difficulty} 
+          onBackToMenu={() => setGameStarted(false)} 
+          onReplay={replayGame}
+        />
       )}
     </div>
   )
