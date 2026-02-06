@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import questionsData from './questions.json';
 
-const Quiz = () => {
+const Quiz = ({ onBackToMenu }) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -9,58 +10,46 @@ const Quiz = () => {
   const [userAnswer, setUserAnswer] = useState(null);
   const [shuffledAnswers, setShuffledAnswers] = useState([]);
 
-  // Fonction de traduction simple via MyMemory API (Gratuite et sans clé)
-  const translateText = async (text) => {
-    try {
-      const response = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|fr`);
-      const data = await response.json();
-      return data.responseData.translatedText;
-    } catch (error) {
-      console.error("Erreur traduction:", error);
-      return text;
-    }
+  // Fonction utilitaire pour mélanger un tableau
+  const shuffleArray = (array) => {
+    return [...array].sort(() => 0.5 - Math.random());
   };
 
-  const fetchAndTranslateQuestions = async () => {
+  // Charger les questions et mélanger les réponses de la première
+  const loadQuestions = useCallback(() => {
     setLoading(true);
     setGameOver(false);
     setScore(0);
     setCurrentQuestionIndex(0);
     setUserAnswer(null);
 
-    try {
-      const response = await fetch('https://the-trivia-api.com/api/questions?categories=sport_and_leisure&limit=5&tags=soccer');
-      const data = await response.json();
-      
-      // Traduction uniquement des questions
-      const translatedData = await Promise.all(data.map(async (q) => {
-        const translatedQuestion = await translateText(q.question);
-        
-        return {
-          ...q,
-          question: translatedQuestion
-        };
-      }));
+    // Mélanger toutes les questions disponibles et en prendre 10
+    const shuffledQuestions = shuffleArray(questionsData).slice(0, 10);
+    setQuestions(shuffledQuestions);
 
-      setQuestions(translatedData);
-    } catch (error) {
-      console.error("Failed to fetch questions:", error);
-    } finally {
-      setLoading(false);
+    // Préparer les réponses pour la première question
+    if (shuffledQuestions.length > 0) {
+      const firstQ = shuffledQuestions[0];
+      const answers = shuffleArray([...firstQ.incorrectAnswers, firstQ.correctAnswer]);
+      setShuffledAnswers(answers);
     }
-  };
 
-  useEffect(() => {
-    fetchAndTranslateQuestions();
+    setLoading(false);
   }, []);
 
+  // Initialisation du jeu
+  useEffect(() => {
+    loadQuestions();
+  }, [loadQuestions]);
+
+  // Mettre à jour les réponses mélangées quand on change de question
   useEffect(() => {
     if (questions.length > 0 && currentQuestionIndex < questions.length) {
       const currentQ = questions[currentQuestionIndex];
-      const answers = [...currentQ.incorrectAnswers, currentQ.correctAnswer];
-      setShuffledAnswers(answers.sort(() => Math.random() - 0.5));
+      const answers = shuffleArray([...currentQ.incorrectAnswers, currentQ.correctAnswer]);
+      setShuffledAnswers(answers);
     }
-  }, [questions, currentQuestionIndex]);
+  }, [currentQuestionIndex, questions]);
 
   const handleAnswerClick = (answer) => {
     if (userAnswer) return;
@@ -84,14 +73,29 @@ const Quiz = () => {
     }, 1500);
   };
 
-  if (loading) return <div className="loading">Traduction du match en cours... ⚽🌍</div>;
+  const handleSkip = () => {
+    if (userAnswer) return; 
+
+    if (currentQuestionIndex + 1 < questions.length) {
+      setCurrentQuestionIndex(prev => prev + 1);
+      setUserAnswer(null);
+    } else {
+      setGameOver(true);
+    }
+  };
+
+  if (loading) return <div className="loading">Préparation du match... ⚽</div>;
   
   if (gameOver) {
     return (
-      <div className="game-over">
+      <div className="card game-over">
         <h2>Fin du match ! 🏁</h2>
-        <p>Ton score : {score} / {questions.length}</p>
-        <button onClick={fetchAndTranslateQuestions} className="restart-btn">Rejouer le match</button>
+        <div className="score-display">{score} / {questions.length}</div>
+        <p>Bien joué champion !</p>
+        <div>
+          <button onClick={loadQuestions} className="restart-btn">Rejouer</button>
+          <button onClick={onBackToMenu} className="home-btn">Menu Principal</button>
+        </div>
       </div>
     );
   }
@@ -101,10 +105,10 @@ const Quiz = () => {
   const currentQ = questions[currentQuestionIndex];
 
   return (
-    <div className="quiz-container">
+    <div className="card quiz-container">
       <div className="stats-bar">
-        <span>Question {currentQuestionIndex + 1}/{questions.length}</span>
-        <span>Score: {score}</span>
+        <span>Question <strong>{currentQuestionIndex + 1}/{questions.length}</strong></span>
+        <span>Score: <strong>{score}</strong></span>
       </div>
       
       <h2 className="question-text">{currentQ.question}</h2>
@@ -129,6 +133,14 @@ const Quiz = () => {
           );
         })}
       </div>
+      
+      <button 
+        className="skip-btn" 
+        onClick={handleSkip} 
+        disabled={!!userAnswer}
+      >
+        Passer cette question ⏩
+      </button>
     </div>
   );
 };

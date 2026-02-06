@@ -1,12 +1,29 @@
+import { useState } from 'react'
 import './App.css'
 import Quiz from './Quiz'
 
 function App() {
+  const [gameStarted, setGameStarted] = useState(false);
+
   return (
-    <>
-      <h1>FootQuiz ⚽</h1>
-      <Quiz />
-    </>
+    <div className="app-container">
+      {!gameStarted ? (
+        <div className="card home-card">
+          <h1>Foot<span>Quiz</span> ⚽</h1>
+          <p>Teste tes connaissances sur le football !</p>
+          <div style={{ margin: '2rem 0' }}>
+            <p>🌍 Questions internationales</p>
+            <p>🇫🇷 Traduites en français</p>
+            <p>⏱️ Mode rapide</p>
+          </div>
+          <button className="start-btn" onClick={() => setGameStarted(true)}>
+            Coup d'envoi
+          </button>
+        </div>
+      ) : (
+        <Quiz onBackToMenu={() => setGameStarted(false)} />
+      )}
+    </div>
   )
 }
 
