@@ -2,34 +2,50 @@ import { useState } from 'react';
 import questionsData from './questions.json';
 
 // Fonction pure pour préparer les questions (hors du composant)
-const prepareQuestions = (difficulty) => {
+const prepareQuestions = (difficulty, excludeList = []) => {
   const shuffleArray = (array) => [...array].sort(() => 0.5 - Math.random());
 
-  const categorizeQuestion = (q) => {
-    const text = (q.question + q.correctAnswer).toLowerCase();
-    if (text.match(/messi|ronaldo|mbappé|neymar|zidane|psg|om|marseille|france|2018|2022|barcelone|real madrid/)) return 'easy';
-    if (text.match(/1930|1934|1938|1950|1954|1958|1962|1966|1970|hongrie|tchécoslovaquie|urss|lev yachine|puskas|garrincha|just fontaine|record|date|combien/)) return 'hard';
-    return 'medium';
+  const difficultyMap = {
+    'easy': ['facile', 'easy'],
+    'medium': ['moyen', 'medium'],
+    'hard': ['difficile', 'hard']
   };
 
-  const categorizedQuestions = questionsData.map(q => ({
-    ...q,
-    difficultyTag: categorizeQuestion(q)
-  }));
+  let filteredQuestions = questionsData;
 
-  let filteredQuestions = categorizedQuestions;
+  // 1. Filtrage par difficulté
   if (difficulty !== 'mix') {
-    filteredQuestions = categorizedQuestions.filter(q => q.difficultyTag === difficulty);
-    if (filteredQuestions.length < 5) filteredQuestions = categorizedQuestions;
+    const validTags = difficultyMap[difficulty];
+    filteredQuestions = questionsData.filter(q => {
+      if (q.difficulty) {
+        return validTags.includes(q.difficulty.toLowerCase());
+      }
+      return difficulty === 'medium';
+    });
+
+    if (filteredQuestions.length < 5) {
+      filteredQuestions = questionsData;
+    }
   }
 
-  // On retourne 10 questions mélangées
+  // 2. Exclusion des questions précédentes (si possible)
+  if (excludeList.length > 0) {
+    const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
+    
+    // On n'applique l'exclusion que si il reste assez de questions (au moins 10)
+    // Sinon, on remet tout le monde dans le paquet pour ne pas bloquer le jeu
+    if (questionsNotPlayedYet.length >= 10) {
+      filteredQuestions = questionsNotPlayedYet;
+    }
+  }
+
+  // 3. Mélange final
   return shuffleArray(filteredQuestions).slice(0, 10);
 };
 
-const Quiz = ({ onBackToMenu, difficulty, onReplay }) => {
-  // Initialisation lazy : on prépare les questions une seule fois au montage
-  const [questions] = useState(() => prepareQuestions(difficulty));
+const Quiz = ({ onBackToMenu, difficulty, excludeQuestions, onReplay }) => {
+  // Initialisation lazy avec prise en compte de l'exclusion
+  const [questions] = useState(() => prepareQuestions(difficulty, excludeQuestions));
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -88,7 +104,7 @@ const Quiz = ({ onBackToMenu, difficulty, onReplay }) => {
         <div className="score-display">{score} / {questions.length}</div>
         <p>Bien joué champion !</p>
         <div>
-          <button onClick={onReplay} className="restart-btn">Rejouer ce niveau</button>
+          <button onClick={() => onReplay(questions)} className="restart-btn">Rejouer ce niveau</button>
           <button onClick={onBackToMenu} className="home-btn">Changer difficulté</button>
         </div>
       </div>

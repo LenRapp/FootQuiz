@@ -6,14 +6,20 @@ function App() {
   const [gameStarted, setGameStarted] = useState(false);
   const [difficulty, setDifficulty] = useState('mix');
   const [gameId, setGameId] = useState(0); // Clé unique pour forcer le reset du Quiz
+  const [lastPlayedQuestions, setLastPlayedQuestions] = useState([]); // Questions à éviter au prochain tour
 
   const startGame = (level) => {
     setDifficulty(level);
-    setGameId(prev => prev + 1); // Nouvelle partie = nouvelle clé
+    setGameId(prev => prev + 1);
+    setLastPlayedQuestions([]); // Nouveau jeu complet = on reset l'exclusion
     setGameStarted(true);
   };
 
-  const replayGame = () => {
+  const replayGame = (questionsPlayed) => {
+    // On sauvegarde les titres des questions jouées pour les exclure au prochain round
+    if (questionsPlayed) {
+      setLastPlayedQuestions(questionsPlayed.map(q => q.question));
+    }
     setGameId(prev => prev + 1); // Reset complet du composant Quiz
   };
 
@@ -52,7 +58,8 @@ function App() {
       ) : (
         <Quiz 
           key={gameId} // Force le remontage complet du composant quand ça change
-          difficulty={difficulty} 
+          difficulty={difficulty}
+          excludeQuestions={lastPlayedQuestions} // On passe la liste noire
           onBackToMenu={() => setGameStarted(false)} 
           onReplay={replayGame}
         />
