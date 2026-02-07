@@ -3,3156 +3,3675 @@
     "question": "Quel pays a remporté la Coupe du Monde 2018 ?",
     "correctAnswer": "France",
     "incorrectAnswers": ["Croatie", "Brésil", "Allemagne"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Qui détient le record du nombre de buts en une seule Coupe du Monde ?",
     "correctAnswer": "Just Fontaine",
     "incorrectAnswers": ["Miroslav Klose", "Ronaldo", "Gerd Müller"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté le plus de Ligues des Champions ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["AC Milan", "Liverpool", "Bayern Munich"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel joueur est surnommé 'La Pulga' ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Cristiano Ronaldo", "Diego Maradona", "Sergio Agüero"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club Kylian Mbappé a-t-il été formé ?",
     "correctAnswer": "AS Monaco",
     "incorrectAnswers": ["PSG", "INF Clairefontaine", "Bondy"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Ligue 1"]
   },
   {
     "question": "Qui a marqué le célèbre but de la 'Main de Dieu' ?",
     "correctAnswer": "Diego Maradona",
     "incorrectAnswers": ["Pelé", "Michel Platini", "Zico"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quelle nation a remporté le plus de Coupes du Monde ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Allemagne", "Italie", "Argentine"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel est le stade officiel de l'équipe de France ?",
     "correctAnswer": "Stade de France",
     "incorrectAnswers": ["Parc des Princes", "Vélodrome", "Groupama Stadium"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Stade", "Sélection"]
   },
   {
     "question": "Qui a gagné le Ballon d'Or 1998 ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Ronaldo", "Davor Šuker", "Michael Owen"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel club français a remporté la Ligue des Champions en 1993 ?",
     "correctAnswer": "Olympique de Marseille",
     "incorrectAnswers": ["Paris Saint-Germain", "AS Monaco", "AS Saint-Étienne"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC", "Ligue 1"]
   },
   {
     "question": "Combien de temps dure un match de football standard (sans arrêts de jeu) ?",
     "correctAnswer": "90 minutes",
     "incorrectAnswers": ["80 minutes", "100 minutes", "60 minutes"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Règle"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 2006 ?",
     "correctAnswer": "Allemagne",
     "incorrectAnswers": ["France", "Italie", "Japon"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM"]
   },
   {
-    "question": "Quel entraîneur a mené la France à la victoire en 2018 ?",
+    "question": "Quel entraîneur a mené la France championne du monde en 2018 ?",
     "correctAnswer": "Didier Deschamps",
     "incorrectAnswers": ["Aimé Jacquet", "Zinedine Zidane", "Laurent Blanc"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Coach"]
   },
   {
     "question": "Dans quelle ville se trouve le stade Camp Nou ?",
     "correctAnswer": "Barcelone",
     "incorrectAnswers": ["Madrid", "Valence", "Séville"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Liga", "Stade"]
   },
   {
-    "question": "Qui est l'actuel entraîneur de Manchester City (2024) ?",
+    "question": "Qui est l'entraîneur de Manchester City en 2024 ?",
     "correctAnswer": "Pep Guardiola",
     "incorrectAnswers": ["Jurgen Klopp", "Jose Mourinho", "Carlo Ancelotti"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Coach"]
   },
   {
     "question": "Quel joueur a pour surnom 'CR7' ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Ronaldo Nazário", "Ronaldinho", "Carlos Robinho"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel pays a gagné l'Euro 2016 face à la France ?",
     "correctAnswer": "Portugal",
     "incorrectAnswers": ["Allemagne", "Espagne", "Italie"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel est le seul gardien à avoir remporté le Ballon d'Or ?",
     "correctAnswer": "Lev Yachine",
     "incorrectAnswers": ["Manuel Neuer", "Gianluigi Buffon", "Oliver Kahn"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or", "Record"]
   },
   {
     "question": "Quel club anglais joue ses matchs à Old Trafford ?",
     "correctAnswer": "Manchester United",
     "incorrectAnswers": ["Manchester City", "Liverpool", "Arsenal"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "En quelle année la France a-t-elle gagné sa première Coupe du Monde ?",
     "correctAnswer": "1998",
     "incorrectAnswers": ["2006", "1984", "2018"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur a mordu Chiellini lors de la Coupe du Monde 2014 ?",
     "correctAnswer": "Luis Suárez",
     "incorrectAnswers": ["Pepe", "Sergio Ramos", "Diego Costa"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Anecdote"]
   },
   {
     "question": "Quel club est surnommé les 'Gunners' ?",
     "correctAnswer": "Arsenal",
     "incorrectAnswers": ["Tottenham", "Chelsea", "West Ham"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la Ligue des Champions ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Lionel Messi", "Robert Lewandowski", "Karim Benzema"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel pays africain a atteint les demi-finales de la Coupe du Monde 2022 ?",
     "correctAnswer": "Maroc",
     "incorrectAnswers": ["Cameroun", "Sénégal", "Ghana"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Dans quel club italien Zinedine Zidane a-t-il joué avant le Real Madrid ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["AC Milan", "Inter Milan", "AS Rome"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Joueur"]
   },
   {
     "question": "Quelle équipe a remporté la Premier League sans perdre un seul match en 2004 ?",
     "correctAnswer": "Arsenal",
     "incorrectAnswers": ["Manchester United", "Chelsea", "Manchester City"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel numéro portait Johan Cruyff ?",
     "correctAnswer": "14",
     "incorrectAnswers": ["10", "7", "9"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["Joueur"]
   },
   {
     "question": "Qui a marqué le but de la victoire pour l'Allemagne en finale de la CDM 2014 ?",
     "correctAnswer": "Mario Götze",
     "incorrectAnswers": ["Thomas Müller", "Miroslav Klose", "Mesut Özil"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club a pour hymne 'You'll Never Walk Alone' ?",
     "correctAnswer": "Liverpool",
     "incorrectAnswers": ["Manchester United", "Celtic", "Leeds"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Club"]
   },
   {
     "question": "Quel joueur brésilien a remporté 3 Coupes du Monde ?",
     "correctAnswer": "Pelé",
     "incorrectAnswers": ["Ronaldo", "Ronaldinho", "Cafu"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Dans quel pays se déroule la Bundesliga ?",
     "correctAnswer": "Allemagne",
     "incorrectAnswers": ["Autriche", "Suisse", "Belgique"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Bundesliga"]
   },
   {
     "question": "Qui a donné un coup de tête à Materazzi en finale de CDM 2006 ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Patrick Vieira", "Thierry Henry", "Lilian Thuram"],
-    "difficulty": "facile"
-  },
-  {
-    "question": "Quel club a été relégué administrativement en National en 2023 ?",
-    "correctAnswer": "FC Sochaux",
-    "incorrectAnswers": ["Bordeaux", "Sedan", "Nancy"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["CDM", "Anecdote"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de l'équipe de France (en 2024) ?",
     "correctAnswer": "Olivier Giroud",
     "incorrectAnswers": ["Thierry Henry", "Kylian Mbappé", "Antoine Griezmann"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club joue au Signal Iduna Park avec son célèbre 'Mur Jaune' ?",
     "correctAnswer": "Borussia Dortmund",
     "incorrectAnswers": ["Bayern Munich", "Bayer Leverkusen", "RB Leipzig"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Bundesliga", "Stade"]
   },
   {
     "question": "Quelle est la nationalité de Erling Haaland ?",
     "correctAnswer": "Norvégienne",
     "incorrectAnswers": ["Suédoise", "Danoise", "Allemande"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur"]
   },
   {
     "question": "Quel joueur a remporté le Ballon d'Or 2022 ?",
     "correctAnswer": "Karim Benzema",
     "incorrectAnswers": ["Lionel Messi", "Kylian Mbappé", "Luka Modrić"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel club italien a pour couleurs le noir et le bleu ?",
     "correctAnswer": "Inter Milan",
     "incorrectAnswers": ["AC Milan", "Juventus", "Naples"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Serie A", "Club"]
   },
   {
     "question": "Qui est surnommé 'Le Roi' ?",
     "correctAnswer": "Pelé",
     "incorrectAnswers": ["Cantona", "Maradona", "Platini"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quelle ville se joue le derby de la Madonnina ?",
     "correctAnswer": "Milan",
     "incorrectAnswers": ["Rome", "Turin", "Gênes"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["Serie A"]
   },
   {
     "question": "Quel gardien allemand était célèbre pour ses sorties loin de ses buts (libéro) ?",
     "correctAnswer": "Manuel Neuer",
     "incorrectAnswers": ["Oliver Kahn", "Sepp Maier", "Ter Stegen"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2023 ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Inter Milan", "Real Madrid", "Chelsea"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quelle sélection joue en damier rouge et blanc ?",
     "correctAnswer": "Croatie",
     "incorrectAnswers": ["Pologne", "Danemark", "Suisse"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection"]
   },
   {
     "question": "Qui a entraîné le Real Madrid lors de leurs 3 LDC consécutives ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Carlo Ancelotti", "Jose Mourinho", "Vicente del Bosque"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Coach"]
   },
   {
     "question": "Quel joueur français a pour surnom 'Grizou' ?",
     "correctAnswer": "Antoine Griezmann",
     "incorrectAnswers": ["Olivier Giroud", "Paul Pogba", "Hugo Lloris"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club espagnol est le grand rival du Real Madrid ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Atlético Madrid", "Valence", "Séville"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Liga"]
   },
   {
     "question": "En quelle année l'OM a-t-il gagné la Ligue des Champions ?",
     "correctAnswer": "1993",
     "incorrectAnswers": ["1991", "1999", "1989"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Ligue 1"]
   },
   {
     "question": "Quel joueur portugais a joué au Sporting, à Man United, au Real et à la Juve ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Luis Figo", "Nani", "Bruno Fernandes"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Qui a succédé à Christophe Galtier au PSG ?",
     "correctAnswer": "Luis Enrique",
     "incorrectAnswers": ["Julian Nagelsmann", "Thiago Motta", "Mauricio Pochettino"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Coach"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale belge ?",
     "correctAnswer": "Les Diables Rouges",
     "incorrectAnswers": ["Les Lions", "Les Aigles", "Les Oranje"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur détient le record du plus grand nombre de Ballons d'Or ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Cristiano Ronaldo", "Michel Platini", "Johan Cruyff"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ballon d'Or", "Record"]
   },
   {
     "question": "Quel club allemand est surnommé 'Die Schwarzgelben' (Les Jaunes et Noirs) ?",
     "correctAnswer": "Borussia Dortmund",
     "incorrectAnswers": ["Bayern Munich", "Bayer Leverkusen", "VfL Wolfsburg"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Bundesliga", "Surnom"]
   },
   {
     "question": "Qui a remporté l'Euro 2020 (joué en 2021) ?",
     "correctAnswer": "Italie",
     "incorrectAnswers": ["Angleterre", "Espagne", "France"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel joueur a été transféré du FC Barcelone au PSG pour 222 millions d'euros en 2017 ?",
     "correctAnswer": "Neymar Jr",
     "incorrectAnswers": ["Lionel Messi", "Kylian Mbappé", "Angel Di Maria"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Mercato", "Record"]
   },
   {
     "question": "Quel club anglais joue à Anfield ?",
     "correctAnswer": "Liverpool FC",
     "incorrectAnswers": ["Everton", "Manchester United", "Chelsea"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quelle nation a remporté la première Coupe du Monde en 1930 ?",
     "correctAnswer": "Uruguay",
     "incorrectAnswers": ["Argentine", "Brésil", "Italie"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'El Matador' ?",
     "correctAnswer": "Edinson Cavani",
     "incorrectAnswers": ["Luis Suarez", "Diego Forlan", "Radamel Falcao"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire en finale de la Ligue des Champions 2022 ?",
     "correctAnswer": "Vinícius Júnior",
     "incorrectAnswers": ["Karim Benzema", "Luka Modrić", "Rodrygo"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel club italien est surnommé 'La Vieille Dame' ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["AC Milan", "AS Rome", "Lazio Rome"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Quelle est la couleur principale du maillot de l'équipe nationale des Pays-Bas ?",
     "correctAnswer": "Orange",
     "incorrectAnswers": ["Bleu", "Blanc", "Rouge"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la Coupe du Monde (toutes éditions confondues) ?",
     "correctAnswer": "Miroslav Klose",
     "incorrectAnswers": ["Ronaldo Nazário", "Gerd Müller", "Lionel Messi"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club français est surnommé les 'Gones' ?",
     "correctAnswer": "Olympique Lyonnais",
     "incorrectAnswers": ["AS Saint-Étienne", "Lille OSC", "OGC Nice"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Dans quel club évoluait Ronaldinho avant de rejoindre le FC Barcelone ?",
     "correctAnswer": "Paris Saint-Germain",
     "incorrectAnswers": ["Grêmio", "AC Milan", "Flamengo"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel entraîneur a remporté la Ligue des Champions avec le FC Porto et l'Inter Milan ?",
     "correctAnswer": "José Mourinho",
     "incorrectAnswers": ["Pep Guardiola", "Carlo Ancelotti", "Alex Ferguson"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["LDC", "Coach"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 2004 à la surprise générale ?",
     "correctAnswer": "Grèce",
     "incorrectAnswers": ["Portugal", "République Tchèque", "Danemark"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Zizou' ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Zlatan Ibrahimović", "Zinho", "Zvonimir Boban"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Blues' ?",
     "correctAnswer": "Chelsea FC",
     "incorrectAnswers": ["Manchester City", "Everton", "Leicester City"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté la Copa América 2021 ?",
     "correctAnswer": "Argentine",
     "incorrectAnswers": ["Brésil", "Chili", "Uruguay"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Copa América"]
   },
   {
     "question": "Dans quel club jouait Thierry Henry avant de rejoindre Arsenal ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["AS Monaco", "FC Barcelone", "New York Red Bulls"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale d'Espagne ?",
     "correctAnswer": "La Roja",
     "incorrectAnswers": ["La Furia", "Los Toros", "L'Armada"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Qui était le capitaine de la France lors de la victoire à la Coupe du Monde 1998 ?",
     "correctAnswer": "Didier Deschamps",
     "incorrectAnswers": ["Laurent Blanc", "Zinedine Zidane", "Marcel Desailly"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Sélection"]
   },
   {
     "question": "Quel club allemand joue à l'Allianz Arena ?",
     "correctAnswer": "Bayern Munich",
     "incorrectAnswers": ["1860 Munich", "FC Nuremberg", "FC Augsbourg"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Bundesliga", "Stade"]
   },
   {
     "question": "Quel joueur a marqué le but égalisateur de la France en finale de la CDM 2006 sur penalty ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Thierry Henry", "Franck Ribéry", "Patrick Vieira"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quelle ville accueille le stade Santiago Bernabéu ?",
     "correctAnswer": "Madrid",
     "incorrectAnswers": ["Barcelone", "Séville", "Valence"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale du Mexique ?",
     "correctAnswer": "El Tri",
     "incorrectAnswers": ["Los Aztecas", "La Verde", "Sombreros"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est célèbre pour son 'coup du scorpion' ?",
     "correctAnswer": "René Higuita",
     "incorrectAnswers": ["Zlatan Ibrahimović", "Olivier Giroud", "Héctor Higuita"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Anecdote"]
   },
   {
     "question": "Quel club portugais a remporté la Ligue des Champions en 2004 ?",
     "correctAnswer": "FC Porto",
     "incorrectAnswers": ["Benfica Lisbonne", "Sporting CP", "Boavista"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire du Real Madrid ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Raúl", "Karim Benzema", "Alfredo Di Stéfano"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Liga", "Record"]
   },
   {
     "question": "Quelle nation est surnommée la 'Squadra Azzurra' ?",
     "correctAnswer": "Italie",
     "incorrectAnswers": ["France", "Grèce", "Argentine"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club a remporté la première édition de la Ligue des Champions (Coupe des clubs champions) ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Stade de Reims", "Milan AC", "Benfica"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel joueur a été surnommé 'Le Phénomène' ?",
     "correctAnswer": "Ronaldo Nazário",
     "incorrectAnswers": ["Cristiano Ronaldo", "Ronaldinho", "Romário"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire en finale de l'Euro 2016 ?",
     "correctAnswer": "Éder",
     "incorrectAnswers": ["Cristiano Ronaldo", "Nani", "Ricardo Quaresma"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel club français joue au stade Orange Vélodrome ?",
     "correctAnswer": "Olympique de Marseille",
     "incorrectAnswers": ["OGC Nice", "Montpellier HSC", "SC Bastia"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quel joueur argentin a marqué un but de la main contre l'Angleterre en 1986 ?",
     "correctAnswer": "Diego Maradona",
     "incorrectAnswers": ["Lionel Messi", "Gabriel Batistuta", "Mario Kempes"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Anecdote"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 2012 ?",
     "correctAnswer": "Espagne",
     "incorrectAnswers": ["Italie", "Allemagne", "Portugal"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Spurs' ?",
     "correctAnswer": "Tottenham Hotspur",
     "incorrectAnswers": ["Arsenal", "West Ham", "Fulham"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui est le meilleur passeur de l'histoire de la Ligue 1 (depuis les stats officielles) ?",
     "correctAnswer": "Angel Di Maria",
     "incorrectAnswers": ["Dimitri Payet", "Lionel Messi", "Zlatan Ibrahimović"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ligue 1", "Record"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 2010 ?",
     "correctAnswer": "Afrique du Sud",
     "incorrectAnswers": ["Brésil", "Allemagne", "Corée du Sud"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur est surnommé 'Ibra' ?",
     "correctAnswer": "Zlatan Ibrahimović",
     "incorrectAnswers": ["Ibrahim Afellay", "Ibrahima Konaté", "Ibrahim Sangaré"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien joue au stade San Siro (partagé avec l'Inter) ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Juventus", "AS Rome", "Lazio"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 2014 ?",
     "correctAnswer": "Allemagne",
     "incorrectAnswers": ["Argentine", "Brésil", "Pays-Bas"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur français a remporté le Ballon d'Or 1991 ?",
     "correctAnswer": "Jean-Pierre Papin",
     "incorrectAnswers": ["Zinedine Zidane", "Michel Platini", "Raymond Kopa"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel club espagnol est surnommé 'Los Colchoneros' ?",
     "correctAnswer": "Atlético de Madrid",
     "incorrectAnswers": ["Athletic Bilbao", "FC Séville", "Valence CF"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Qui est le gardien titulaire du Real Madrid pendant de longues années et surnommé 'San Iker' ?",
     "correctAnswer": "Iker Casillas",
     "incorrectAnswers": ["Keylor Navas", "Thibaut Courtois", "Diego López"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Liga", "Joueur"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 1966 ?",
     "correctAnswer": "Angleterre",
     "incorrectAnswers": ["Allemagne de l'Ouest", "Portugal", "Union Soviétique"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur a marqué un triplé en finale de la Coupe du Monde 2022 ?",
     "correctAnswer": "Kylian Mbappé",
     "incorrectAnswers": ["Lionel Messi", "Geoff Hurst", "Zinedine Zidane"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club écossais est le grand rival du Celtic Glasgow ?",
     "correctAnswer": "Glasgow Rangers",
     "incorrectAnswers": ["Aberdeen", "Hearts", "Hibernian"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["Club", "Rivalité"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Major Galopant' ?",
     "correctAnswer": "Ferenc Puskás",
     "incorrectAnswers": ["Alfredo Di Stéfano", "Eusébio", "Raymond Kopa"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation est surnommée la 'Seleção' ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Portugal", "Argentine", "Mexique"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Red Devils' ?",
     "correctAnswer": "Manchester United",
     "incorrectAnswers": ["Liverpool", "Arsenal", "Nottingham Forest"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2005 ?",
     "correctAnswer": "Ronaldinho",
     "incorrectAnswers": ["Frank Lampard", "Steven Gerrard", "Thierry Henry"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale d'Algérie ?",
     "correctAnswer": "Les Fennecs",
     "incorrectAnswers": ["Les Lions de l'Atlas", "Les Aigles de Carthage", "Les Pharaons"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur néerlandais a inventé le 'Total Football' avec l'Ajax et les Pays-Bas ?",
     "correctAnswer": "Johan Cruyff",
     "incorrectAnswers": ["Marco van Basten", "Ruud Gullit", "Dennis Bergkamp"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Histoire"]
   },
   {
     "question": "Quel club français est surnommé 'Les Canaris' ?",
     "correctAnswer": "FC Nantes",
     "incorrectAnswers": ["FC Metz", "RC Lens", "Montpellier HSC"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Quelle ville accueille le stade de Wembley ?",
     "correctAnswer": "Londres",
     "incorrectAnswers": ["Manchester", "Liverpool", "Birmingham"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Stade"]
   },
   {
     "question": "Qui a marqué le but de la victoire en finale de la CDM 2010 ?",
     "correctAnswer": "Andrés Iniesta",
     "incorrectAnswers": ["Xavi", "David Villa", "Fernando Torres"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club italien joue à l'Allianz Stadium ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["Torino", "Sampdoria", "Genoa"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Quel joueur brésilien était célèbre pour ses coups francs puissants ?",
     "correctAnswer": "Roberto Carlos",
     "incorrectAnswers": ["Juninho Pernambucano", "Ronaldinho", "Adriano"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Style"]
   },
   {
     "question": "Quelle nation a remporté la Copa América 2024 ?",
     "correctAnswer": "Argentine",
     "incorrectAnswers": ["Colombie", "Uruguay", "Brésil"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Copa América"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Citizens' ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Leicester City", "Norwich City", "Hull City"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2018, mettant fin au règne Messi/Ronaldo ?",
     "correctAnswer": "Luka Modrić",
     "incorrectAnswers": ["Antoine Griezmann", "Kylian Mbappé", "Cristiano Ronaldo"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale de Côte d'Ivoire ?",
     "correctAnswer": "Les Éléphants",
     "incorrectAnswers": ["Les Lions", "Les Aigles", "Les Étalons"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur français a marqué un doublé de la tête en finale de la CDM 1998 ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Emmanuel Petit", "Youri Djorkaeff", "Thierry Henry"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club espagnol joue au stade Mestalla ?",
     "correctAnswer": "Valence CF",
     "incorrectAnswers": ["Villarreal CF", "Levante UD", "Espanyol Barcelone"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1992 alors qu'elle n'était pas qualifiée initialement ?",
     "correctAnswer": "Danemark",
     "incorrectAnswers": ["Suède", "Yougoslavie", "Grèce"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Kid de Bondy' ?",
     "correctAnswer": "Kylian Mbappé",
     "incorrectAnswers": ["William Saliba", "Jonathan Ikoné", "Randal Kolo Muani"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien a remporté la Ligue des Champions en 2010 sous José Mourinho ?",
     "correctAnswer": "Inter Milan",
     "incorrectAnswers": ["AC Milan", "Juventus", "AS Rome"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Serie A"]
   },
   {
     "question": "Qui détient le record du nombre de matchs joués en équipe de France (en 2024) ?",
     "correctAnswer": "Hugo Lloris",
     "incorrectAnswers": ["Lilian Thuram", "Antoine Griezmann", "Olivier Giroud"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 1994 ?",
     "correctAnswer": "États-Unis",
     "incorrectAnswers": ["Mexique", "Italie", "France"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur est surnommé 'The Egyptian King' à Liverpool ?",
     "correctAnswer": "Mohamed Salah",
     "incorrectAnswers": ["Sadio Mané", "Roberto Firmino", "Luis Díaz"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel club français est surnommé 'Le Gym' ?",
     "correctAnswer": "OGC Nice",
     "incorrectAnswers": ["Montpellier HSC", "SC Bastia", "AC Ajaccio"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Quelle nation est surnommée les 'Aigles de Carthage' ?",
     "correctAnswer": "Tunisie",
     "incorrectAnswers": ["Maroc", "Algérie", "Égypte"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire en finale de la LDC 2021 pour Chelsea contre Man City ?",
     "correctAnswer": "Kai Havertz",
     "incorrectAnswers": ["Mason Mount", "N'Golo Kanté", "Timo Werner"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel club anglais joue à Stamford Bridge ?",
     "correctAnswer": "Chelsea FC",
     "incorrectAnswers": ["Fulham", "QPR", "Crystal Palace"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel joueur français a remporté le Ballon d'Or 1958 ?",
     "correctAnswer": "Raymond Kopa",
     "incorrectAnswers": ["Just Fontaine", "Michel Platini", "Jean-Pierre Papin"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quelle est la capitale de l'équipe qui a remporté l'Euro 2008 ?",
     "correctAnswer": "Madrid",
     "incorrectAnswers": ["Berlin", "Rome", "Paris"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Géographie"]
   },
   {
     "question": "Quel joueur est surnommé 'O Rei' ?",
     "correctAnswer": "Pelé",
     "incorrectAnswers": ["Garrincha", "Zico", "Sócrates"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien joue au stade San Paolo, rebaptisé Diego Armando Maradona ?",
     "correctAnswer": "SSC Naples",
     "incorrectAnswers": ["AS Rome", "Lazio", "Fiorentina"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui a remporté la Coupe du Monde 1978 à domicile ?",
     "correctAnswer": "Argentine",
     "incorrectAnswers": ["Brésil", "Pays-Bas", "Italie"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur néerlandais était surnommé 'Non-Flying Dutchman' à cause de sa peur de l'avion ?",
     "correctAnswer": "Dennis Bergkamp",
     "incorrectAnswers": ["Robin van Persie", "Arjen Robben", "Ruud van Nistelrooy"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Magpies' ?",
     "correctAnswer": "Newcastle United",
     "incorrectAnswers": ["Sunderland", "Middlesbrough", "Everton"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté la première édition de la Ligue des Nations de l'UEFA ?",
     "correctAnswer": "Portugal",
     "incorrectAnswers": ["Pays-Bas", "France", "Espagne"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Histoire"]
   },
   {
     "question": "Quel joueur français est surnommé 'Le Président' ?",
     "correctAnswer": "Laurent Blanc",
     "incorrectAnswers": ["Didier Deschamps", "Marcel Desailly", "Fabien Barthez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club espagnol joue au stade Ramón Sánchez Pizjuán ?",
     "correctAnswer": "FC Séville",
     "incorrectAnswers": ["Real Betis", "Malaga CF", "Grenade CF"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui était le sélectionneur de l'Espagne lors du triplé Euro 2008 - CDM 2010 - Euro 2012 ?",
     "correctAnswer": "Luis Aragonés & Vicente del Bosque",
     "incorrectAnswers": ["Pep Guardiola", "Rafael Benítez", "Luis Enrique"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Coach"]
   },
   {
     "question": "Quel joueur est surnommé 'The Terminator' à cause de sa force physique ?",
     "correctAnswer": "Erling Haaland",
     "incorrectAnswers": ["Cristiano Ronaldo", "Zlatan Ibrahimović", "Romelu Lukaku"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien est surnommé 'Les Giallorossi' ?",
     "correctAnswer": "AS Rome",
     "incorrectAnswers": ["Lazio Rome", "Fiorentina", "Lecce"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 1982 ?",
     "correctAnswer": "Espagne",
     "incorrectAnswers": ["Italie", "Mexique", "Argentine"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur français a marqué le but en or en finale de l'Euro 2000 ?",
     "correctAnswer": "David Trezeguet",
     "incorrectAnswers": ["Sylvain Wiltord", "Thierry Henry", "Zinedine Zidane"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel club anglais joue à l'Etihad Stadium ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Manchester United", "Bolton", "Wigan"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 1954 ?",
     "correctAnswer": "Allemagne de l'Ouest",
     "incorrectAnswers": ["Hongrie", "Autriche", "Uruguay"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'El Pibe de Oro' ?",
     "correctAnswer": "Diego Maradona",
     "incorrectAnswers": ["Lionel Messi", "Kun Agüero", "Carlos Tévez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club français est surnommé 'Les Merlus' ?",
     "correctAnswer": "FC Lorient",
     "incorrectAnswers": ["Stade Brestois", "EA Guingamp", "Stade Rennais"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Quelle nation est surnommée les 'Lions de l'Atlas' ?",
     "correctAnswer": "Maroc",
     "incorrectAnswers": ["Sénégal", "Cameroun", "Côte d'Ivoire"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Qui a marqué le but décisif pour la France contre le Brésil en quart de finale de la CDM 2006 ?",
     "correctAnswer": "Thierry Henry",
     "incorrectAnswers": ["Zinedine Zidane", "Patrick Vieira", "Franck Ribéry"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club allemand joue au Veltins-Arena ?",
     "correctAnswer": "Schalke 04",
     "incorrectAnswers": ["Bayer Leverkusen", "Borussia Dortmund", "Werder Brême"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Bundesliga", "Stade"]
   },
   {
     "question": "Quel joueur portugais est surnommé 'La Panthère Noire' ?",
     "correctAnswer": "Eusébio",
     "incorrectAnswers": ["Cristiano Ronaldo", "Luis Figo", "Pauleta"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Hammers' ?",
     "correctAnswer": "West Ham United",
     "incorrectAnswers": ["Aston Villa", "Everton", "Arsenal"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Jardinier' ?",
     "correctAnswer": "Julio Cruz",
     "incorrectAnswers": ["Hernán Crespo", "Gabriel Batistuta", "Claudio López"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club a remporté la Coupe de l'UEFA (ancêtre de l'Europa League) trois fois d'affilée entre 2014 et 2016 ?",
     "correctAnswer": "FC Séville",
     "incorrectAnswers": ["Villarreal CF", "Atlético Madrid", "Benfica"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Europa League", "Record"]
   },
   {
     "question": "Quel pays a remporté la Coupe du Monde 1962 ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Tchécoslovaquie", "Chili", "Yougoslavie"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Qui était le gardien de l'équipe de France lors de la finale de la Coupe du Monde 2006 ?",
     "correctAnswer": "Fabien Barthez",
     "incorrectAnswers": ["Grégory Coupet", "Mickaël Landreau", "Hugo Lloris"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Sélection"]
   },
   {
     "question": "Dans quel club jouait Patrick Vieira avant de rejoindre Arsenal ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["AS Cannes", "Juventus", "Inter Milan"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Lions' ?",
     "correctAnswer": "Millwall",
     "incorrectAnswers": ["Aston Villa", "Middlesbrough", "Sunderland"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Club", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire en finale de la Ligue des Champions 2020 (Bayern vs PSG) ?",
     "correctAnswer": "Kingsley Coman",
     "incorrectAnswers": ["Robert Lewandowski", "Neymar Jr", "Thomas Müller"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Bison' ?",
     "correctAnswer": "Michael Essien",
     "incorrectAnswers": ["Didier Drogba", "Yaya Touré", "Mamadou Sakho"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1980 ?",
     "correctAnswer": "Allemagne de l'Ouest",
     "incorrectAnswers": ["Belgique", "Tchécoslovaquie", "Italie"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club italien joue au stade Luigi-Ferraris ?",
     "correctAnswer": "Sampdoria de Gênes",
     "incorrectAnswers": ["Palerme", "Cagliari", "Udinese"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Quel joueur détient le record du plus grand nombre de buts marqués en Ligue 1 sur une seule saison au 21e siècle ?",
     "correctAnswer": "Zlatan Ibrahimović",
     "incorrectAnswers": ["Kylian Mbappé", "Edinson Cavani", "Alexandre Lacazette"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Record"]
   },
   {
     "question": "En quelle année l'équipe de France a-t-elle remporté sa première Coupe des Confédérations ?",
     "correctAnswer": "2001",
     "incorrectAnswers": ["2003", "1998", "2005"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Histoire"]
   },
   {
     "question": "Quel club espagnol est surnommé 'Les Perruches' (Los Pericos) ?",
     "correctAnswer": "Espanyol Barcelone",
     "incorrectAnswers": ["Getafe", "Leganés", "Rayo Vallecano"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Qui a été le premier joueur à remporter trois Ligues des Champions consécutives en tant qu'entraîneur ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Carlo Ancelotti", "Bob Paisley", "Pep Guardiola"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Coach"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 1970 ?",
     "correctAnswer": "Mexique",
     "incorrectAnswers": ["Brésil", "Argentine", "Chili"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Sergent' à la Lazio ?",
     "correctAnswer": "Sergej Milinković-Savić",
     "incorrectAnswers": ["Ciro Immobile", "Luis Alberto", "Felipe Anderson"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Quel club anglais joue ses matchs à Elland Road ?",
     "correctAnswer": "Leeds United",
     "incorrectAnswers": ["Sheffield United", "Leicester City", "Hull City"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel gardien brésilien était titulaire lors de la finale de la Coupe du Monde 2002 ?",
     "correctAnswer": "Marcos",
     "incorrectAnswers": ["Dida", "Rogério Ceni", "Cláudio Taffarel"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Sélection"]
   },
   {
     "question": "Quel club français est surnommé 'Les Crocos' ?",
     "correctAnswer": "Nîmes Olympique",
     "incorrectAnswers": ["Montpellier HSC", "AC Ajaccio", "Valenciennes"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Club", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1990 ?",
     "correctAnswer": "Lothar Matthäus",
     "incorrectAnswers": ["Salvatore Schillaci", "Andreas Brehme", "Paul Gascoigne"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'El Cholo' ?",
     "correctAnswer": "Diego Simeone",
     "incorrectAnswers": ["Radamel Falcao", "Luis Suárez", "Carlos Tévez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté la première édition de l'Euro en 1960 ?",
     "correctAnswer": "URSS",
     "incorrectAnswers": ["Yougoslavie", "France", "Tchécoslovaquie"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel club portugais joue au Estádio do Dragão ?",
     "correctAnswer": "FC Porto",
     "incorrectAnswers": ["Benfica", "Sporting CP", "Boavista"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Qui était l'entraîneur du Real Madrid lors de la 'Décima' en 2014 ?",
     "correctAnswer": "Carlo Ancelotti",
     "incorrectAnswers": ["José Mourinho", "Zinedine Zidane", "Rafael Benítez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Coach"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Magicien' (El Mago) ?",
     "correctAnswer": "David Silva",
     "incorrectAnswers": ["Juan Mata", "Santi Cazorla", "Isco"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel pays se trouve le club de l'Ajax Amsterdam ?",
     "correctAnswer": "Pays-Bas",
     "incorrectAnswers": ["Belgique", "Danemark", "Luxembourg"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Club", "Géographie"]
   },
   {
     "question": "Quel joueur a marqué le but de la victoire en finale de la CDM 2014 ?",
     "correctAnswer": "Mario Götze",
     "incorrectAnswers": ["Thomas Müller", "Miroslav Klose", "Toni Kroos"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Cherries' ?",
     "correctAnswer": "Bournemouth",
     "incorrectAnswers": ["Brighton", "Southampton", "Blackpool"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2001 ?",
     "correctAnswer": "Michael Owen",
     "incorrectAnswers": ["Raúl", "Oliver Kahn", "David Beckham"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale de Pologne ?",
     "correctAnswer": "Les Aigles Blancs",
     "incorrectAnswers": ["Les Hussards", "La Polska", "Les Loups"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'San Siro' ?",
     "correctAnswer": "Giuseppe Meazza",
     "incorrectAnswers": ["Franco Baresi", "Paolo Maldini", "Gianni Rivera"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club français a pour stade l'Abbé-Deschamps ?",
     "correctAnswer": "AJ Auxerre",
     "incorrectAnswers": ["Stade de Reims", "ESTAC Troyes", "Dijon FCO"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quelle nation a perdu trois finales de Coupe du Monde sans jamais la gagner ?",
     "correctAnswer": "Pays-Bas",
     "incorrectAnswers": ["Hongrie", "Argentine", "Suède"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Professeur' ?",
     "correctAnswer": "Arsène Wenger",
     "incorrectAnswers": ["Andrea Pirlo", "Pep Guardiola", "Toni Kroos"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Coach", "Surnom"]
   },
   {
     "question": "Quel club italien est surnommé 'La Dea' (La Déesse) ?",
     "correctAnswer": "Atalanta Bergame",
     "incorrectAnswers": ["Fiorentina", "Lazio", "Sassuolo"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui a marqué le penalty décisif pour l'Italie en finale de la CDM 2006 ?",
     "correctAnswer": "Fabio Grosso",
     "incorrectAnswers": ["Andrea Pirlo", "Alessandro Del Piero", "Francesco Totti"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club anglais joue à Molineux Stadium ?",
     "correctAnswer": "Wolverhampton",
     "incorrectAnswers": ["Leicester City", "Burnley", "West Bromwich"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Traître' par les supporters du Barça après son départ au Real ?",
     "correctAnswer": "Luis Figo",
     "incorrectAnswers": ["Ronaldo", "Michael Laudrup", "Bernd Schuster"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Quel pays a organisé la Coupe du Monde 1950 ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Uruguay", "Argentine", "Suisse"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de l'Inter Milan ?",
     "correctAnswer": "Giuseppe Meazza",
     "incorrectAnswers": ["Alessandro Altobelli", "Roberto Boninsegna", "Mauro Icardi"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Record"]
   },
   {
     "question": "Quel club français est surnommé 'Les Ty' Zéfs' ?",
     "correctAnswer": "Stade Brestois",
     "incorrectAnswers": ["FC Lorient", "En Avant Guingamp", "Stade Rennais"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'O Fenômeno' ?",
     "correctAnswer": "Ronaldo Nazário",
     "incorrectAnswers": ["Ronaldinho", "Cristiano Ronaldo", "Romário"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1976 ?",
     "correctAnswer": "Tchécoslovaquie",
     "incorrectAnswers": ["Allemagne de l'Ouest", "Pays-Bas", "Yougoslavie"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol joue au stade Benito-Villamarín ?",
     "correctAnswer": "Real Betis",
     "incorrectAnswers": ["FC Séville", "Malaga", "Cadix"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1994 ?",
     "correctAnswer": "Hristo Stoichkov",
     "incorrectAnswers": ["Roberto Baggio", "Paolo Maldini", "Romário"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'L'Alchimiste' ?",
     "correctAnswer": "Thiago Alcântara",
     "incorrectAnswers": ["Andrés Iniesta", "Sergio Busquets", "Xabi Alonso"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Gianluigi Buffon avant de rejoindre la Juventus en 2001 ?",
     "correctAnswer": "Parme AC",
     "incorrectAnswers": ["AC Milan", "Genoa", "Lazio"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Carrière"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Cottagers' ?",
     "correctAnswer": "Fulham",
     "incorrectAnswers": ["Chelsea", "QPR", "Reading"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection allemande ?",
     "correctAnswer": "Miroslav Klose",
     "incorrectAnswers": ["Gerd Müller", "Lukas Podolski", "Thomas Müller"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club français joue au stade de la Mosson ?",
     "correctAnswer": "Montpellier HSC",
     "incorrectAnswers": ["Nîmes Olympique", "OGC Nice", "Toulouse FC"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quel joueur est surnommé 'The Special One' ?",
     "correctAnswer": "José Mourinho",
     "incorrectAnswers": ["Alex Ferguson", "Pep Guardiola", "Arsène Wenger"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Coach", "Surnom"]
   },
   {
     "question": "Quelle nation est surnommée 'Les Black Stars' ?",
     "correctAnswer": "Ghana",
     "incorrectAnswers": ["Nigeria", "Cameroun", "Sénégal"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Dans quelle ville se trouve le stade de la Meinau ?",
     "correctAnswer": "Strasbourg",
     "incorrectAnswers": ["Metz", "Nancy", "Mulhouse"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Qui a marqué un quintuplé en 9 minutes contre Wolfsburg en 2015 ?",
     "correctAnswer": "Robert Lewandowski",
     "incorrectAnswers": ["Thomas Müller", "Arjen Robben", "Mario Gómez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Bundesliga", "Record"]
   },
   {
     "question": "Quel club italien est surnommé 'I Blucerchiati' ?",
     "correctAnswer": "Sampdoria",
     "incorrectAnswers": ["Genoa", "Brescia", "Empoli"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Petit Prince' à l'OM ?",
     "correctAnswer": "Franck Sauzée",
     "incorrectAnswers": ["Samir Nasri", "Hatid Ben Arfa", "Florian Thauvin"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel pays a remporté la Coupe du Monde 1986 ?",
     "correctAnswer": "Argentine",
     "incorrectAnswers": ["Allemagne de l'Ouest", "France", "Brésil"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2000 ?",
     "correctAnswer": "Luis Figo",
     "incorrectAnswers": ["Zinedine Zidane", "Andriy Shevchenko", "Thierry Henry"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel club anglais joue à St James' Park ?",
     "correctAnswer": "Newcastle United",
     "incorrectAnswers": ["Sunderland", "Middlesbrough", "Everton"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel joueur est surnommé 'Batigol' ?",
     "correctAnswer": "Gabriel Batistuta",
     "incorrectAnswers": ["Hernán Crespo", "Ronaldo", "Adriano"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club évolue Kevin De Bruyne en 2024 ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Chelsea", "Wolfsburg", "Liverpool"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Club"]
   },
   {
     "question": "Quelle nation est surnommée 'La Nati' ?",
     "correctAnswer": "Suisse",
     "incorrectAnswers": ["Autriche", "Norvège", "Danemark"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club français est surnommé 'Les Pirates' ?",
     "correctAnswer": "Stade Brestois",
     "incorrectAnswers": ["FC Lorient", "US Boulogne", "Dunkerque"],
-    "difficulty": "moyen"
+    "difficulty": "difficile",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire pour l'Allemagne en finale de l'Euro 1996 ?",
     "correctAnswer": "Oliver Bierhoff",
     "incorrectAnswers": ["Matthias Sammer", "Jürgen Klinsmann", "Andreas Möller"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'El Capitán' au Real Madrid (historique) ?",
     "correctAnswer": "Raúl",
     "incorrectAnswers": ["Sergio Ramos", "Iker Casillas", "Fernando Hierro"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Quel club italien joue au stade olympique de Turin (Stadio Grande Torino) ?",
     "correctAnswer": "Torino FC",
     "incorrectAnswers": ["Juventus", "Sampdoria", "Genoa"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection argentine ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Gabriel Batistuta", "Diego Maradona", "Sergio Agüero"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Owls' (Les Hiboux) ?",
     "correctAnswer": "Sheffield Wednesday",
     "incorrectAnswers": ["Sheffield United", "Crystal Palace", "Reading"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Club", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Sphinx' ?",
     "correctAnswer": "Robert Herbin",
     "incorrectAnswers": ["Aimé Jacquet", "Didier Deschamps", "Guy Roux"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Coach", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 2008 ?",
     "correctAnswer": "Espagne",
     "incorrectAnswers": ["Allemagne", "Russie", "Turquie"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol joue au stade de la Ceramica ?",
     "correctAnswer": "Villarreal CF",
     "incorrectAnswers": ["Valence CF", "Levante", "Elche"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1992 ?",
     "correctAnswer": "Marco van Basten",
     "incorrectAnswers": ["Hristo Stoichkov", "Dennis Bergkamp", "Jean-Pierre Papin"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'The Non-Flying Dutchman' ?",
     "correctAnswer": "Dennis Bergkamp",
     "incorrectAnswers": ["Robin van Persie", "Arjen Robben", "Ruud van Nistelrooy"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Wayne Rooney avant de rejoindre Manchester United ?",
     "correctAnswer": "Everton",
     "incorrectAnswers": ["Liverpool", "Manchester City", "Leeds"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Carrière"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Baggies' ?",
     "correctAnswer": "West Bromwich Albion",
     "incorrectAnswers": ["Stoke City", "Fulham", "Burnley"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel est le surnom de la sélection chilienne ?",
     "correctAnswer": "La Roja",
     "incorrectAnswers": ["La Celeste", "L'Albiceleste", "Los Incas"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club français est surnommé 'L'AJA' ?",
     "correctAnswer": "AJ Auxerre",
     "incorrectAnswers": ["Angers SCO", "AC Ajaccio", "Amiens SC"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire pour Chelsea en finale de la LDC 2012 ?",
     "correctAnswer": "Didier Drogba",
     "incorrectAnswers": ["Frank Lampard", "Juan Mata", "Fernando Torres"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Il Capitano' à l'AS Rome ?",
     "correctAnswer": "Francesco Totti",
     "incorrectAnswers": ["Daniele De Rossi", "Alessandro Florenzi", "Giuseppe Giannini"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 1994 ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Italie", "Suède", "Bulgarie"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Quel club italien est surnommé 'I Grifoni' (Les Griffons) ?",
     "correctAnswer": "Genoa CFC",
     "incorrectAnswers": ["Sampdoria", "Pérouse", "Udinese"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui est l'actuel entraîneur de l'équipe de France masculine (2024) ?",
     "correctAnswer": "Didier Deschamps",
     "incorrectAnswers": ["Zinedine Zidane", "Thierry Henry", "Laurent Blanc"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Coach"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Maestro' ?",
     "correctAnswer": "Andrea Pirlo",
     "incorrectAnswers": ["Zinedine Zidane", "Luka Modrić", "Xavi"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quelle ville se trouve le stade de l'Abbé-Deschamps ?",
     "correctAnswer": "Auxerre",
     "incorrectAnswers": ["Troyes", "Dijon", "Sens"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Hornets' ?",
     "correctAnswer": "Watford",
     "incorrectAnswers": ["Burnley", "Norwich", "Brentford"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2003 ?",
     "correctAnswer": "Pavel Nedvěd",
     "incorrectAnswers": ["Thierry Henry", "Paolo Maldini", "Andriy Shevchenko"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel est le surnom de la sélection paraguayenne ?",
     "correctAnswer": "L'Albirroja",
     "incorrectAnswers": ["La Roja", "La Celeste", "La Tri"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Gigi' ?",
     "correctAnswer": "Gianluigi Buffon",
     "incorrectAnswers": ["Gianluigi Donnarumma", "Luigi Riva", "Gennaro Gattuso"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Eden Hazard avant de rejoindre Chelsea ?",
     "correctAnswer": "Lille OSC",
     "incorrectAnswers": ["RC Lens", "AS Monaco", "Lyon"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club italien joue au stade San Paolo (Maradona) ?",
     "correctAnswer": "Naples",
     "incorrectAnswers": ["AS Rome", "Bari", "Salernitana"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection espagnole ?",
     "correctAnswer": "David Villa",
     "incorrectAnswers": ["Raúl", "Fernando Torres", "Alvaro Morata"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Blades' ?",
     "correctAnswer": "Sheffield United",
     "incorrectAnswers": ["Sheffield Wednesday", "Nottingham Forest", "Leeds"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Club", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'L'Architecte' ?",
     "correctAnswer": "Andrea Pirlo",
     "incorrectAnswers": ["Cesc Fàbregas", "Luka Modrić", "Paul Scholes"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 2012 ?",
     "correctAnswer": "Espagne",
     "incorrectAnswers": ["Italie", "Allemagne", "Portugal"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol est surnommé 'Los Leones' ?",
     "correctAnswer": "Athletic Bilbao",
     "incorrectAnswers": ["Atlético Madrid", "Valence", "Osasuna"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1998 ?",
     "correctAnswer": "Zinedine Zidane",
     "incorrectAnswers": ["Ronaldo Nazário", "Davor Šuker", "Michael Owen"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'The Wall' (Le Mur) ?",
     "correctAnswer": "Virgil van Dijk",
     "incorrectAnswers": ["Sergio Ramos", "John Terry", "Carles Puyol"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Franck Ribéry avant de rejoindre le Bayern Munich ?",
     "correctAnswer": "Olympique de Marseille",
     "incorrectAnswers": ["Galatasaray", "FC Metz", "Brest"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais joue à l'Etihad Stadium ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Manchester United", "Everton", "Liverpool"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel est le surnom de la sélection belge ?",
     "correctAnswer": "Les Diables Rouges",
     "incorrectAnswers": ["Les Lions", "Les Aigles", "Les Dragons"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Qui est l'entraîneur surnommé 'Le Professeur' ?",
     "correctAnswer": "Arsène Wenger",
     "incorrectAnswers": ["Guy Roux", "Aimé Jacquet", "Gérard Houllier"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Coach", "Surnom"]
   },
   {
     "question": "Quel club argentin joue dans le stade mythique de 'La Bombonera' ?",
     "correctAnswer": "Boca Juniors",
     "incorrectAnswers": ["River Plate", "Racing Club", "Independiente"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde avec le Brésil en 1994 et 2002 ?",
     "correctAnswer": "Cafu",
     "incorrectAnswers": ["Romário", "Bebeto", "Roberto Carlos"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Dans quel club italien Roberto Baggio a-t-il terminé sa carrière ?",
     "correctAnswer": "Brescia",
     "incorrectAnswers": ["Fiorentina", "Bologne", "Inter Milan"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Carrière"]
   },
   {
     "question": "Quel entraîneur a remporté la Ligue des Champions avec l'Ajax, le Real Madrid et l'AC Milan ?",
     "correctAnswer": "Clarence Seedorf (Joueur)",
     "incorrectAnswers": ["Carlo Ancelotti", "Louis van Gaal", "Fabio Capello"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale du Nigeria ?",
     "correctAnswer": "Les Super Eagles",
     "incorrectAnswers": ["Les Black Stars", "Les Éléphants", "Les Lions Indomptables"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Toffees' ?",
     "correctAnswer": "Everton",
     "incorrectAnswers": ["Liverpool", "Aston Villa", "Leicester City"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a marqué le but de la victoire pour l'Espagne en finale de l'Euro 2008 ?",
     "correctAnswer": "Fernando Torres",
     "incorrectAnswers": ["David Villa", "Andrés Iniesta", "Xavi"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel joueur italien est surnommé 'Pinturicchio' ?",
     "correctAnswer": "Alessandro Del Piero",
     "incorrectAnswers": ["Roberto Baggio", "Francesco Totti", "Gianluca Vialli"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club français joue ses matchs au stade de la Beaujoire ?",
     "correctAnswer": "FC Nantes",
     "incorrectAnswers": ["Stade Rennais", "SCO Angers", "Lorient"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quelle nation a remporté la première Coupe d'Afrique des Nations en 1957 ?",
     "correctAnswer": "Égypte",
     "incorrectAnswers": ["Éthiopie", "Soudan", "Ghana"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CAN", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'El Pistolero' ?",
     "correctAnswer": "Luis Suárez",
     "incorrectAnswers": ["Edinson Cavani", "Diego Forlán", "Radamel Falcao"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club évoluait Zlatan Ibrahimović avant de signer au PSG ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Inter Milan", "FC Barcelone", "Ajax"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel entraîneur est resté 26 ans à la tête de Manchester United ?",
     "correctAnswer": "Alex Ferguson",
     "incorrectAnswers": ["Matt Busby", "Arsène Wenger", "Brian Clough"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Coach"]
   },
   {
     "question": "Quelle ville accueille le stade de Maracanã ?",
     "correctAnswer": "Rio de Janeiro",
     "incorrectAnswers": ["São Paulo", "Brasília", "Belo Horizonte"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Quel joueur français est surnommé 'Le Petit Vélo' ?",
     "correctAnswer": "Mathieu Valbuena",
     "incorrectAnswers": ["Franck Ribéry", "Ludovic Giuly", "Samir Nasri"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien est surnommé 'I Rossoneri' ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Inter Milan", "Juventus", "AS Rome"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui a remporté la Ligue des Champions 2019 ?",
     "correctAnswer": "Liverpool",
     "incorrectAnswers": ["Tottenham", "Ajax", "Manchester City"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel joueur néerlandais était surnommé 'Le Cygne d'Utrecht' ?",
     "correctAnswer": "Marco van Basten",
     "incorrectAnswers": ["Ruud Gullit", "Frank Rijkaard", "Dennis Bergkamp"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Villans' ?",
     "correctAnswer": "Aston Villa",
     "incorrectAnswers": ["West Ham", "Arsenal", "Tottenham"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 1934 ?",
     "correctAnswer": "Italie",
     "incorrectAnswers": ["Tchécoslovaquie", "Allemagne", "Autriche"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'L'Enfant de la Roche-sur-Yon' ?",
     "correctAnswer": "Nicolas Pallois",
     "incorrectAnswers": ["Dimitri Payet", "Jordan Veretout", "Olivier Giroud"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Surnom"]
   },
   {
     "question": "Quel club allemand est surnommé 'Die Werkself' (L'équipe de l'usine) ?",
     "correctAnswer": "Bayer Leverkusen",
     "incorrectAnswers": ["VfL Wolfsburg", "Mainz 05", "RB Leipzig"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Bundesliga", "Surnom"]
   },
   {
     "question": "Qui a marqué le penalty décisif lors de la finale de la LDC 2016 pour le Real Madrid ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Sergio Ramos", "Gareth Bale", "Luka Modrić"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quelle nation est surnommée les 'Lions Indomptables' ?",
     "correctAnswer": "Cameroun",
     "incorrectAnswers": ["Sénégal", "Maroc", "Côte d'Ivoire"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club français joue au stade Bollaert-Delelis ?",
     "correctAnswer": "RC Lens",
     "incorrectAnswers": ["Lille OSC", "Valenciennes", "VAFC"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quel joueur est surnommé 'The King' à Manchester United ?",
     "correctAnswer": "Eric Cantona",
     "incorrectAnswers": ["George Best", "Bobby Charlton", "Wayne Rooney"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Dans quel club italien Paolo Maldini a-t-il passé toute sa carrière ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Juventus", "Inter Milan", "AS Rome"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Serie A", "Carrière"]
   },
   {
     "question": "Quel entraîneur a mené Leicester City au titre de Premier League en 2016 ?",
     "correctAnswer": "Claudio Ranieri",
     "incorrectAnswers": ["Nigel Pearson", "Brendan Rodgers", "Jamie Vardy"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Coach"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale du Japon ?",
     "correctAnswer": "Samurai Blue",
     "incorrectAnswers": ["Suns of Japan", "Rising Sun", "Red Dragons"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club espagnol joue au stade San Mamés ?",
     "correctAnswer": "Athletic Bilbao",
     "incorrectAnswers": ["Real Sociedad", "Osasuna", "Alavés"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui a remporté la Coupe du Monde 1958 ?",
     "correctAnswer": "Brésil",
     "incorrectAnswers": ["Suède", "France", "Allemagne de l'Ouest"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM"]
   },
   {
     "question": "Quel joueur français est surnommé 'Le Divin Chauve' ?",
     "correctAnswer": "Fabien Barthez",
     "incorrectAnswers": ["Zinedine Zidane", "Laurent Blanc", "Franck Lebœuf"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien joue au stade Artemio-Franchi ?",
     "correctAnswer": "Fiorentina",
     "incorrectAnswers": ["Sienne", "Pise", "Empoli"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire du FC Barcelone ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["César Rodríguez", "Luis Suárez", "László Kubala"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Liga", "Record"]
   },
   {
     "question": "Quelle nation est surnommée la 'Celeste' ?",
     "correctAnswer": "Uruguay",
     "incorrectAnswers": ["Argentine", "Paraguay", "Chili"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Canaries' ?",
     "correctAnswer": "Norwich City",
     "incorrectAnswers": ["Watford", "Hull City", "Wigan"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1995 ?",
     "correctAnswer": "George Weah",
     "incorrectAnswers": ["Jürgen Klinsmann", "Jari Litmanen", "Alessandro Del Piero"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'El Niño' ?",
     "correctAnswer": "Fernando Torres",
     "incorrectAnswers": ["Sergio Agüero", "Alexis Sánchez", "Radamel Falcao"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club français joue au stade de la Route de Lorient (Roazhon Park) ?",
     "correctAnswer": "Stade Rennais",
     "incorrectAnswers": ["FC Lorient", "En Avant Guingamp", "Brest"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Stade"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 2000 ?",
     "correctAnswer": "France",
     "incorrectAnswers": ["Italie", "Pays-Bas", "Portugal"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club italien est surnommé 'Les Bianconeri' ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["Udinese", "Ascoli", "Inter Milan"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui a marqué le but égalisateur de la Grèce en finale de l'Euro 2004 ?",
     "correctAnswer": "Angelos Charisteas",
     "incorrectAnswers": ["Giorgos Karagounis", "Theodoros Zagorakis", "Traianos Dellas"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Spiderman' ?",
     "correctAnswer": "Jérémie Janot",
     "incorrectAnswers": ["Petr Čech", "Hugo Lloris", "Steve Mandanda"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Didier Drogba avant de rejoindre Chelsea ?",
     "correctAnswer": "Olympique de Marseille",
     "incorrectAnswers": ["Guingamp", "Le Mans", "Lille"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais joue à Craven Cottage ?",
     "correctAnswer": "Fulham",
     "incorrectAnswers": ["Chelsea", "QPR", "Brentford"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale d'Uruguay ?",
     "correctAnswer": "La Celeste",
     "incorrectAnswers": ["L'Albiceleste", "La Roja", "Los Charrúas"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
-    "question": "Quel joueur français a remporté le Ballon d'Or 1967 ?",
+    "question": "Quel joueur français a remporté le Ballon d'Or 1967 (Erreur: Florian Albert est hongrois) ?",
     "correctAnswer": "Florian Albert (Non français)",
     "incorrectAnswers": ["Raymond Kopa", "Just Fontaine", "Michel Platini"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or", "Piège"]
   },
   {
     "question": "Quelle nation a remporté la Coupe du Monde 1938 ?",
     "correctAnswer": "Italie",
     "incorrectAnswers": ["Hongrie", "Brésil", "Suède"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club espagnol joue au stade Ramón de Carranza ?",
     "correctAnswer": "Cadix CF",
     "incorrectAnswers": ["Malaga", "Grenade", "Almeria"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui est l'actuel capitaine de l'équipe de France masculine (2024) ?",
     "correctAnswer": "Kylian Mbappé",
     "incorrectAnswers": ["Antoine Griezmann", "Raphaël Varane", "Hugo Lloris"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection"]
   },
   {
     "question": "Quel joueur est surnommé 'L'Apache' ?",
     "correctAnswer": "Carlos Tévez",
     "incorrectAnswers": ["Sergio Agüero", "Lionel Messi", "Gonzalo Higuaín"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quelle ville se trouve le stade de Gerland ?",
     "correctAnswer": "Lyon",
     "incorrectAnswers": ["Saint-Étienne", "Marseille", "Grenoble"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Eagles' ?",
     "correctAnswer": "Crystal Palace",
     "incorrectAnswers": ["Norwich City", "Sheffield United", "Swansea City"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2004 ?",
     "correctAnswer": "Andriy Shevchenko",
     "incorrectAnswers": ["Deco", "Ronaldinho", "Thierry Henry"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel est le surnom de la sélection marocaine ?",
     "correctAnswer": "Les Lions de l'Atlas",
     "incorrectAnswers": ["Les Fennecs", "Les Aigles de Carthage", "Les Pharaons"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Kun' ?",
     "correctAnswer": "Sergio Agüero",
     "incorrectAnswers": ["Carlos Tévez", "Gonzalo Higuaín", "Lionel Messi"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club français joue au stade de la Licorne ?",
     "correctAnswer": "Amiens SC",
     "incorrectAnswers": ["Valenciennes", "Le Havre", "Lorient"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Club", "Stade"]
   },
   {
     "question": "Quelle nation a remporté la Copa América 2015 ?",
     "correctAnswer": "Chili",
     "incorrectAnswers": ["Argentine", "Brésil", "Pérou"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Copa América"]
   },
   {
     "question": "Qui a marqué le but de la victoire pour l'Inter Milan en finale de la LDC 2010 ?",
     "correctAnswer": "Diego Milito",
     "incorrectAnswers": ["Samuel Eto'o", "Wesley Sneijder", "Javier Zanetti"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel joueur est surnommé 'Il Pinturicchio' ?",
     "correctAnswer": "Alessandro Del Piero",
     "incorrectAnswers": ["Roberto Baggio", "Francesco Totti", "Filippo Inzaghi"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Antoine Griezmann avant de rejoindre la Real Sociedad ?",
     "correctAnswer": "UF Mâcon",
     "incorrectAnswers": ["Lyon", "Montpellier", "Saint-Étienne"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club italien joue au stade Renato-Dall'Ara ?",
     "correctAnswer": "Bologne",
     "incorrectAnswers": ["Sassuolo", "Parme", "Modène"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection italienne ?",
     "correctAnswer": "Luigi Riva",
     "incorrectAnswers": ["Giuseppe Meazza", "Silvio Piola", "Roberto Baggio"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Clarets' ?",
     "correctAnswer": "Burnley",
     "incorrectAnswers": ["West Ham", "Aston Villa", "Everton"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'L'Illusionniste' ?",
     "correctAnswer": "Andrés Iniesta",
     "incorrectAnswers": ["Xavi", "Luka Modrić", "Mesut Özil"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1988 ?",
     "correctAnswer": "Pays-Bas",
     "incorrectAnswers": ["URSS", "Allemagne de l'Ouest", "Italie"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol est surnommé 'Les Granotes' (Les Grenouilles) ?",
     "correctAnswer": "Levante UD",
     "incorrectAnswers": ["Valence CF", "Villarreal CF", "Elche"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1999 ?",
     "correctAnswer": "Rivaldo",
     "incorrectAnswers": ["David Beckham", "Andriy Shevchenko", "Luis Figo"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'The Baby-Faced Assassin' ?",
     "correctAnswer": "Ole Gunnar Solskjær",
     "incorrectAnswers": ["Wayne Rooney", "Michael Owen", "Robin van Persie"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Luis Suárez avant de rejoindre Liverpool ?",
     "correctAnswer": "Ajax Amsterdam",
     "incorrectAnswers": ["Groningen", "Nacional", "Atlético Madrid"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais joue à Goodison Park ?",
     "correctAnswer": "Everton",
     "incorrectAnswers": ["Liverpool", "Manchester United", "Aston Villa"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale de l'Australie ?",
     "correctAnswer": "Socceroos",
     "incorrectAnswers": ["The Kangaroos", "Green and Gold", "The Wallabies"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Magnifique' à l'OM ?",
     "correctAnswer": "Chris Waddle",
     "incorrectAnswers": ["Franck Sauzée", "Basile Boli", "Jean-Pierre Papin"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien est surnommé 'I Viola' ?",
     "correctAnswer": "Fiorentina",
     "incorrectAnswers": ["Palerme", "Lazio", "Lecce"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui a remporté la Ligue des Champions 1995 ?",
     "correctAnswer": "Ajax Amsterdam",
     "incorrectAnswers": ["AC Milan", "Juventus", "Real Madrid"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel joueur brésilien était surnommé 'Le Petit Oiseau' ?",
     "correctAnswer": "Garrincha",
     "incorrectAnswers": ["Pelé", "Zico", "Sócrates"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Black Cats' ?",
     "correctAnswer": "Sunderland",
     "incorrectAnswers": ["Newcastle", "Middlesbrough", "Everton"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté la Copa América 2016 ?",
     "correctAnswer": "Chili",
     "incorrectAnswers": ["Argentine", "Brésil", "Colombie"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Copa América"]
   },
   {
     "question": "Quel joueur français est surnommé 'Le Chouchou' ?",
     "correctAnswer": "Antoine Griezmann",
     "incorrectAnswers": ["Kylian Mbappé", "Olivier Giroud", "N'Golo Kanté"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club espagnol joue au stade de Balaídos ?",
     "correctAnswer": "Celta Vigo",
     "incorrectAnswers": ["Deportivo La Corogne", "Betis Séville", "Cadix"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui a entraîné le FC Barcelone lors de l'année du sextuplé en 2009 ?",
     "correctAnswer": "Pep Guardiola",
     "incorrectAnswers": ["Frank Rijkaard", "Tito Vilanova", "Luis Enrique"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Liga", "Coach"]
   },
   {
     "question": "Quel joueur est surnommé 'The Octopus' (L'Octopus) ?",
     "correctAnswer": "Thibaut Courtois",
     "incorrectAnswers": ["Petr Čech", "Manuel Neuer", "David de Gea"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien est surnommé 'Les Granata' ?",
     "correctAnswer": "Torino FC",
     "incorrectAnswers": ["Juventus", "Genoa", "Salernitana"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Surnom"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection portugaise ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Pauleta", "Eusébio", "Luis Figo"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Trotters' ?",
     "correctAnswer": "Bolton Wanderers",
     "incorrectAnswers": ["Wigan Athletic", "Blackburn Rovers", "Burnley"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Pharaon' ?",
     "correctAnswer": "Stephan El Shaarawy",
     "incorrectAnswers": ["Mohamed Salah", "Ahmed Hossam Mido", "Mohamed Elneny"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1964 ?",
     "correctAnswer": "Espagne",
     "incorrectAnswers": ["URSS", "Hongrie", "Danemark"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol est surnommé 'Los Txuri-urdin' ?",
     "correctAnswer": "Real Sociedad",
     "incorrectAnswers": ["Athletic Bilbao", "Osasuna", "Eibar"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Surnom"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 1993 ?",
     "correctAnswer": "Roberto Baggio",
     "incorrectAnswers": ["Dennis Bergkamp", "Eric Cantona", "Alen Bokšić"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'The Ginger Prince' ?",
     "correctAnswer": "Paul Scholes",
     "incorrectAnswers": ["Kevin De Bruyne", "John Arne Riise", "Harry Kane"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Ronaldo Nazário avant de rejoindre le Real Madrid ?",
     "correctAnswer": "Inter Milan",
     "incorrectAnswers": ["FC Barcelone", "PSV Eindhoven", "AC Milan"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais joue à Villa Park ?",
     "correctAnswer": "Aston Villa",
     "incorrectAnswers": ["Birmingham City", "West Bromwich", "Wolverhampton"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale du Sénégal ?",
     "correctAnswer": "Les Lions de la Teranga",
     "incorrectAnswers": ["Les Lions de l'Atlas", "Les Lions Indomptables", "Les Éléphants"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Géant Suédois' ?",
     "correctAnswer": "Zlatan Ibrahimović",
     "incorrectAnswers": ["Henrik Larsson", "Freddie Ljungberg", "Alexander Isak"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quel club italien joue au stade Friuli (Dacia Arena) ?",
     "correctAnswer": "Udinese",
     "incorrectAnswers": ["Triestina", "Venise", "Vérone"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Serie A", "Stade"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la sélection brésilienne (en 2024) ?",
     "correctAnswer": "Neymar Jr",
     "incorrectAnswers": ["Pelé", "Ronaldo Nazário", "Romário"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club anglais est surnommé 'The Rams' (Les Béliers) ?",
     "correctAnswer": "Derby County",
     "incorrectAnswers": ["Reading", "Leicester City", "Huddersfield"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Surnom"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Petit Lutin' ?",
     "correctAnswer": "Ludovic Giuly",
     "incorrectAnswers": ["Mathieu Valbuena", "Samir Nasri", "Santi Cazorla"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Quelle nation a remporté l'Euro 1996 ?",
     "correctAnswer": "Allemagne",
     "incorrectAnswers": ["République Tchèque", "Angleterre", "France"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro"]
   },
   {
     "question": "Quel club espagnol joue au stade de Mendizorroza ?",
     "correctAnswer": "Deportivo Alavés",
     "incorrectAnswers": ["Eibar", "Real Sociedad", "Logroñés"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Liga", "Stade"]
   },
   {
     "question": "Qui a remporté le Ballon d'Or 2002 ?",
     "correctAnswer": "Ronaldo Nazário",
     "incorrectAnswers": ["Roberto Carlos", "Oliver Kahn", "Zinedine Zidane"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Ballon d'Or"]
   },
   {
     "question": "Quel joueur est surnommé 'The Iceman' ?",
     "correctAnswer": "Dennis Bergkamp",
     "incorrectAnswers": ["Eidur Gudjohnsen", "Arjen Robben", "Robin van Persie"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Surnom"]
   },
   {
     "question": "Dans quel club jouait Paul Pogba avant de rejoindre la Juventus en 2012 ?",
     "correctAnswer": "Manchester United",
     "incorrectAnswers": ["Le Havre", "Lyon", "PSG"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Carrière"]
   },
   {
     "question": "Quel club anglais joue à l'Emirates Stadium ?",
     "correctAnswer": "Arsenal",
     "incorrectAnswers": ["Tottenham", "West Ham", "Chelsea"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Stade"]
   },
   {
     "question": "Quel est le surnom de l'équipe nationale du Ghana ?",
     "correctAnswer": "Black Stars",
     "incorrectAnswers": ["The Leopards", "The Lions", "The Eagles"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Sélection", "Surnom"]
   },
   {
     "question": "Quel est le score final de la finale de la Coupe du Monde 1998 (France - Brésil) ?",
     "correctAnswer": "3 - 0",
     "incorrectAnswers": ["2 - 1", "1 - 0", "2 - 0"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Score", "Histoire"]
   },
   {
     "question": "Quel est le score de la célèbre 'Remontada' du Barça contre le PSG en 2017 ?",
     "correctAnswer": "6 - 1",
     "incorrectAnswers": ["5 - 0", "4 - 0", "5 - 1"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC", "Score", "Histoire"]
   },
   {
     "question": "Quel club détient le record d'invincibilité en Premier League (49 matchs) ?",
     "correctAnswer": "Arsenal",
     "incorrectAnswers": ["Manchester City", "Liverpool", "Chelsea"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Qui a marqué le but le plus rapide de l'histoire de la Coupe du Monde (11 secondes) ?",
     "correctAnswer": "Hakan Şükür",
     "incorrectAnswers": ["Kylian Mbappé", "Ronaldo", "Clint Dempsey"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel est le score historique de la demi-finale CDM 2014 entre le Brésil et l'Allemagne ?",
     "correctAnswer": "1 - 7",
     "incorrectAnswers": ["0 - 5", "1 - 6", "2 - 8"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Score", "Histoire"]
   },
   {
     "question": "Quel gardien détient le record du nombre de buts marqués dans sa carrière ?",
     "correctAnswer": "Rogério Ceni",
     "incorrectAnswers": ["José Luis Chilavert", "René Higuita", "Hans-Jörg Butt"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel joueur détient le record de buts sur une année civile (91 buts en 2012) ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Gerd Müller", "Cristiano Ronaldo", "Pelé"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel est le montant du transfert record de Neymar du Barça au PSG ?",
     "correctAnswer": "222 millions d'euros",
     "incorrectAnswers": ["180 millions d'euros", "200 millions d'euros", "250 millions d'euros"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Mercato", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions après avoir été mené 3-0 à la mi-temps en 2005 ?",
     "correctAnswer": "Liverpool",
     "incorrectAnswers": ["AC Milan", "Manchester United", "Real Madrid"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Qui est le meilleur buteur de l'histoire de la Premier League ?",
     "correctAnswer": "Alan Shearer",
     "incorrectAnswers": ["Harry Kane", "Wayne Rooney", "Thierry Henry"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 2000 (France - Italie) ?",
     "correctAnswer": "2 - 1 (après but en or)",
     "incorrectAnswers": ["1 - 0", "2 - 0", "1 - 1 (t.a.b)"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur a reçu le plus de cartons rouges dans l'histoire de la Liga ?",
     "correctAnswer": "Sergio Ramos",
     "incorrectAnswers": ["Pepe", "Fernando Hierro", "Dani Alves"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Record"]
   },
   {
     "question": "Quel club détient le record de points sur une saison de Premier League (100 points) ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Liverpool", "Chelsea", "Arsenal"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel est le score cumulé de la double confrontation Bayern - Barça en 2013 (demi-finale LDC) ?",
     "correctAnswer": "7 - 0",
     "incorrectAnswers": ["5 - 1", "6 - 2", "4 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Qui est le plus jeune buteur de l'histoire de la Coupe du Monde ?",
     "correctAnswer": "Pelé",
     "incorrectAnswers": ["Kylian Mbappé", "Gavi", "Michael Owen"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel joueur a remporté le plus de titres collectifs dans l'histoire du football ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Dani Alves", "Andrés Iniesta", "Ryan Giggs"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 2022 (Argentine - France) après prolongation ?",
     "correctAnswer": "3 - 3",
     "incorrectAnswers": ["2 - 2", "1 - 1", "4 - 3"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel club a réalisé le premier triplé Championnat-Coupe-LDC en Angleterre (1999) ?",
     "correctAnswer": "Manchester United",
     "incorrectAnswers": ["Liverpool", "Manchester City", "Arsenal"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel joueur a marqué 5 buts en 9 minutes contre Wolfsburg en 2015 ?",
     "correctAnswer": "Robert Lewandowski",
     "incorrectAnswers": ["Sergio Agüero", "Erling Haaland", "Cristiano Ronaldo"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Bundesliga", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Ligue des Champions 2014 (Real - Atlético) ?",
     "correctAnswer": "4 - 1 (a.p.)",
     "incorrectAnswers": ["1 - 0", "2 - 1", "3 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur détient le record d'apparitions en Ligue 1 ?",
     "correctAnswer": "Mickaël Landreau",
     "incorrectAnswers": ["Jean-Luc Ettori", "Steve Mandanda", "Vitorino Hilton"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ligue 1", "Record"]
   },
   {
     "question": "Quel est le plus large score de l'histoire en match international (Australie - Samoa Américaines) ?",
     "correctAnswer": "31 - 0",
     "incorrectAnswers": ["25 - 0", "20 - 0", "15 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Score", "Insolite"]
   },
   {
     "question": "Quel club détient le record de victoires consécutives en Bundesliga ?",
     "correctAnswer": "Bayern Munich",
     "incorrectAnswers": ["Borussia Dortmund", "Bayer Leverkusen", "RB Leipzig"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Bundesliga", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 2006 (Italie - France) avant les tirs au but ?",
     "correctAnswer": "1 - 1",
     "incorrectAnswers": ["0 - 0", "2 - 2", "1 - 0"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué dans le plus grand nombre de finales de Ligue des Champions différentes ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Lionel Messi", "Raúl", "Gareth Bale"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Record"]
   },
   {
-    "question": "Quel club a remporté 6 Ligues Europa (Coupes UEFA) ?",
+    "question": "Quel club a remporté 7 Ligues Europa (Coupes UEFA) ?",
     "correctAnswer": "FC Séville",
     "incorrectAnswers": ["Liverpool", "Inter Milan", "Juventus"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Europa League", "Record"]
   },
   {
     "question": "Quel est le score du célèbre Clasico Real Madrid - FC Barcelone de 2009 ?",
     "correctAnswer": "2 - 6",
     "incorrectAnswers": ["0 - 5", "1 - 4", "3 - 3"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["Liga", "Score"]
   },
   {
     "question": "Qui détient le record du transfert le plus cher pour un défenseur (en 2023) ?",
     "correctAnswer": "Harry Maguire (puis Gvardiol)",
     "incorrectAnswers": ["Virgil van Dijk", "Matthijs de Ligt", "Lucas Hernandez"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Mercato", "Record"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 2016 (Portugal - France) ?",
     "correctAnswer": "1 - 0",
     "incorrectAnswers": ["2 - 1", "0 - 0 (t.a.b)", "1 - 1"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel entraîneur détient le record de matchs dirigés en Premier League ?",
     "correctAnswer": "Arsène Wenger",
     "incorrectAnswers": ["Alex Ferguson", "Harry Redknapp", "David Moyes"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a concédé 9 buts contre Manchester United en 1995 (9-0) ?",
     "correctAnswer": "Ipswich Town",
     "incorrectAnswers": ["Southampton", "Norwich City", "Swindon Town"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Score"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 1999 (Man Utd - Bayern) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["1 - 0", "3 - 2", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué le but le plus lointain de l'histoire de la Premier League (gardien) ?",
     "correctAnswer": "Asmir Begović",
     "incorrectAnswers": ["Tim Howard", "Paul Robinson", "Alisson Becker"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a gagné le championnat de France 7 fois d'affilée (2002-2008) ?",
     "correctAnswer": "Olympique Lyonnais",
     "incorrectAnswers": ["PSG", "Marseille", "Monaco"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 2002 (Brésil - Allemagne) ?",
     "correctAnswer": "2 - 0",
     "incorrectAnswers": ["1 - 0", "3 - 1", "2 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur détient le record de buts marqués pour un seul club (Santos/Barça) ?",
     "correctAnswer": "Lionel Messi (Barça)",
     "incorrectAnswers": ["Pelé (Santos)", "Gerd Müller", "Cristiano Ronaldo"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel est le score de la défaite historique de Manchester United contre Liverpool en 2023 ?",
     "correctAnswer": "7 - 0",
     "incorrectAnswers": ["6 - 0", "5 - 0", "8 - 2"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["PL", "Score"]
   },
   {
     "question": "Quel club a été champion d'Angleterre en restant invaincu en 1889 ?",
     "correctAnswer": "Preston North End",
     "incorrectAnswers": ["Arsenal", "Aston Villa", "Sunderland"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Histoire"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1954 (Miracle de Berne) ?",
     "correctAnswer": "3 - 2 (RFA - Hongrie)",
     "incorrectAnswers": ["2 - 1", "4 - 2", "1 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a le plus grand nombre de sélections en équipe nationale masculine ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Sergio Ramos", "Bader Al-Mutawa", "Soh Chin Ann"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2021 ?",
     "correctAnswer": "Chelsea",
     "incorrectAnswers": ["Manchester City", "Real Madrid", "PSG"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 2012 (Espagne - Italie) ?",
     "correctAnswer": "4 - 0",
     "incorrectAnswers": ["2 - 0", "3 - 1", "1 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur a marqué un quadruplé contre le Real Madrid en LDC 2013 ?",
     "correctAnswer": "Robert Lewandowski",
     "incorrectAnswers": ["Marco Reus", "Pierre-Emerick Aubameyang", "Mario Götze"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Performance"]
   },
   {
     "question": "Quel est le record de buts de Cristiano Ronaldo en une saison de LDC ?",
     "correctAnswer": "17 buts",
     "incorrectAnswers": ["15 buts", "19 buts", "14 buts"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel club détient le record de Coupes de France remportées ?",
     "correctAnswer": "Paris Saint-Germain",
     "incorrectAnswers": ["Olympique de Marseille", "AS Saint-Étienne", "Lille OSC"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Ligue 1", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1986 (Argentine - RFA) ?",
     "correctAnswer": "3 - 2",
     "incorrectAnswers": ["2 - 1", "1 - 0", "3 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a coûté 100 millions d'euros au Real Madrid en 2013 ?",
     "correctAnswer": "Gareth Bale",
     "incorrectAnswers": ["Cristiano Ronaldo", "Eden Hazard", "James Rodríguez"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Mercato", "Liga"]
   },
   {
     "question": "Quel est le score du match historique France - Allemagne (demi-finale 1982) après prolongation ?",
     "correctAnswer": "3 - 3",
     "incorrectAnswers": ["2 - 2", "1 - 1", "4 - 4"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel club a remporté le championnat d'Espagne avec 100 points en 2012 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["FC Barcelone", "Atlético Madrid", "Valence CF"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Liga", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1970 (Brésil - Italie) ?",
     "correctAnswer": "4 - 1",
     "incorrectAnswers": ["3 - 1", "2 - 0", "3 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué le but le plus rapide en Ligue des Champions (10 secondes) ?",
     "correctAnswer": "Roy Makaay",
     "incorrectAnswers": ["Jonas", "Gilberto Silva", "Clarence Seedorf"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2008 aux tirs au but ?",
     "correctAnswer": "Manchester United",
     "incorrectAnswers": ["Chelsea", "Liverpool", "Barcelone"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Histoire"]
   },
   {
     "question": "Quel est le score du match Monaco - La Corogne en 2003 (historique LDC) ?",
     "correctAnswer": "8 - 3",
     "incorrectAnswers": ["7 - 2", "6 - 4", "5 - 3"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde en tant que joueur puis entraîneur (avec Zagallo et Deschamps) ?",
     "correctAnswer": "Franz Beckenbauer",
     "incorrectAnswers": ["Johan Cruyff", "Diego Maradona", "Zinedine Zidane"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Coach"]
   },
   {
     "question": "Quel club a remporté 9 scudetti (championnats italiens) d'affilée entre 2012 et 2020 ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["Inter Milan", "AC Milan", "Naples"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Serie A", "Record"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 2004 (Grèce - Portugal) ?",
     "correctAnswer": "1 - 0",
     "incorrectAnswers": ["2 - 1", "0 - 0 (t.a.b)", "1 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur détient le record de passes décisives en Premier League ?",
     "correctAnswer": "Ryan Giggs",
     "incorrectAnswers": ["Kevin De Bruyne", "Cesc Fàbregas", "Wayne Rooney"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1990 (RFA - Argentine) ?",
     "correctAnswer": "1 - 0",
     "incorrectAnswers": ["2 - 1", "2 - 0", "0 - 0 (t.a.b)"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel club a gagné la Ligue des Champions 2012 ?",
     "correctAnswer": "Chelsea",
     "incorrectAnswers": ["Bayern Munich", "Real Madrid", "Barcelone"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel joueur a marqué le but du siècle contre l'Angleterre en 1986 ?",
     "correctAnswer": "Diego Maradona",
     "incorrectAnswers": ["Pelé", "Lionel Messi", "Johan Cruyff"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Anecdote"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 2010 (Espagne - Pays-Bas) ?",
     "correctAnswer": "1 - 0 (a.p.)",
     "incorrectAnswers": ["2 - 1", "0 - 0 (t.a.b)", "1 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2004 ?",
     "correctAnswer": "FC Porto",
     "incorrectAnswers": ["AS Monaco", "Deportivo La Corogne", "Chelsea"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel joueur détient le record de matchs joués en Coupe du Monde ?",
     "correctAnswer": "Lionel Messi",
     "incorrectAnswers": ["Lothar Matthäus", "Miroslav Klose", "Cristiano Ronaldo"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2002 (Real Madrid - Leverkusen) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["3 - 1", "1 - 0", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué un but de la tête à 40 mètres (record) ?",
     "correctAnswer": "Martin Palermo",
     "incorrectAnswers": ["Jared Borgetti", "Zlatan Ibrahimović", "Cristiano Ronaldo"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel club a remporté le championnat d'Angleterre 2016 à la surprise générale ?",
     "correctAnswer": "Leicester City",
     "incorrectAnswers": ["Tottenham", "Arsenal", "Manchester City"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Histoire"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1966 (Angleterre - RFA) ?",
     "correctAnswer": "4 - 2 (a.p.)",
     "incorrectAnswers": ["3 - 2", "2 - 1", "3 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 13 buts en une seule édition de Coupe du Monde ?",
     "correctAnswer": "Just Fontaine",
     "incorrectAnswers": ["Gerd Müller", "Ronaldo", "Sandor Kocsis"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club détient le record de victoires en Ligue Europa ?",
     "correctAnswer": "FC Séville",
     "incorrectAnswers": ["Liverpool", "Inter Milan", "Atlético Madrid"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["Europa League", "Record"]
   },
   {
     "question": "Quel est le score du match Barcelone - Real Madrid en 2010 (Manita) ?",
     "correctAnswer": "5 - 0",
     "incorrectAnswers": ["4 - 0", "6 - 1", "3 - 0"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Liga", "Score"]
   },
   {
     "question": "Quel joueur a coûté 105 millions d'euros en 2016 ?",
     "correctAnswer": "Paul Pogba",
     "incorrectAnswers": ["Gareth Bale", "Cristiano Ronaldo", "Neymar"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Mercato"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 2014 (Allemagne - Argentine) ?",
     "correctAnswer": "1 - 0 (a.p.)",
     "incorrectAnswers": ["2 - 1", "0 - 0 (t.a.b)", "1 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2015 ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Juventus", "Real Madrid", "Bayern Munich"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel joueur a marqué un but en finale de LDC avec trois clubs différents ? (Faux, record 2 clubs)",
     "correctAnswer": "Cristiano Ronaldo (Man Utd, Real)",
     "incorrectAnswers": ["Clarence Seedorf", "Samuel Eto'o", "Zlatan Ibrahimović"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Piège"]
   },
   {
     "question": "Quel est le score du match Liverpool - Barcelone en 2019 (Remontada Anfield) ?",
     "correctAnswer": "4 - 0",
     "incorrectAnswers": ["3 - 0", "5 - 1", "4 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel club a remporté le championnat de France 2012 (premier titre de l'ère QSI non-PSG) ?",
     "correctAnswer": "Montpellier HSC",
     "incorrectAnswers": ["PSG", "Lille", "Lyon"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Ligue 1", "Histoire"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 1984 (France - Espagne) ?",
     "correctAnswer": "2 - 0",
     "incorrectAnswers": ["1 - 0", "3 - 1", "2 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur a marqué le plus de buts en sélection africaine ?",
     "correctAnswer": "Godfrey Chitalu (Zambie)",
     "incorrectAnswers": ["Didier Drogba", "Samuel Eto'o", "Mohamed Salah"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Sélection", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1993 ?",
     "correctAnswer": "Olympique de Marseille",
     "incorrectAnswers": ["AC Milan", "PSG", "Barcelone"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1982 (Italie - RFA) ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 1", "1 - 0", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a remporté le Ballon d'Or sans jamais jouer une Coupe du Monde ?",
     "correctAnswer": "George Weah",
     "incorrectAnswers": ["Alfredo Di Stéfano", "Ryan Giggs", "Eric Cantona"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Ballon d'Or", "Anecdote"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2013 ?",
     "correctAnswer": "Bayern Munich",
     "incorrectAnswers": ["Borussia Dortmund", "Real Madrid", "Barcelone"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score du match Manchester City - QPR en 2012 (Agüerooooo) ?",
     "correctAnswer": "3 - 2",
     "incorrectAnswers": ["2 - 1", "1 - 0", "4 - 3"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["PL", "Score"]
   },
   {
-    "question": "Quel joueur a marqué 6 buts en un seul match de Premier League ? (Faux, record 5)",
+    "question": "Quel joueur a marqué 5 buts en un seul match de Premier League ? (Faux, record 5)",
     "correctAnswer": "Sergio Agüero (5 buts)",
     "incorrectAnswers": ["Alan Shearer", "Andy Cole", "Harry Kane"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1997 ?",
     "correctAnswer": "Borussia Dortmund",
     "incorrectAnswers": ["Juventus", "Manchester United", "Ajax"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1950 (Maracanazo) ?",
     "correctAnswer": "2 - 1 (Uruguay - Brésil)",
     "incorrectAnswers": ["1 - 0", "3 - 2", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde 2010 ?",
     "correctAnswer": "Andrés Iniesta",
     "incorrectAnswers": ["Lionel Messi", "Cristiano Ronaldo", "Wesley Sneijder"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club a remporté le championnat d'Italie 2023 ?",
     "correctAnswer": "Naples",
     "incorrectAnswers": ["AC Milan", "Inter Milan", "Juventus"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["Serie A"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2018 (Real - Liverpool) ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 1", "4 - 1", "1 - 0"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué le plus de buts sur coup franc dans l'histoire ?",
     "correctAnswer": "Juninho Pernambucano",
     "incorrectAnswers": ["Pelé", "Ronaldinho", "David Beckham"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Joueur", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2011 ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Manchester United", "Real Madrid", "Chelsea"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1974 (RFA - Pays-Bas) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["1 - 0", "3 - 1", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 4 buts en finale de Coupe du Monde ?",
     "correctAnswer": "Kylian Mbappé (3 en 2022 + 1 en 2018)",
     "incorrectAnswers": ["Pelé", "Geoff Hurst", "Zinedine Zidane"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2006 ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Arsenal", "AC Milan", "Liverpool"],
-    "difficulty": "facile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score du match PSG - OM en 2011 (Ligue 1) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["3 - 0", "0 - 3", "1 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ligue 1", "Score"]
   },
   {
     "question": "Quel joueur a marqué 5 buts en un match de Ligue des Champions ?",
     "correctAnswer": "Lionel Messi (et Luiz Adriano, Haaland)",
     "incorrectAnswers": ["Cristiano Ronaldo", "Robert Lewandowski", "Neymar"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2003 ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Juventus", "Real Madrid", "Manchester United"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1962 (Brésil - Tchécoslovaquie) ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 1", "4 - 2", "1 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a remporté 13 titres de Premier League ?",
     "correctAnswer": "Ryan Giggs",
     "incorrectAnswers": ["Paul Scholes", "Gary Neville", "Wayne Rooney"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2000 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Valence CF", "Bayern Munich", "Manchester United"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 1992 (Danemark - Allemagne) ?",
     "correctAnswer": "2 - 0",
     "incorrectAnswers": ["1 - 0", "2 - 1", "3 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur a marqué le plus de buts en phase finale de l'Euro ?",
     "correctAnswer": "Cristiano Ronaldo",
     "incorrectAnswers": ["Michel Platini", "Alan Shearer", "Antoine Griezmann"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2001 ?",
     "correctAnswer": "Bayern Munich",
     "incorrectAnswers": ["Valence CF", "Real Madrid", "Leeds United"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1930 (Uruguay - Argentine) ?",
     "correctAnswer": "4 - 2",
     "incorrectAnswers": ["3 - 1", "2 - 1", "3 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde, la LDC et le Ballon d'Or la même année ?",
     "correctAnswer": "Fabio Cannavaro (Non, LDC non)",
     "incorrectAnswers": ["Kaká (2007)", "Rivaldo (1999)", "Zidane (1998 - Non LDC)"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Ballon d'Or", "Piège"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2007 ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Liverpool", "Manchester United", "Chelsea"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2017 (Real - Juventus) ?",
     "correctAnswer": "4 - 1",
     "incorrectAnswers": ["3 - 1", "2 - 0", "2 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué le but le plus rapide de l'histoire de la Serie A (6 secondes) ?",
     "correctAnswer": "Rafael Leão",
     "incorrectAnswers": ["Paolo Poggi", "Francesco Totti", "Zlatan Ibrahimović"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Serie A", "Record"]
   },
   {
     "question": "Quel club a remporté le championnat d'Espagne 2014 ?",
     "correctAnswer": "Atlético de Madrid",
     "incorrectAnswers": ["FC Barcelone", "Real Madrid", "Valence"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Liga"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1998 (France - Brésil) ?",
     "correctAnswer": "3 - 0",
     "incorrectAnswers": ["2 - 0", "1 - 0", "4 - 1"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 1283 buts dans sa carrière (selon lui) ?",
     "correctAnswer": "Pelé",
     "incorrectAnswers": ["Romário", "Josef Bican", "Arthur Friedenreich"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Joueur", "Anecdote"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2020 ?",
     "correctAnswer": "Bayern Munich",
     "incorrectAnswers": ["PSG", "Lyon", "RB Leipzig"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2015 (Barça - Juventus) ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 1", "2 - 0", "4 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe d'Afrique des Nations 4 fois ?",
     "correctAnswer": "Essam El-Hadary",
     "incorrectAnswers": ["Ahmed Hassan", "Samuel Eto'o", "Rigobert Song"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CAN", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2022 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Liverpool", "Manchester City", "Chelsea"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de l'Euro 2020 (Italie - Angleterre) ?",
     "correctAnswer": "1 - 1 (t.a.b)",
     "incorrectAnswers": ["2 - 1", "1 - 0", "0 - 0"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Score"]
   },
   {
     "question": "Quel joueur a remporté le plus de Ligue des Champions (6) ?",
     "correctAnswer": "Paco Gento",
     "incorrectAnswers": ["Cristiano Ronaldo", "Paolo Maldini", "Lionel Messi"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1998 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Juventus", "Dortmund", "Monaco"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2011 (Barça - Man Utd) ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 0", "4 - 1", "2 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué 9 buts lors de l'Euro 1984 ?",
     "correctAnswer": "Michel Platini",
     "incorrectAnswers": ["Marco van Basten", "Gerd Müller", "Alan Shearer"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1996 ?",
     "correctAnswer": "Juventus",
     "incorrectAnswers": ["Ajax", "Nantes", "Dortmund"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1958 (Brésil - Suède) ?",
     "correctAnswer": "5 - 2",
     "incorrectAnswers": ["4 - 2", "3 - 1", "3 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué le plus de buts en Ligue Europa ?",
     "correctAnswer": "Radamel Falcao (Henrik Larsson incl. qualifs)",
     "incorrectAnswers": ["Pierre-Emerick Aubameyang", "Romelu Lukaku", "Aritz Aduriz"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Europa League", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1994 ?",
     "correctAnswer": "AC Milan",
     "incorrectAnswers": ["Barcelone", "Monaco", "Marseille"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2009 (Barça - Man Utd) ?",
     "correctAnswer": "2 - 0",
     "incorrectAnswers": ["1 - 0", "3 - 1", "2 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde 2018 à 19 ans ?",
     "correctAnswer": "Kylian Mbappé",
     "incorrectAnswers": ["Ousmane Dembélé", "Paul Pogba", "Lucas Hernandez"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2010 ?",
     "correctAnswer": "Inter Milan",
     "incorrectAnswers": ["Bayern Munich", "Barcelone", "Lyon"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1978 (Argentine - Pays-Bas) ?",
     "correctAnswer": "3 - 1 (a.p.)",
     "incorrectAnswers": ["2 - 1", "1 - 0", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a remporté la Coupe du Monde 2006 ?",
     "correctAnswer": "Fabio Cannavaro",
     "incorrectAnswers": ["Zinedine Zidane", "Gianluigi Buffon", "Andrea Pirlo"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2009 ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Manchester United", "Chelsea", "Arsenal"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2006 (Barça - Arsenal) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["1 - 0", "3 - 1", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué le but de la victoire en finale de l'Euro 2000 ?",
     "correctAnswer": "David Trezeguet",
     "incorrectAnswers": ["Sylvain Wiltord", "Zinedine Zidane", "Thierry Henry"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro", "Histoire"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 1992 ?",
     "correctAnswer": "FC Barcelone",
     "incorrectAnswers": ["Sampdoria", "Benfica", "Tottenham"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1934 (Italie - Tchécoslovaquie) ?",
     "correctAnswer": "2 - 1 (a.p.)",
     "incorrectAnswers": ["1 - 0", "3 - 1", "3 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 5 buts en Coupe du Monde 2002 ?",
     "correctAnswer": "Rivaldo (et Klose)",
     "incorrectAnswers": ["Ronaldo (8 buts)", "Ronaldinho", "Miroslav Klose"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2016 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Atlético Madrid", "Manchester City", "Bayern Munich"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2013 (Bayern - Dortmund) ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["1 - 0", "3 - 1", "3 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué 6 buts lors de la Coupe du Monde 2018 ?",
     "correctAnswer": "Harry Kane",
     "incorrectAnswers": ["Antoine Griezmann", "Kylian Mbappé", "Romelu Lukaku"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2017 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Juventus", "Monaco", "Atlético Madrid"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1994 (Brésil - Italie) ?",
     "correctAnswer": "0 - 0 (t.a.b)",
     "incorrectAnswers": ["1 - 0", "1 - 1", "2 - 1"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 7 buts lors de la Coupe du Monde 1974 ?",
     "correctAnswer": "Grzegorz Lato",
     "incorrectAnswers": ["Gerd Müller", "Johan Cruyff", "Johnny Rep"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2018 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Liverpool", "Bayern Munich", "AS Rome"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2008 (Man Utd - Chelsea) ?",
     "correctAnswer": "1 - 1 (t.a.b)",
     "incorrectAnswers": ["2 - 1", "1 - 0", "2 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué 6 buts lors de la Coupe du Monde 1998 ?",
     "correctAnswer": "Davor Šuker",
     "incorrectAnswers": ["Gabriel Batistuta", "Christian Vieri", "Ronaldo"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2019 ?",
     "correctAnswer": "Liverpool",
     "incorrectAnswers": ["Tottenham", "Ajax", "Barcelone"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1954 (RFA - Hongrie) ?",
     "correctAnswer": "3 - 2",
     "incorrectAnswers": ["2 - 1", "4 - 2", "1 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 6 buts lors de la Coupe du Monde 2014 ?",
     "correctAnswer": "James Rodríguez",
     "incorrectAnswers": ["Thomas Müller", "Neymar", "Lionel Messi"],
-    "difficulty": "difficile"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2021 ?",
     "correctAnswer": "Chelsea",
     "incorrectAnswers": ["Manchester City", "Real Madrid", "PSG"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2001 (Bayern - Valence) ?",
     "correctAnswer": "1 - 1 (t.a.b)",
     "incorrectAnswers": ["2 - 1", "1 - 0", "0 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué 5 buts lors de l'Euro 2004 ?",
     "correctAnswer": "Milan Baroš",
     "incorrectAnswers": ["Wayne Rooney", "Ruud van Nistelrooy", "Angelos Charisteas"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Euro", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2022 ?",
     "correctAnswer": "Real Madrid",
     "incorrectAnswers": ["Liverpool", "Manchester City", "Villarreal"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1930 ?",
     "correctAnswer": "4 - 2",
     "incorrectAnswers": ["3 - 1", "2 - 1", "1 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 6 buts lors de l'Euro 2016 ?",
     "correctAnswer": "Antoine Griezmann",
     "incorrectAnswers": ["Cristiano Ronaldo", "Olivier Giroud", "Dimitri Payet"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["Euro", "Record"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2023 ?",
     "correctAnswer": "Manchester City",
     "incorrectAnswers": ["Inter Milan", "Real Madrid", "AC Milan"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["LDC"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2003 (Milan - Juve) ?",
     "correctAnswer": "0 - 0 (t.a.b)",
     "incorrectAnswers": ["1 - 1", "1 - 0", "2 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué 5 buts lors de l'Euro 2020 ?",
     "correctAnswer": "Cristiano Ronaldo (et Schick)",
     "incorrectAnswers": ["Harry Kane", "Romelu Lukaku", "Karim Benzema"],
-    "difficulty": "moyen"
+    "difficulty": "moyen",
+    "category": ["Euro", "Record"]
   },
   {
     "question": "Quel club a remporté la Coupe des Coupes 1996 ?",
     "correctAnswer": "PSG",
     "incorrectAnswers": ["Rapid Vienne", "Barcelone", "Parme"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Europe", "Ligue 1"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1982 ?",
     "correctAnswer": "3 - 1",
     "incorrectAnswers": ["2 - 1", "1 - 0", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 8 buts en Coupe du Monde 2002 ?",
     "correctAnswer": "Ronaldo",
     "incorrectAnswers": ["Rivaldo", "Miroslav Klose", "Christian Vieri"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Record"]
   },
   {
     "question": "Quel club a remporté la Coupe UEFA 2001 (finale épique 5-4) ?",
     "correctAnswer": "Liverpool",
     "incorrectAnswers": ["Deportivo Alavés", "Galatasaray", "Dortmund"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Europa League", "Histoire"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2005 (Liverpool - Milan) ?",
     "correctAnswer": "3 - 3 (t.a.b)",
     "incorrectAnswers": ["2 - 2", "1 - 1", "4 - 4"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué le but le plus rapide de l'histoire de la Premier League (7 secondes) ?",
     "correctAnswer": "Shane Long",
     "incorrectAnswers": ["Ledley King", "Alan Shearer", "Christian Eriksen"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a remporté la Coupe UEFA 2003 ?",
     "correctAnswer": "FC Porto",
     "incorrectAnswers": ["Celtic Glasgow", "Lazio", "Valence"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Europa League"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1990 ?",
     "correctAnswer": "1 - 0",
     "incorrectAnswers": ["2 - 1", "0 - 0", "2 - 0"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué 4 buts contre Arsenal en 2009 (Arshavin 4) ?",
     "correctAnswer": "Andrey Arshavin",
     "incorrectAnswers": ["Fernando Torres", "Didier Drogba", "Nicolas Anelka"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["PL", "Performance"]
   },
   {
     "question": "Quel club a remporté la Coupe UEFA 2009 ?",
     "correctAnswer": "Shakhtar Donetsk",
     "incorrectAnswers": ["Werder Brême", "Hambourg SV", "Dynamo Kiev"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Europa League"]
   },
   {
     "question": "Quel est le score de la finale de la LDC 2000 (Real - Valence) ?",
     "correctAnswer": "3 - 0",
     "incorrectAnswers": ["2 - 0", "1 - 0", "2 - 1"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["LDC", "Score"]
   },
   {
     "question": "Quel joueur a marqué un but en finale de Coupe du Monde 2010 ?",
     "correctAnswer": "Andrés Iniesta",
     "incorrectAnswers": ["David Villa", "Xavi", "Fernando Torres"],
-    "difficulty": "moyen"
+    "difficulty": "facile",
+    "category": ["CDM", "Histoire"]
   },
   {
     "question": "Quel club a remporté la Coupe UEFA 2000 ?",
     "correctAnswer": "Galatasaray",
     "incorrectAnswers": ["Arsenal", "Leeds United", "Lens"],
-    "difficulty": "difficile"
+    "difficulty": "moyen",
+    "category": ["Europa League"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1974 ?",
     "correctAnswer": "2 - 1",
     "incorrectAnswers": ["1 - 0", "3 - 1", "3 - 2"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["CDM", "Score"]
   },
   {
     "question": "Quel joueur a marqué le plus de buts en une saison de Premier League (36 buts, Haaland) ?",
     "correctAnswer": "Erling Haaland",
     "incorrectAnswers": ["Mohamed Salah", "Alan Shearer", "Andy Cole"],
-    "difficulty": "facile"
+    "difficulty": "facile",
+    "category": ["PL", "Record"]
   },
   {
     "question": "Quel club a remporté la Coupe UEFA 2004 ?",
     "correctAnswer": "Valence CF",
     "incorrectAnswers": ["Marseille", "Newcastle", "Villarreal"],
-    "difficulty": "difficile"
+    "difficulty": "difficile",
+    "category": ["Europa League"]
   }
 ]

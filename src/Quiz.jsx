@@ -2,38 +2,51 @@ import { useState } from 'react';
 import questionsData from './questions.json';
 
 // Fonction pure pour préparer les questions (hors du composant)
-const prepareQuestions = (difficulty, excludeList = []) => {
+const prepareQuestions = (category, difficulty, excludeList = []) => {
   const shuffleArray = (array) => [...array].sort(() => 0.5 - Math.random());
-
-  const difficultyMap = {
-    'easy': ['facile', 'easy'],
-    'medium': ['moyen', 'medium'],
-    'hard': ['difficile', 'hard']
-  };
 
   let filteredQuestions = questionsData;
 
-  // 1. Filtrage par difficulté
-  if (difficulty !== 'mix') {
-    const validTags = difficultyMap[difficulty];
+  // 1. Filtrage Principal
+  if (category !== 'mix') {
+    // Cas : Catégorie Spécifique (LDC, Ballon d'Or...) -> On prend tout de cette catégorie
     filteredQuestions = questionsData.filter(q => {
-      if (q.difficulty) {
-        return validTags.includes(q.difficulty.toLowerCase());
+      if (Array.isArray(q.category)) {
+        return q.category.some(c => c.toLowerCase() === category.toLowerCase());
       }
-      return difficulty === 'medium';
+      if (typeof q.category === 'string') {
+        return q.category.toLowerCase() === category.toLowerCase();
+      }
+      return false;
     });
-
-    if (filteredQuestions.length < 5) {
-      filteredQuestions = questionsData;
+  } else {
+    // Cas : Tout Mélangé -> On filtre par Difficulté si demandée
+    if (difficulty !== 'mix') {
+      const difficultyMap = {
+        'easy': ['facile', 'easy'],
+        'medium': ['moyen', 'medium'],
+        'hard': ['difficile', 'hard']
+      };
+      const validTags = difficultyMap[difficulty];
+      
+      filteredQuestions = questionsData.filter(q => {
+        if (q.difficulty) {
+          return validTags.includes(q.difficulty.toLowerCase());
+        }
+        return difficulty === 'medium'; // Fallback
+      });
     }
   }
 
-  // 2. Exclusion des questions précédentes (si possible)
+  // Sécurité si pas assez de questions
+  if (filteredQuestions.length < 5) {
+    console.warn(`Pas assez de questions trouvées. Fallback sur toutes les questions.`);
+    filteredQuestions = questionsData;
+  }
+
+  // 2. Exclusion des questions précédentes
   if (excludeList.length > 0) {
     const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
-    
-    // On n'applique l'exclusion que si il reste assez de questions (au moins 10)
-    // Sinon, on remet tout le monde dans le paquet pour ne pas bloquer le jeu
     if (questionsNotPlayedYet.length >= 10) {
       filteredQuestions = questionsNotPlayedYet;
     }
@@ -43,9 +56,9 @@ const prepareQuestions = (difficulty, excludeList = []) => {
   return shuffleArray(filteredQuestions).slice(0, 10);
 };
 
-const Quiz = ({ onBackToMenu, difficulty, excludeQuestions, onReplay }) => {
-  // Initialisation lazy avec prise en compte de l'exclusion
-  const [questions] = useState(() => prepareQuestions(difficulty, excludeQuestions));
+const Quiz = ({ onBackToMenu, category, difficulty, excludeQuestions, onReplay }) => {
+  // Initialisation lazy
+  const [questions] = useState(() => prepareQuestions(category, difficulty, excludeQuestions));
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -104,8 +117,8 @@ const Quiz = ({ onBackToMenu, difficulty, excludeQuestions, onReplay }) => {
         <div className="score-display">{score} / {questions.length}</div>
         <p>Bien joué champion !</p>
         <div>
-          <button onClick={() => onReplay(questions)} className="restart-btn">Rejouer ce niveau</button>
-          <button onClick={onBackToMenu} className="home-btn">Changer difficulté</button>
+          <button onClick={() => onReplay(questions)} className="restart-btn">Rejouer ce thème</button>
+          <button onClick={onBackToMenu} className="home-btn">Changer de thème</button>
         </div>
       </div>
     );

@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
 
 :root {
-  --primary: #00e676; /* Vert Néon */
+  --primary: #00e676;
   --primary-dark: #00a152;
-  --accent: #ffea00; /* Jaune électrique */
-  --danger: #ff1744; /* Rouge vif */
+  --accent: #ffea00;
+  --danger: #ff1744;
+  --info: #2196f3;
   --text-main: #ffffff;
   --text-dim: #b0bec5;
-  --glass: rgba(15, 23, 42, 0.85); /* Noir bleuté fumé */
+  --glass: rgba(15, 23, 42, 0.85);
   --glass-border: rgba(255, 255, 255, 0.1);
   --shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  
+  --diff-easy: #00e676;
+  --diff-medium: #ff9100;
+  --diff-hard: #f44336;
+  --diff-mix: #2979ff;
 }
 
 * { box-sizing: border-box; }
@@ -17,7 +23,6 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  /* Stade de nuit */
   background: url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2831&auto=format&fit=crop') no-repeat center center fixed;
   background-size: cover;
   color: var(--text-main);
@@ -31,7 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.6); /* Fond sombre pour faire ressortir l'UI */
+  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   width: 100%;
   padding: 1rem;
@@ -50,21 +55,10 @@ body {
   position: absolute;
   bottom: -150px;
   font-size: 3rem;
-  opacity: 0.4; /* Plus subtil sur fond sombre */
+  opacity: 0.4;
   animation: floatUp 15s linear infinite;
-  filter: drop-shadow(0 0 10px rgba(255,255,255,0.2)); /* Lueur interne */
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
 }
-/* Positions des ballons */
-.background-balls span:nth-child(1) { left: 10%; width: 80px; animation-delay: 0s; animation-duration: 12s; font-size: 4rem; }
-.background-balls span:nth-child(2) { left: 20%; width: 20px; animation-delay: 2s; animation-duration: 15s; font-size: 2rem; opacity: 0.3; }
-.background-balls span:nth-child(3) { left: 35%; width: 50px; animation-delay: 4s; animation-duration: 10s; font-size: 3rem; }
-.background-balls span:nth-child(4) { left: 50%; width: 60px; animation-delay: 0s; animation-duration: 18s; font-size: 2.5rem; opacity: 0.3; }
-.background-balls span:nth-child(5) { left: 65%; width: 20px; animation-delay: 0s; animation-duration: 14s; font-size: 1.5rem; }
-.background-balls span:nth-child(6) { left: 75%; width: 90px; animation-delay: 3s; animation-duration: 20s; font-size: 5rem; opacity: 0.2; }
-.background-balls span:nth-child(7) { left: 85%; width: 40px; animation-delay: 7s; animation-duration: 13s; font-size: 3.5rem; }
-.background-balls span:nth-child(8) { left: 5%; width: 30px; animation-delay: 5s; animation-duration: 16s; font-size: 2rem; }
-.background-balls span:nth-child(9) { left: 90%; width: 70px; animation-delay: 1s; animation-duration: 11s; font-size: 4.5rem; opacity: 0.3; }
-.background-balls span:nth-child(10) { left: 45%; width: 50px; animation-delay: 8s; animation-duration: 19s; font-size: 2.8rem; }
 
 @keyframes floatUp {
   0% { transform: translateY(0) rotate(0deg); opacity: 0; }
@@ -93,7 +87,6 @@ body {
   animation: popIn 0.5s ease-out;
 }
 
-/* Bandeau Néon */
 .card::before {
   content: '';
   position: absolute;
@@ -105,7 +98,6 @@ body {
   box-shadow: 0 0 20px var(--primary);
 }
 
-/* --- Titres --- */
 h1 {
   font-size: 4.5rem;
   margin: 0;
@@ -116,9 +108,7 @@ h1 {
   text-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
 }
 
-h1 span {
-  color: var(--primary);
-}
+h1 span { color: var(--primary); }
 
 p {
   color: var(--text-dim);
@@ -171,53 +161,38 @@ p {
   min-height: 80px;
 }
 
-/* --- Boutons Réponse --- */
-.answers-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.answer-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: white;
-  padding: 1.5rem;
-  font-size: 1.1rem;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.2s;
-  font-weight: 500;
-}
-
-.answer-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.answer-btn.correct {
-  background: var(--primary) !important;
-  border-color: var(--primary) !important;
-  color: #000;
-  font-weight: 800;
-  box-shadow: 0 0 20px var(--primary);
-}
-
-.answer-btn.wrong {
-  background: var(--danger) !important;
-  border-color: var(--danger) !important;
-  opacity: 0.6;
-}
-
-/* --- Difficulté --- */
+/* --- Grille de Boutons (Thèmes & Difficulté) --- */
 .difficulty-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
+/* Zone scrollable pour les thèmes */
+.categories-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) transparent;
+}
+
+.categories-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.categories-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+/* Bouton de base (Thèmes) */
 .diff-btn {
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
@@ -228,6 +203,7 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s;
+  border-bottom: 4px solid transparent; /* Pour les couleurs de thèmes inline */
 }
 
 .diff-btn span {
@@ -242,13 +218,54 @@ p {
 .diff-btn:hover {
   background: rgba(255,255,255,0.1);
   transform: translateY(-3px);
-  border-color: var(--primary);
-  box-shadow: 0 0 15px rgba(0, 230, 118, 0.2);
+  border-color: white;
 }
 
-.diff-btn.mix { grid-column: span 2; background: linear-gradient(45deg, rgba(255,255,255,0.05), rgba(0, 230, 118, 0.1)); }
+/* Styles spécifiques pour l'écran de DIFFICULTÉ */
+.diff-btn.easy { border-bottom-color: var(--diff-easy); }
+.diff-btn.medium { border-bottom-color: var(--diff-medium); }
+.diff-btn.hard { border-bottom-color: var(--diff-hard); }
+.diff-btn.mix { border-bottom-color: var(--diff-mix); grid-column: span 2; }
 
-/* --- Skip & Nav --- */
+/* --- Answers --- */
+.answers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.answer-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.answer-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+.answer-btn.correct {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #000;
+  font-weight: 800;
+  box-shadow: 0 0 20px var(--primary);
+}
+
+.answer-btn.wrong {
+  background: var(--danger) !important;
+  border-color: var(--danger) !important;
+  color: white;
+  opacity: 0.6;
+}
+
+/* --- Nav --- */
 .skip-btn {
   margin-top: 2rem;
   background: transparent;
@@ -256,14 +273,6 @@ p {
   border: 1px solid rgba(255,255,255,0.1);
   padding: 0.8rem 2rem;
   border-radius: 50px;
-  font-size: 0.9rem;
-  transition: all 0.2s;
-}
-
-.skip-btn:hover:not(:disabled) {
-  border-color: white;
-  color: white;
-  background: rgba(255,255,255,0.05);
 }
 
 .restart-btn {
@@ -277,8 +286,6 @@ p {
   box-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
 }
 
-.restart-btn:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(0, 230, 118, 0.6); }
-
 .home-btn {
   background: transparent;
   border: 2px solid rgba(255,255,255,0.2);
@@ -288,8 +295,6 @@ p {
   font-weight: 700;
   margin: 1rem;
 }
-
-.home-btn:hover { border-color: white; background: rgba(255,255,255,0.05); }
 
 @keyframes popIn {
   from { opacity: 0; transform: scale(0.9); }
