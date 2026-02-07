@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import questionsData from './questions.json';
 
 // Fonction pure pour préparer les questions (hors du composant)
@@ -9,7 +9,6 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
 
   // 1. Filtrage Principal
   if (category !== 'mix') {
-    // Cas : Catégorie Spécifique
     filteredQuestions = questionsData.filter(q => {
       if (Array.isArray(q.category)) {
         return q.category.some(c => c.toLowerCase() === category.toLowerCase());
@@ -20,7 +19,6 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
       return false;
     });
   } else {
-    // Cas : Tout Mélangé -> On filtre par Difficulté si demandée
     if (difficulty !== 'mix') {
       const difficultyMap = {
         'easy': ['facile', 'easy'],
@@ -38,13 +36,12 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
     }
   }
 
-  // Sécurité
   if (filteredQuestions.length === 0) {
     console.warn(`Aucune question trouvée. Fallback sur toutes les questions.`);
     filteredQuestions = questionsData;
   }
 
-  // 2. Exclusion (seulement en mode 10 questions pour éviter de vider le stock)
+  // 2. Exclusion
   if (mode === 'quick' && excludeList.length > 0) {
     const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
     if (questionsNotPlayedYet.length >= 10) {
@@ -58,7 +55,6 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
 };
 
 const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onReplay }) => {
-  // Initialisation lazy
   const [questions] = useState(() => prepareQuestions(category, difficulty, mode, excludeQuestions));
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -66,7 +62,9 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
   const [gameOver, setGameOver] = useState(false);
   const [userAnswer, setUserAnswer] = useState(null);
   
-  // On initialise les réponses mélangées directement avec la première question
+  const TIME_PER_QUESTION = 15;
+  const [timeLeft, setTimeLeft] = useState(TIME_PER_QUESTION);
+
   const [shuffledAnswers, setShuffledAnswers] = useState(() => {
     if (questions.length > 0) {
       const q = questions[0];
@@ -75,17 +73,51 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     return [];
   });
 
-  const nextQuestion = (nextIndex) => {
+  const nextQuestion = useCallback((nextIndex) => {
     if (nextIndex < questions.length) {
       setCurrentQuestionIndex(nextIndex);
       setUserAnswer(null);
-      // Mélanger les réponses de la nouvelle question
+      setTimeLeft(TIME_PER_QUESTION);
       const nextQ = questions[nextIndex];
       setShuffledAnswers([...nextQ.incorrectAnswers, nextQ.correctAnswer].sort(() => 0.5 - Math.random()));
     } else {
       setGameOver(true);
     }
-  };
+  }, [questions]);
+
+  // Gestion unique du Chrono et du Timeout
+  useEffect(() => {
+    if (gameOver || userAnswer) return;
+
+    const timerId = setInterval(() => {
+      setTimeLeft((prevTime) => {
+        if (prevTime <= 1) {
+          clearInterval(timerId);
+          // On déclenche le timeout ici, mais on doit s'assurer de ne pas créer de boucle
+          // Pour éviter les soucis, on utilise un setTimeout externe pour sortir du cycle de rendu actuel
+          setTimeout(() => {
+             setUserAnswer((prev) => {
+                 if (!prev) { // Seulement si pas déjà répondu
+                     return { selected: null, isCorrect: false, timeOut: true };
+                 }
+                 return prev;
+             });
+             setTimeout(() => {
+               // On utilise une fonction de mise à jour pour nextQuestion ou on l'appelle directement
+               // car on est dans un timeout, donc safe
+               if (currentQuestionIndex < questions.length) { // Check safe
+                   nextQuestion(currentQuestionIndex + 1);
+               }
+             }, 2000);
+          }, 0);
+          return 0;
+        }
+        return prevTime - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(timerId);
+  }, [gameOver, userAnswer, currentQuestionIndex, questions.length, nextQuestion]); // Dépendances mises à jour
 
   const handleAnswerClick = (answer) => {
     if (userAnswer) return;
@@ -109,6 +141,12 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     nextQuestion(currentQuestionIndex + 1);
   };
 
+  const getTimerColor = () => {
+    if (timeLeft > 10) return '#00e676';
+    if (timeLeft > 5) return '#ffea00';
+    return '#ff1744';
+  };
+
   if (questions.length === 0) return <div>Erreur : Pas de questions trouvées.</div>;
 
   if (gameOver) {
@@ -126,17 +164,21 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
   }
 
   const currentQ = questions[currentQuestionIndex];
-  const progressPercent = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   return (
     <div className="card quiz-container">
-      {/* Barre de progression */}
       <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${progressPercent}%` }}></div>
+        <div 
+          className="progress-bar" 
+          style={{ width: `${((currentQuestionIndex + 1) / questions.length) * 100}%` }}
+        ></div>
       </div>
 
       <div className="stats-bar">
         <span>⚽ Question {currentQuestionIndex + 1}/{questions.length}</span>
+        <span style={{ color: getTimerColor(), fontSize: '1.4rem' }}>
+          ⏱️ {timeLeft}s
+        </span>
         <span>🏆 Score: {score}</span>
       </div>
       
@@ -145,9 +187,14 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
       <div className="answers-grid">
         {shuffledAnswers.map((answer, index) => {
           let className = "answer-btn";
+          
           if (userAnswer) {
-            if (answer === currentQ.correctAnswer) className += " correct";
-            else if (answer === userAnswer.selected) className += " wrong";
+            if (answer === currentQ.correctAnswer) {
+              className += " correct";
+            }
+            else if (answer === userAnswer.selected) {
+              className += " wrong";
+            }
           }
           
           return (
