@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
+import confetti from 'canvas-confetti';
 import questionsData from './questions.json';
 
-// Fonction pure pour préparer les questions (hors du composant)
+// Fonction pure pour préparer les questions
 const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
   const shuffleArray = (array) => [...array].sort(() => 0.5 - Math.random());
 
   let filteredQuestions = questionsData;
 
-  // 1. Filtrage Principal
   if (category !== 'mix') {
     filteredQuestions = questionsData.filter(q => {
       if (Array.isArray(q.category)) {
@@ -41,7 +41,6 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
     filteredQuestions = questionsData;
   }
 
-  // 2. Exclusion
   if (mode === 'quick' && excludeList.length > 0) {
     const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
     if (questionsNotPlayedYet.length >= 10) {
@@ -49,7 +48,6 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
     }
   }
 
-  // 3. Mélange et Coupe
   const shuffled = shuffleArray(filteredQuestions);
   return mode === 'quick' ? shuffled.slice(0, 10) : shuffled;
 };
@@ -85,7 +83,7 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     }
   }, [questions]);
 
-  // Gestion unique du Chrono et du Timeout
+  // Gestion Chrono
   useEffect(() => {
     if (gameOver || userAnswer) return;
 
@@ -93,19 +91,13 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
       setTimeLeft((prevTime) => {
         if (prevTime <= 1) {
           clearInterval(timerId);
-          // On déclenche le timeout ici, mais on doit s'assurer de ne pas créer de boucle
-          // Pour éviter les soucis, on utilise un setTimeout externe pour sortir du cycle de rendu actuel
           setTimeout(() => {
              setUserAnswer((prev) => {
-                 if (!prev) { // Seulement si pas déjà répondu
-                     return { selected: null, isCorrect: false, timeOut: true };
-                 }
+                 if (!prev) return { selected: null, isCorrect: false, timeOut: true };
                  return prev;
              });
              setTimeout(() => {
-               // On utilise une fonction de mise à jour pour nextQuestion ou on l'appelle directement
-               // car on est dans un timeout, donc safe
-               if (currentQuestionIndex < questions.length) { // Check safe
+               if (currentQuestionIndex < questions.length) { 
                    nextQuestion(currentQuestionIndex + 1);
                }
              }, 2000);
@@ -117,7 +109,7 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     }, 1000);
 
     return () => clearInterval(timerId);
-  }, [gameOver, userAnswer, currentQuestionIndex, questions.length, nextQuestion]); // Dépendances mises à jour
+  }, [gameOver, userAnswer, currentQuestionIndex, questions.length, nextQuestion]);
 
   const handleAnswerClick = (answer) => {
     if (userAnswer) return;
@@ -146,6 +138,30 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     if (timeLeft > 5) return '#ffea00';
     return '#ff1744';
   };
+
+  // Déclencher les confettis en cas de score parfait
+  useEffect(() => {
+    if (gameOver && score === questions.length && questions.length > 0) {
+      const duration = 3 * 1000;
+      const animationEnd = Date.now() + duration;
+      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+      const randomInRange = (min, max) => Math.random() * (max - min) + min;
+
+      const interval = setInterval(function() {
+        const timeLeft = animationEnd - Date.now();
+
+        if (timeLeft <= 0) {
+          return clearInterval(interval);
+        }
+
+        const particleCount = 50 * (timeLeft / duration);
+        // On lance de deux côtés
+        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
+        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
+      }, 250);
+    }
+  }, [gameOver, score, questions.length]);
 
   if (questions.length === 0) return <div>Erreur : Pas de questions trouvées.</div>;
 
