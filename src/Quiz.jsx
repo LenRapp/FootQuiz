@@ -112,12 +112,18 @@ const Quiz = ({ onBackToMenu, difficulty, excludeQuestions, onReplay }) => {
   }
 
   const currentQ = questions[currentQuestionIndex];
+  const progressPercent = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   return (
     <div className="card quiz-container">
+      {/* Barre de progression */}
+      <div className="progress-container">
+        <div className="progress-bar" style={{ width: `${progressPercent}%` }}></div>
+      </div>
+
       <div className="stats-bar">
-        <span>Question <strong>{currentQuestionIndex + 1}/{questions.length}</strong></span>
-        <span>Score: <strong>{score}</strong></span>
+        <span>⚽ Question {currentQuestionIndex + 1}/{questions.length}</span>
+        <span>🏆 Score: {score}</span>
       </div>
       
       <h2 className="question-text">{currentQ.question}</h2>
