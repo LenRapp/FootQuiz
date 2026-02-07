@@ -669,7 +669,7 @@
     "correctAnswer": "Glasgow Rangers",
     "incorrectAnswers": ["Aberdeen", "Hearts", "Hibernian"],
     "difficulty": "difficile",
-    "category": ["Club", "Rivalité"]
+    "category": ["Club"]
   },
   {
     "question": "Quel joueur est surnommé 'Le Major Galopant' ?",
@@ -746,7 +746,7 @@
     "correctAnswer": "Roberto Carlos",
     "incorrectAnswers": ["Juninho Pernambucano", "Ronaldinho", "Adriano"],
     "difficulty": "facile",
-    "category": ["Joueur", "Style"]
+    "category": ["Joueur"]
   },
   {
     "question": "Quelle nation a remporté la Copa América 2024 ?",
@@ -872,7 +872,7 @@
     "correctAnswer": "Madrid",
     "incorrectAnswers": ["Berlin", "Rome", "Paris"],
     "difficulty": "moyen",
-    "category": ["Euro", "Géographie"]
+    "category": ["Euro"]
   },
   {
     "question": "Quel joueur est surnommé 'O Rei' ?",
@@ -1208,7 +1208,7 @@
     "correctAnswer": "Pays-Bas",
     "incorrectAnswers": ["Belgique", "Danemark", "Luxembourg"],
     "difficulty": "facile",
-    "category": ["Club", "Géographie"]
+    "category": ["Club"]
   },
   {
     "question": "Quel joueur a marqué le but de la victoire en finale de la CDM 2014 ?",
@@ -2622,7 +2622,7 @@
     "correctAnswer": "31 - 0",
     "incorrectAnswers": ["25 - 0", "20 - 0", "15 - 0"],
     "difficulty": "moyen",
-    "category": ["Sélection", "Score", "Insolite"]
+    "category": ["Sélection", "Score"]
   },
   {
     "question": "Quel club détient le record de victoires consécutives en Bundesliga ?",
@@ -3567,7 +3567,7 @@
     "correctAnswer": "PSG",
     "incorrectAnswers": ["Rapid Vienne", "Barcelone", "Parme"],
     "difficulty": "moyen",
-    "category": ["Europe", "Ligue 1"]
+    "category": ["Ligue 1"]
   },
   {
     "question": "Quel est le score de la finale de la Coupe du Monde 1982 ?",
@@ -3673,5 +3673,145 @@
     "incorrectAnswers": ["Marseille", "Newcastle", "Villarreal"],
     "difficulty": "difficile",
     "category": ["Europa League"]
+  },
+  {
+    "question": "Quel club détient le record de victoires en Ligue Europa / Coupe UEFA ?",
+    "correctAnswer": "FC Séville",
+    "incorrectAnswers": ["Inter Milan", "Liverpool", "Juventus"],
+    "difficulty": "moyen",
+    "category": ["Europa League", "Record"]
+  },
+  {
+    "question": "Quel entraîneur a remporté la Ligue Europa 4 fois (record) ?",
+    "correctAnswer": "Unai Emery",
+    "incorrectAnswers": ["José Mourinho", "Diego Simeone", "Rafael Benítez"],
+    "difficulty": "difficile",
+    "category": ["Europa League", "Coach"]
+  },
+  {
+    "question": "Quel joueur détient le record de buts sur une seule saison de C3 (17 buts) ?",
+    "correctAnswer": "Radamel Falcao",
+    "incorrectAnswers": ["Cristiano Ronaldo", "Romelu Lukaku", "Henrik Larsson"],
+    "difficulty": "difficile",
+    "category": ["Europa League", "Record"]
+  },
+  {
+    "question": "Quel club a remporté la finale épique de 2001 sur le score de 5-4 ?",
+    "correctAnswer": "Liverpool",
+    "incorrectAnswers": ["Deportivo Alavés", "Valence CF", "Borussia Dortmund"],
+    "difficulty": "moyen",
+    "category": ["Europa League", "Histoire"]
+  },
+  {
+    "question": "Quel club a remporté la première édition sous le nom 'Europa League' en 2010 ?",
+    "correctAnswer": "Atlético de Madrid",
+    "incorrectAnswers": ["Fulham", "Hambourg SV", "Liverpool"],
+    "difficulty": "moyen",
+    "category": ["Europa League", "Histoire"]
+  },
+  {
+    "question": "Quel club français a atteint la finale de la Ligue Europa en 2018 ?",
+    "correctAnswer": "Olympique de Marseille",
+    "incorrectAnswers": ["Olympique Lyonnais", "Paris Saint-Germain", "Stade Rennais"],
+    "difficulty": "facile",
+    "category": ["Europa League", "Ligue 1"]
+  },
+  {
+    "question": "Quel club a battu Manchester United en finale 2021 après une séance de tirs au but interminable (11-10) ?",
+    "correctAnswer": "Villarreal",
+    "incorrectAnswers": ["Chelsea", "Arsenal", "AS Rome"],
+    "difficulty": "moyen",
+    "category": ["Europa League", "Histoire"]
+  },
+  {
+    "question": "Quel est le score de la finale 2019 entre Chelsea et Arsenal ?",
+    "correctAnswer": "4 - 1",
+    "incorrectAnswers": ["2 - 0", "3 - 1", "1 - 0"],
+    "difficulty": "moyen",
+    "category": ["Europa League", "Score"]
+  },
+  {
+    "question": "Quel club portugais a perdu deux finales consécutives en 2013 et 2014 ?",
+    "correctAnswer": "Benfica",
+    "incorrectAnswers": ["FC Porto", "Sporting CP", "Sporting Braga"],
+    "difficulty": "difficile",
+    "category": ["Europa League", "Anecdote"]
+  },
+  {
+    "question": "Quel club ukrainien a remporté la dernière édition sous le nom 'Coupe UEFA' en 2009 ?",
+    "correctAnswer": "Shakhtar Donetsk",
+    "incorrectAnswers": ["Dynamo Kiev", "Dnipro", "Zénith Saint-Pétersbourg"],
+    "difficulty": "difficile",
+    "category": ["Europa League", "Histoire"]
+  },
+  {
+    "question": "Quelle est la distance réglementaire du point de penalty par rapport au but ?",
+    "correctAnswer": "11 mètres",
+    "incorrectAnswers": ["9 mètres", "10 mètres", "12 mètres"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Combien de remplacements sont autorisés par équipe dans un match standard (règle actuelle) ?",
+    "correctAnswer": "5",
+    "incorrectAnswers": ["3", "4", "6"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Quelle sanction reçoit un joueur qui enlève son maillot pour célébrer un but ?",
+    "correctAnswer": "Carton jaune",
+    "incorrectAnswers": ["Carton rouge", "Avertissement verbal", "Rien"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Quel est le nombre minimum de joueurs requis dans une équipe pour commencer ou continuer un match ?",
+    "correctAnswer": "7",
+    "incorrectAnswers": ["8", "9", "11"],
+    "difficulty": "moyen",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Peut-on être signalé hors-jeu sur une remise en jeu (touche) ?",
+    "correctAnswer": "Non",
+    "incorrectAnswers": ["Oui", "Seulement en attaque", "À l'appréciation de l'arbitre"],
+    "difficulty": "moyen",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Quelle est la durée réglementaire de la mi-temps ?",
+    "correctAnswer": "15 minutes",
+    "incorrectAnswers": ["10 minutes", "20 minutes", "5 minutes"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Peut-on marquer un but directement sur un coup de pied de but (6 mètres) ?",
+    "correctAnswer": "Oui",
+    "incorrectAnswers": ["Non", "Seulement contre son camp", "Si le ballon est touché"],
+    "difficulty": "difficile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Que signifie l'acronyme VAR ?",
+    "correctAnswer": "Video Assistant Referee",
+    "incorrectAnswers": ["Video Action Replay", "Video Arbitrage Rule", "Vision Area Reality"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Quelle partie du corps est strictement interdite pour contrôler le ballon (joueur de champ) ?",
+    "correctAnswer": "Bras / Main",
+    "incorrectAnswers": ["Épaule", "Poitrine", "Hanche"],
+    "difficulty": "facile",
+    "category": ["Règle"]
+  },
+  {
+    "question": "Quelle est la distance minimale que doit respecter le mur sur un coup franc ?",
+    "correctAnswer": "9,15 mètres",
+    "incorrectAnswers": ["10 mètres", "8 mètres", "11 mètres"],
+    "difficulty": "moyen",
+    "category": ["Règle"]
   }
 ]

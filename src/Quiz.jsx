@@ -2,14 +2,14 @@ import { useState } from 'react';
 import questionsData from './questions.json';
 
 // Fonction pure pour préparer les questions (hors du composant)
-const prepareQuestions = (category, difficulty, excludeList = []) => {
+const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
   const shuffleArray = (array) => [...array].sort(() => 0.5 - Math.random());
 
   let filteredQuestions = questionsData;
 
   // 1. Filtrage Principal
   if (category !== 'mix') {
-    // Cas : Catégorie Spécifique (LDC, Ballon d'Or...) -> On prend tout de cette catégorie
+    // Cas : Catégorie Spécifique
     filteredQuestions = questionsData.filter(q => {
       if (Array.isArray(q.category)) {
         return q.category.some(c => c.toLowerCase() === category.toLowerCase());
@@ -33,32 +33,33 @@ const prepareQuestions = (category, difficulty, excludeList = []) => {
         if (q.difficulty) {
           return validTags.includes(q.difficulty.toLowerCase());
         }
-        return difficulty === 'medium'; // Fallback
+        return difficulty === 'medium';
       });
     }
   }
 
-  // Sécurité si pas assez de questions
-  if (filteredQuestions.length < 5) {
-    console.warn(`Pas assez de questions trouvées. Fallback sur toutes les questions.`);
+  // Sécurité
+  if (filteredQuestions.length === 0) {
+    console.warn(`Aucune question trouvée. Fallback sur toutes les questions.`);
     filteredQuestions = questionsData;
   }
 
-  // 2. Exclusion des questions précédentes
-  if (excludeList.length > 0) {
+  // 2. Exclusion (seulement en mode 10 questions pour éviter de vider le stock)
+  if (mode === 'quick' && excludeList.length > 0) {
     const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
     if (questionsNotPlayedYet.length >= 10) {
       filteredQuestions = questionsNotPlayedYet;
     }
   }
 
-  // 3. Mélange final
-  return shuffleArray(filteredQuestions).slice(0, 10);
+  // 3. Mélange et Coupe
+  const shuffled = shuffleArray(filteredQuestions);
+  return mode === 'quick' ? shuffled.slice(0, 10) : shuffled;
 };
 
-const Quiz = ({ onBackToMenu, category, difficulty, excludeQuestions, onReplay }) => {
+const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onReplay }) => {
   // Initialisation lazy
-  const [questions] = useState(() => prepareQuestions(category, difficulty, excludeQuestions));
+  const [questions] = useState(() => prepareQuestions(category, difficulty, mode, excludeQuestions));
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);

@@ -47,7 +47,7 @@ body {
   position: fixed;
   inset: 0;
   overflow: hidden;
-  z-index: -1;
+  z-index: 0; /* Devant le fond mais derrière le contenu */
   pointer-events: none;
 }
 
@@ -55,10 +55,22 @@ body {
   position: absolute;
   bottom: -150px;
   font-size: 3rem;
-  opacity: 0.4;
+  opacity: 0;
   animation: floatUp 15s linear infinite;
   filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
 }
+
+/* Positions et délais variés pour chaque ballon */
+.background-balls span:nth-child(1) { left: 10%; animation-delay: 0s; animation-duration: 12s; font-size: 4rem; }
+.background-balls span:nth-child(2) { left: 20%; animation-delay: 2s; animation-duration: 15s; font-size: 2rem; }
+.background-balls span:nth-child(3) { left: 35%; animation-delay: 4s; animation-duration: 10s; font-size: 3rem; }
+.background-balls span:nth-child(4) { left: 50%; animation-delay: 0s; animation-duration: 18s; font-size: 2.5rem; }
+.background-balls span:nth-child(5) { left: 65%; animation-delay: 6s; animation-duration: 14s; font-size: 1.5rem; }
+.background-balls span:nth-child(6) { left: 75%; animation-delay: 3s; animation-duration: 20s; font-size: 5rem; }
+.background-balls span:nth-child(7) { left: 85%; animation-delay: 7s; animation-duration: 13s; font-size: 3.5rem; }
+.background-balls span:nth-child(8) { left: 5%; animation-delay: 5s; animation-duration: 16s; font-size: 2rem; }
+.background-balls span:nth-child(9) { left: 92%; animation-delay: 1s; animation-duration: 11s; font-size: 4.5rem; }
+.background-balls span:nth-child(10) { left: 45%; animation-delay: 8s; animation-duration: 19s; font-size: 2.8rem; }
 
 @keyframes floatUp {
   0% { transform: translateY(0) rotate(0deg); opacity: 0; }
@@ -72,6 +84,8 @@ body {
   width: 100%;
   max-width: 900px;
   perspective: 1000px;
+  position: relative;
+  z-index: 10; /* Toujours au-dessus des ballons */
 }
 
 .card {
