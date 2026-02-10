@@ -1,20 +1,23 @@
 import { useState, useMemo } from 'react'
 import './App.css'
+import './Duel.css'
 import Quiz from './Quiz'
+import DuelQuiz from './DuelQuiz'
 import questionsData from './questions.json'
 
 function App() {
-  const [gameStarted, setGameStarted] = useState(false);
-  const [showDifficultySelect, setShowDifficultySelect] = useState(false);
-  const [showQuantitySelect, setShowQuantitySelect] = useState(false);
+  // Navigation States
+  const [currentScreen, setCurrentScreen] = useState('menu'); // 'menu', 'theme', 'difficulty', 'quantity', 'game'
+  const [gameMode, setGameMode] = useState('solo'); // 'solo' ou 'duel'
   
+  // Game Config States
   const [category, setCategory] = useState('mix');
   const [difficulty, setDifficulty] = useState('mix');
-  const [gameMode, setGameMode] = useState('quick'); // 'quick' (10) ou 'all'
+  const [matchType, setMatchType] = useState('quick'); // 'quick', 'all', 'survival'
   const [gameId, setGameId] = useState(0); 
   const [lastPlayedQuestions, setLastPlayedQuestions] = useState([]);
 
-  // Extraire toutes les catégories et compter les questions
+  // Extraire toutes les catégories
   const categoryStats = useMemo(() => {
     const counts = {};
     questionsData.forEach(q => {
@@ -40,75 +43,109 @@ function App() {
     return `hsl(${h}, 70%, 60%)`; 
   };
 
-  // Étape 1 : Choix de la catégorie
-  const chooseCategory = (cat, count) => {
+  // --- ACTIONS NAVIGATION ---
+
+  const selectGameMode = (mode) => {
+    setGameMode(mode);
+    setCurrentScreen('theme');
+  };
+
+  const selectTheme = (cat, count) => {
     setCategory(cat);
     
+    // Si DUEL -> On lance direct (ou on pourrait demander la quantité, mais restons simple : 10 questions)
+    if (gameMode === 'duel') {
+      launchGame();
+      return;
+    }
+
+    // Si SOLO
     if (cat === 'mix') {
-      setShowDifficultySelect(true);
+      setCurrentScreen('difficulty');
     } else {
-      // Si la catégorie a moins de 10 questions, on force le mode 'all' et on lance
+      // Si moins de 10 questions, on lance tout direct
       if (count < 10) {
-        launchGame('mix', 'all');
-      } else {
-        // Sinon on demande la quantité, avec difficulté 'mix' par défaut
         setDifficulty('mix');
-        setShowQuantitySelect(true);
+        setMatchType('all');
+        launchGame();
+      } else {
+        setDifficulty('mix');
+        setCurrentScreen('quantity');
       }
     }
   };
 
-  // Étape 2 : Choix de la difficulté (seulement pour Mix)
-  const chooseDifficulty = (diff) => {
+  const selectDifficulty = (diff) => {
     setDifficulty(diff);
-    setShowDifficultySelect(false);
-    setShowQuantitySelect(true);
+    setCurrentScreen('quantity');
   };
 
-  // Étape 3 (Finale) : Choix de la quantité et Lancement
-  const launchGame = (diff, mode) => {
-    if (diff) setDifficulty(diff); // Sécurité
-    setGameMode(mode);
+  const selectQuantity = (type) => {
+    setMatchType(type);
+    launchGame();
+  };
+
+  const launchGame = () => {
     setGameId(prev => prev + 1);
     setLastPlayedQuestions([]);
-    
-    setShowDifficultySelect(false);
-    setShowQuantitySelect(false);
-    setGameStarted(true);
+    setCurrentScreen('game');
   };
 
   const replayGame = (questionsPlayed) => {
-    if (questionsPlayed && gameMode === 'quick') {
+    if (gameMode === 'solo' && matchType === 'quick' && questionsPlayed) {
       setLastPlayedQuestions(questionsPlayed.map(q => q.question));
     }
     setGameId(prev => prev + 1);
   };
 
   const backToMenu = () => {
-    setGameStarted(false);
-    setShowDifficultySelect(false);
-    setShowQuantitySelect(false);
+    setCurrentScreen('menu');
     setCategory('mix');
+    setDifficulty('mix');
+  };
+
+  const backStep = () => {
+    if (currentScreen === 'quantity' && category === 'mix') setCurrentScreen('difficulty');
+    else if (currentScreen === 'quantity') setCurrentScreen('theme');
+    else if (currentScreen === 'difficulty') setCurrentScreen('theme');
+    else if (currentScreen === 'theme') setCurrentScreen('menu');
+    else backToMenu();
   };
 
   return (
     <div className="app-container">
-      {/* Background Balls */}
       <div className="background-balls">
         <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
         <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
       </div>
 
-      {!gameStarted ? (
+      {currentScreen !== 'game' ? (
         <div className="card home-card">
           <h1>Foot<span>Quiz</span> ⚽</h1>
           
-          {/* ÉCRAN 1 : CHOIX DU THÈME */}
-          {!showDifficultySelect && !showQuantitySelect && (
+          {/* ECRAN 1 : MENU PRINCIPAL (CHOIX DU MODE) */}
+          {currentScreen === 'menu' && (
             <>
-              <p>Choisis ton thème de prédilection :</p>
+              <p>Choisis ton mode de jeu :</p>
+              <div className="difficulty-grid">
+                <button className="diff-btn" style={{borderBottomColor: '#00e676'}} onClick={() => selectGameMode('solo')}>
+                  👤 SOLO
+                  <span>(Carrière)</span>
+                </button>
+                <button className="diff-btn" style={{borderBottomColor: '#ff1744'}} onClick={() => selectGameMode('duel')}>
+                  ⚔️ DUEL 1v1
+                  <span>(Même écran)</span>
+                </button>
+              </div>
+            </>
+          )}
+
+          {/* ECRAN 2 : CHOIX DU THÈME */}
+          {currentScreen === 'theme' && (
+            <>
+              <p>Choisis le thème du match :</p>
               <div className="difficulty-grid categories-scroll">
-                <button className="diff-btn mix" onClick={() => chooseCategory('mix', 500)}>
+                <button className="diff-btn mix" onClick={() => selectTheme('mix', 500)}>
                   🌍 Tout Mélangé
                   <span>(Général)</span>
                 </button>
@@ -117,67 +154,82 @@ function App() {
                     key={cat.name} 
                     className="diff-btn" 
                     style={{ borderBottomColor: getCategoryColor(cat.name) }}
-                    onClick={() => chooseCategory(cat.name, cat.count)}
+                    onClick={() => selectTheme(cat.name, cat.count)}
                   >
                     {cat.name}
                     <span>({cat.count})</span>
                   </button>
                 ))}
               </div>
+              <button className="skip-btn" onClick={backStep}>Retour</button>
             </>
           )}
 
-          {/* ÉCRAN 2 : CHOIX DIFFICULTÉ (Seulement pour Mix) */}
-          {showDifficultySelect && (
+          {/* ECRAN 3 : DIFFICULTÉ (Solo Mix seulement) */}
+          {currentScreen === 'difficulty' && (
             <>
               <p>Quel niveau pour ce match ?</p>
               <div className="difficulty-grid">
-                <button className="diff-btn easy" onClick={() => chooseDifficulty('easy')}>
+                <button className="diff-btn easy" onClick={() => selectDifficulty('easy')}>
                   Échauffement <span>(Facile)</span>
                 </button>
-                <button className="diff-btn medium" onClick={() => chooseDifficulty('medium')}>
+                <button className="diff-btn medium" onClick={() => selectDifficulty('medium')}>
                   Pro <span>(Moyen)</span>
                 </button>
-                <button className="diff-btn hard" onClick={() => chooseDifficulty('hard')}>
+                <button className="diff-btn hard" onClick={() => selectDifficulty('hard')}>
                   Légende <span>(Difficile)</span>
                 </button>
-                <button className="diff-btn mix" onClick={() => chooseDifficulty('mix')}>
+                <button className="diff-btn mix" onClick={() => selectDifficulty('mix')}>
                   Match Amical <span>(Aléatoire)</span>
                 </button>
               </div>
-              <button className="skip-btn" onClick={backToMenu}>Retour</button>
+              <button className="skip-btn" onClick={backStep}>Retour</button>
             </>
           )}
 
-          {/* ÉCRAN 3 : CHOIX QUANTITÉ */}
-          {showQuantitySelect && (
+          {/* ECRAN 4 : QUANTITÉ / TYPE (Solo seulement) */}
+          {currentScreen === 'quantity' && (
             <>
-              <p>Durée du match ?</p>
+              <p>Type de match ?</p>
               <div className="difficulty-grid">
-                <button className="diff-btn" style={{borderBottomColor: '#00e676'}} onClick={() => launchGame(null, 'quick')}>
+                <button className="diff-btn" style={{borderBottomColor: '#00e676'}} onClick={() => selectQuantity('quick')}>
                   ⚡ Match Rapide
                   <span>(10 questions)</span>
                 </button>
-                <button className="diff-btn" style={{borderBottomColor: '#ffea00'}} onClick={() => launchGame(null, 'all')}>
+                <button className="diff-btn" style={{borderBottomColor: '#ffea00'}} onClick={() => selectQuantity('all')}>
                   🏃 Marathon
                   <span>(Toutes les questions)</span>
                 </button>
+                <button className="diff-btn" style={{borderBottomColor: '#ff1744', gridColumn: 'span 2'}} onClick={() => selectQuantity('survival')}>
+                  💀 Mort Subite
+                  <span>(3 vies, survie max)</span>
+                </button>
               </div>
-              <button className="skip-btn" onClick={backToMenu}>Retour</button>
+              <button className="skip-btn" onClick={backStep}>Retour</button>
             </>
           )}
 
         </div>
       ) : (
-        <Quiz 
-          key={gameId} 
-          category={category}
-          difficulty={difficulty}
-          mode={gameMode}
-          excludeQuestions={lastPlayedQuestions} 
-          onBackToMenu={backToMenu} 
-          onReplay={replayGame}
-        />
+        /* JEU */
+        gameMode === 'duel' ? (
+          <DuelQuiz 
+            key={gameId} 
+            category={category} 
+            onBackToMenu={backToMenu} 
+            onReplay={() => selectGameMode('duel')} // Replay Duel simple
+          />
+        ) : (
+          <Quiz 
+            key={gameId} 
+            category={category}
+            difficulty={difficulty}
+            mode={matchType}
+            excludeQuestions={lastPlayedQuestions} 
+            onBackToMenu={backToMenu} 
+            onReplay={replayGame}
+          />
+        )
       )}
     </div>
   )

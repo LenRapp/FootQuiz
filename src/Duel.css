@@ -1,0 +1,112 @@
+/* --- DUEL MODE (Turn by Turn) --- */
+
+/* Carte de Transition */
+.switch-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-avatar {
+  font-size: 5rem;
+  margin: 2rem 0;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Header du Duel */
+.duel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.badge.active {
+  opacity: 1;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px currentColor;
+}
+
+.badge.p1 { color: #00e676; border: 2px solid #00e676; }
+.badge.p2 { color: #ff1744; border: 2px solid #ff1744; }
+
+.turn-indicator {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
+
+.turn-indicator strong {
+  color: var(--primary);
+  font-size: 1.3rem;
+}
+
+.player-2 .turn-indicator strong {
+  color: var(--danger);
+}
+
+.round-info {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* Couleur d'ambiance selon le joueur */
+.player-1 {
+  border-top: 8px solid #00e676 !important;
+  box-shadow: 0 0 20px rgba(0, 230, 118, 0.2) !important;
+}
+.player-2 {
+  border-top: 8px solid #ff1744 !important;
+  box-shadow: 0 0 20px rgba(255, 23, 68, 0.2) !important;
+}
+
+/* Score Final Duel */
+.duel-final-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.p-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-score span { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.p-score strong { font-size: 3rem; }
+
+.vs {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--text-dim);
+}
+
+.winner-text {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}

@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import confetti from 'canvas-confetti';
 import questionsData from './questions.json';
+import confetti from 'canvas-confetti'; // Import confetti
 
 // Fonction pure pour préparer les questions
 const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
@@ -41,6 +41,7 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
     filteredQuestions = questionsData;
   }
 
+  // En mode Survie ou Marathon, on ne filtre pas les exclusions (on veut tout le contenu)
   if (mode === 'quick' && excludeList.length > 0) {
     const questionsNotPlayedYet = filteredQuestions.filter(q => !excludeList.includes(q.question));
     if (questionsNotPlayedYet.length >= 10) {
@@ -59,6 +60,7 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [userAnswer, setUserAnswer] = useState(null);
+  const [lives, setLives] = useState(3);
   
   const TIME_PER_QUESTION = 15;
   const [timeLeft, setTimeLeft] = useState(TIME_PER_QUESTION);
@@ -72,6 +74,12 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
   });
 
   const nextQuestion = useCallback((nextIndex) => {
+    // Vérification Game Over par vies (Mode Survie)
+    if (mode === 'survival' && lives <= 0) {
+      setGameOver(true);
+      return;
+    }
+
     if (nextIndex < questions.length) {
       setCurrentQuestionIndex(nextIndex);
       setUserAnswer(null);
@@ -81,7 +89,7 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     } else {
       setGameOver(true);
     }
-  }, [questions]);
+  }, [questions, mode, lives]);
 
   // Gestion Chrono
   useEffect(() => {
@@ -92,12 +100,23 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
         if (prevTime <= 1) {
           clearInterval(timerId);
           setTimeout(() => {
+             // Timeout = Perte de vie en mode survie
+             if (mode === 'survival') {
+               setLives(prev => prev - 1);
+             }
+             
              setUserAnswer((prev) => {
                  if (!prev) return { selected: null, isCorrect: false, timeOut: true };
                  return prev;
              });
+             
              setTimeout(() => {
-               if (currentQuestionIndex < questions.length) { 
+               // Vérification manuelle si mort pour l'affichage immédiat
+               // On utilise une closure pour capturer la valeur à jour si possible ou on se base sur la logique
+               // Ici nextQuestion gérera la fin si lives <= 0
+               if (mode === 'survival' && lives - 1 <= 0) {
+                 setGameOver(true);
+               } else if (currentQuestionIndex < questions.length) { 
                    nextQuestion(currentQuestionIndex + 1);
                }
              }, 2000);
@@ -109,7 +128,29 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     }, 1000);
 
     return () => clearInterval(timerId);
-  }, [gameOver, userAnswer, currentQuestionIndex, questions.length, nextQuestion]);
+  }, [gameOver, userAnswer, currentQuestionIndex, questions.length, nextQuestion, mode, lives]);
+
+  // Confettis en cas de victoire parfaite
+  useEffect(() => {
+    // Score parfait en mode non-survie OU gros score en survie (ex: > 10)
+    const isPerfect = (mode !== 'survival' && score === questions.length);
+    const isGoodSurvival = (mode === 'survival' && score > 10); // Exemple de seuil
+
+    if (gameOver && (isPerfect || isGoodSurvival) && questions.length > 0) {
+      const duration = 3 * 1000;
+      const animationEnd = Date.now() + duration;
+      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+      const randomInRange = (min, max) => Math.random() * (max - min) + min;
+
+      const interval = setInterval(function() {
+        const timeLeft = animationEnd - Date.now();
+        if (timeLeft <= 0) return clearInterval(interval);
+        const particleCount = 50 * (timeLeft / duration);
+        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
+        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
+      }, 250);
+    }
+  }, [gameOver, score, questions.length, mode]);
 
   const handleAnswerClick = (answer) => {
     if (userAnswer) return;
@@ -121,15 +162,25 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
 
     if (isCorrect) {
       setScore(prev => prev + 1);
+    } else {
+      if (mode === 'survival') {
+        setLives(prev => prev - 1);
+      }
     }
 
     setTimeout(() => {
-      nextQuestion(currentQuestionIndex + 1);
+      // Check immédiat de la mort
+      if (mode === 'survival' && !isCorrect && lives - 1 <= 0) {
+        setGameOver(true);
+      } else {
+        nextQuestion(currentQuestionIndex + 1);
+      }
     }, 1500);
   };
 
   const handleSkip = () => {
     if (userAnswer) return;
+    // En survie, skipper pourrait être gratuit ou coûter une vie. Ici gratuit.
     nextQuestion(currentQuestionIndex + 1);
   };
 
@@ -139,38 +190,14 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
     return '#ff1744';
   };
 
-  // Déclencher les confettis en cas de score parfait
-  useEffect(() => {
-    if (gameOver && score === questions.length && questions.length > 0) {
-      const duration = 3 * 1000;
-      const animationEnd = Date.now() + duration;
-      const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
-
-      const randomInRange = (min, max) => Math.random() * (max - min) + min;
-
-      const interval = setInterval(function() {
-        const timeLeft = animationEnd - Date.now();
-
-        if (timeLeft <= 0) {
-          return clearInterval(interval);
-        }
-
-        const particleCount = 50 * (timeLeft / duration);
-        // On lance de deux côtés
-        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
-        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
-      }, 250);
-    }
-  }, [gameOver, score, questions.length]);
-
   if (questions.length === 0) return <div>Erreur : Pas de questions trouvées.</div>;
 
   if (gameOver) {
     return (
       <div className="card game-over">
-        <h2>Fin du match ! 🏁</h2>
-        <div className="score-display">{score} / {questions.length}</div>
-        <p>Bien joué champion !</p>
+        <h2>{mode === 'survival' && lives <= 0 ? "Carton Rouge ! 🟥" : "Fin du match ! 🏁"}</h2>
+        <div className="score-display">{score} {mode === 'survival' ? 'pts' : `/ ${questions.length}`}</div>
+        <p>{mode === 'survival' ? "Tu as tout donné !" : "Bien joué champion !"}</p>
         <div>
           <button onClick={() => onReplay(questions)} className="restart-btn">Rejouer ce thème</button>
           <button onClick={onBackToMenu} className="home-btn">Changer de thème</button>
@@ -183,6 +210,8 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
 
   return (
     <div className="card quiz-container">
+      <button className="quit-btn" onClick={onBackToMenu}>✕</button>
+      
       <div className="progress-container">
         <div 
           className="progress-bar" 
@@ -191,7 +220,12 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
       </div>
 
       <div className="stats-bar">
-        <span>⚽ Question {currentQuestionIndex + 1}/{questions.length}</span>
+        {mode === 'survival' ? (
+           <span style={{color: '#ff1744'}}>Vies: {"⚽".repeat(Math.max(0, lives))}</span>
+        ) : (
+           <span>⚽ {currentQuestionIndex + 1}/{questions.length}</span>
+        )}
+        
         <span style={{ color: getTimerColor(), fontSize: '1.4rem' }}>
           ⏱️ {timeLeft}s
         </span>

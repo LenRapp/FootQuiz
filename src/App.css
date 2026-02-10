@@ -1,11 +1,43 @@
+/* --- Quit Button (Croix) --- */
+.quit-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0,0,0,0.2);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 20;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quit-btn:hover {
+  background: var(--danger);
+  transform: scale(1.1);
+}
+
+/* Ajustement pour ne pas chevaucher la barre de progression */
+.quiz-container {
+  padding-top: 3.5rem !important;
+}
+
+/* ... Reste du CSS existant ... */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
 
 :root {
-  --primary: #00e676;
+  --primary: #00e676; /* Vert Néon */
   --primary-dark: #00a152;
-  --accent: #ffea00;
-  --danger: #ff1744;
-  --info: #2196f3;
+  --accent: #ffea00; /* Jaune électrique */
+  --danger: #ff1744; /* Rouge vif */
+  --info: #2196f3; /* Bleu */
   --text-main: #ffffff;
   --text-dim: #b0bec5;
   --glass: rgba(15, 23, 42, 0.85);
@@ -47,7 +79,7 @@ body {
   position: fixed;
   inset: 0;
   overflow: hidden;
-  z-index: 0; /* Devant le fond mais derrière le contenu */
+  z-index: 0;
   pointer-events: none;
 }
 
@@ -60,7 +92,6 @@ body {
   filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
 }
 
-/* Positions et délais variés pour chaque ballon */
 .background-balls span:nth-child(1) { left: 10%; animation-delay: 0s; animation-duration: 12s; font-size: 4rem; }
 .background-balls span:nth-child(2) { left: 20%; animation-delay: 2s; animation-duration: 15s; font-size: 2rem; }
 .background-balls span:nth-child(3) { left: 35%; animation-delay: 4s; animation-duration: 10s; font-size: 3rem; }
@@ -85,7 +116,7 @@ body {
   max-width: 900px;
   perspective: 1000px;
   position: relative;
-  z-index: 10; /* Toujours au-dessus des ballons */
+  z-index: 10;
 }
 
 .card {
@@ -130,7 +161,7 @@ p {
   margin-bottom: 2rem;
 }
 
-/* --- Barre de progression --- */
+/* --- Progress Bar --- */
 .progress-container {
   position: absolute;
   top: 0;
@@ -217,7 +248,7 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s;
-  border-bottom: 4px solid transparent; /* Pour les couleurs de thèmes inline */
+  border-bottom: 4px solid transparent; 
 }
 
 .diff-btn span {

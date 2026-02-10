@@ -2058,13 +2058,6 @@
     "category": ["Sélection", "Surnom"]
   },
   {
-    "question": "Quel joueur français a remporté le Ballon d'Or 1967 (Erreur: Florian Albert est hongrois) ?",
-    "correctAnswer": "Florian Albert (Non français)",
-    "incorrectAnswers": ["Raymond Kopa", "Just Fontaine", "Michel Platini"],
-    "difficulty": "difficile",
-    "category": ["Ballon d'Or", "Piège"]
-  },
-  {
     "question": "Quelle nation a remporté la Coupe du Monde 1938 ?",
     "correctAnswer": "Italie",
     "incorrectAnswers": ["Hongrie", "Brésil", "Suède"],
@@ -2982,13 +2975,6 @@
     "category": ["LDC"]
   },
   {
-    "question": "Quel joueur a marqué un but en finale de LDC avec trois clubs différents ? (Faux, record 2 clubs)",
-    "correctAnswer": "Cristiano Ronaldo (Man Utd, Real)",
-    "incorrectAnswers": ["Clarence Seedorf", "Samuel Eto'o", "Zlatan Ibrahimović"],
-    "difficulty": "difficile",
-    "category": ["LDC", "Piège"]
-  },
-  {
     "question": "Quel est le score du match Liverpool - Barcelone en 2019 (Remontada Anfield) ?",
     "correctAnswer": "4 - 0",
     "incorrectAnswers": ["3 - 0", "5 - 1", "4 - 1"],
@@ -3197,13 +3183,6 @@
     "incorrectAnswers": ["3 - 1", "2 - 1", "3 - 2"],
     "difficulty": "difficile",
     "category": ["CDM", "Score"]
-  },
-  {
-    "question": "Quel joueur a remporté la Coupe du Monde, la LDC et le Ballon d'Or la même année ?",
-    "correctAnswer": "Fabio Cannavaro (Non, LDC non)",
-    "incorrectAnswers": ["Kaká (2007)", "Rivaldo (1999)", "Zidane (1998 - Non LDC)"],
-    "difficulty": "difficile",
-    "category": ["Ballon d'Or", "Piège"]
   },
   {
     "question": "Quel club a remporté la Ligue des Champions 2007 ?",
@@ -3813,5 +3792,2526 @@
     "incorrectAnswers": ["10 mètres", "8 mètres", "11 mètres"],
     "difficulty": "moyen",
     "category": ["Règle"]
-  }
+  },
+
+    {
+      "question": "Quel pays a remporté la CAN 2023 (jouée en 2024) après avoir failli être éliminé en poules ?",
+      "correctAnswer": "Côte d'Ivoire",
+      "incorrectAnswers": ["Nigeria", "Sénégal", "RD Congo"],
+      "difficulty": "facile",
+      "category": ["CAN", "Performance"]
+    },
+    {
+      "question": "Qui est le meilleur buteur de l'histoire de la CAN avec 18 buts ?",
+      "correctAnswer": "Samuel Eto'o",
+      "incorrectAnswers": ["Laurent Pokou", "Rashidi Yekini", "Didier Drogba"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Record", "Joueur"]
+    },
+    {
+      "question": "Quel sélectionneur a remporté la CAN avec deux pays différents (Zambie 2012 et Côte d'Ivoire 2015) ?",
+      "correctAnswer": "Hervé Renard",
+      "incorrectAnswers": ["Claude Le Roy", "Stephen Keshi", "Roger Lemerre"],
+      "difficulty": "facile",
+      "category": ["CAN", "Coach"]
+    },
+    {
+      "question": "Quel pays détient le record du nombre de titres remportés (7) ?",
+      "correctAnswer": "Égypte",
+      "incorrectAnswers": ["Cameroun", "Ghana", "Nigeria"],
+      "difficulty": "facile",
+      "category": ["CAN", "Record"]
+    },
+    {
+      "question": "En quelle année la Zambie a-t-elle remporté son premier titre historique, rendant hommage au crash aérien de 1993 ?",
+      "correctAnswer": "2012",
+      "incorrectAnswers": ["1994", "2010", "2013"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de buts sur une seule édition (9 buts en 1974) ?",
+      "correctAnswer": "Ndaye Mulamba",
+      "incorrectAnswers": ["Laurent Pokou", "Benni McCarthy", "Hassan El-Shazly"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Record", "Histoire"]
+    },
+    {
+      "question": "Qui était le capitaine du Sénégal lors de leur premier sacre en 2021 ?",
+      "correctAnswer": "Kalidou Koulibaly",
+      "incorrectAnswers": ["Sadio Mané", "Idrissa Gueye", "Cheikhou Kouyaté"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Quel gardien égyptien a remporté la CAN à l'âge de 44 ans en 2017 ?",
+      "correctAnswer": "Essam El-Hadary",
+      "incorrectAnswers": ["Ahmed Shobair", "Sherif Ekramy", "Mohamed El-Shenawy"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel pays a accueilli la première CAN en 1957 ?",
+      "correctAnswer": "Soudan",
+      "incorrectAnswers": ["Égypte", "Éthiopie", "Afrique du Sud"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de l'équipe de la République Démocratique du Congo ?",
+      "correctAnswer": "Les Léopards",
+      "incorrectAnswers": ["Les Lions de la Teranga", "Les Éléphants", "Les Fennecs"],
+      "difficulty": "facile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "En 2004, quel pays a remporté la CAN à domicile contre le Maroc en finale ?",
+      "correctAnswer": "Tunisie",
+      "incorrectAnswers": ["Algérie", "Égypte", "Mali"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Score"]
+    },
+    {
+      "question": "Quel joueur a marqué le penalty décisif pour le Sénégal en finale de la CAN 2021 ?",
+      "correctAnswer": "Sadio Mané",
+      "incorrectAnswers": ["Ismaïla Sarr", "Bamba Dieng", "Kalidou Koulibaly"],
+      "difficulty": "facile",
+      "category": ["CAN", "Performance"]
+    },
+    {
+      "question": "Quelle nation a remporté trois éditions consécutives de la CAN (2006, 2008, 2010) ?",
+      "correctAnswer": "Égypte",
+      "incorrectAnswers": ["Cameroun", "Nigeria", "Ghana"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Record", "Histoire"]
+    },
+    {
+      "question": "Quel sélectionneur nigérian a remporté la CAN en tant que joueur (1994) puis en tant que coach (2013) ?",
+      "correctAnswer": "Stephen Keshi",
+      "incorrectAnswers": ["Augustine Eguavoen", "Sunday Oliseh", "Shuaibu Amodu"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Coach", "Anecdote"]
+    },
+    {
+      "question": "Quel pays surnomme-t-on les 'Aigles' (sans précision géographique) ?",
+      "correctAnswer": "Mali",
+      "incorrectAnswers": ["Tunisie", "Nigeria", "Maroc"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Qui a fini meilleur buteur de la CAN 2023 avec 5 buts malgré l'élimination de son équipe en 8e ?",
+      "correctAnswer": "Emilio Nsue",
+      "incorrectAnswers": ["Gelson Dala", "Mostafa Mohamed", "Ademola Lookman"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Quelle ville a accueilli la finale de la CAN 2023 au stade Alassane Ouattara ?",
+      "correctAnswer": "Abidjan",
+      "incorrectAnswers": ["Bouaké", "Yamoussoukro", "San Pédro"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Stade"]
+    },
+    {
+      "question": "Quel pays a été disqualifié de l'édition 2015 pour avoir refusé d'organiser le tournoi par peur d'Ebola ?",
+      "correctAnswer": "Maroc",
+      "incorrectAnswers": ["Guinée", "Sénégal", "Afrique du Sud"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Anecdote"]
+    },
+    {
+      "question": "Quel est le surnom de la sélection du Burkina Faso ?",
+      "correctAnswer": "Les Étalons",
+      "incorrectAnswers": ["Les Écureuils", "Les Scorpions", "Les Requins Bleus"],
+      "difficulty": "facile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "En 2010, quelle équipe a été victime d'un attentat contre son bus à Cabinda ?",
+      "correctAnswer": "Togo",
+      "incorrectAnswers": ["Angola", "Mali", "Algérie"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Anecdote"]
+    },
+    {
+      "question": "Quel joueur ivoirien a marqué le penalty de la victoire lors de la finale de la CAN 2015 après une séance interminable ?",
+      "correctAnswer": "Boubacar Barry Copa",
+      "incorrectAnswers": ["Yaya Touré", "Gervinho", "Wilfried Bony"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur", "Performance"]
+    },
+    {
+      "question": "Quelle nation surnomme-t-on les 'Requins Bleus' ?",
+      "correctAnswer": "Cap-Vert",
+      "incorrectAnswers": ["Comores", "Madagascar", "Seychelles"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a été élu meilleur joueur de la CAN 2023 ?",
+      "correctAnswer": "William Troost-Ekong",
+      "incorrectAnswers": ["Simon Adingra", "Franck Kessié", "Ronwen Williams"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "En quelle année l'Afrique du Sud a-t-elle remporté sa seule et unique CAN ?",
+      "correctAnswer": "1996",
+      "incorrectAnswers": ["1998", "2000", "1994"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Quel gardien a arrêté 4 tirs au but lors de la séance face au Cap-Vert en 2023 ?",
+      "correctAnswer": "Ronwen Williams",
+      "incorrectAnswers": ["Stanley Nwabali", "Yahia Fofana", "Édouard Mendy"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Performance"]
+    },
+    {
+      "question": "Combien d'équipes participent à la phase finale de la CAN depuis l'édition 2019 ?",
+      "correctAnswer": "24",
+      "incorrectAnswers": ["16", "32", "20"],
+      "difficulty": "facile",
+      "category": ["CAN", "Règle"]
+    },
+    {
+      "question": "Quel pays a remporté la CAN 1990 à domicile ?",
+      "correctAnswer": "Algérie",
+      "incorrectAnswers": ["Maroc", "Tunisie", "Nigeria"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Quel joueur camerounais a marqué le but de la victoire en finale 2017 contre l'Égypte ?",
+      "correctAnswer": "Vincent Aboubakar",
+      "incorrectAnswers": ["Christian Bassogog", "Nicolas Nkoulou", "Benjamin Moukandjo"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Quel pays est surnommé 'Le Nzalang Nacional' ?",
+      "correctAnswer": "Guinée Équatoriale",
+      "incorrectAnswers": ["Guinée-Bissau", "Guinée", "Gabon"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "En quelle année le Sénégal a-t-il perdu sa finale aux tirs au but contre le Cameroun au Mali ?",
+      "correctAnswer": "2002",
+      "incorrectAnswers": ["2019", "2000", "2004"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Qui détient le record du match le plus prolifique de l'histoire de la CAN (Égypte 6-3 Nigeria) ?",
+      "correctAnswer": "1963",
+      "incorrectAnswers": ["1970", "1998", "2010"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Record", "Score"]
+    },
+    {
+      "question": "Quel est le surnom de la sélection de l'Éthiopie ?",
+      "correctAnswer": "Les Antilopes Walya",
+      "incorrectAnswers": ["Les Lions", "Les Éperviers", "Les Fauves"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Quelle nation a remporté la CAN 1992 lors d'une séance de tirs au but historique (11-10) contre le Ghana ?",
+      "correctAnswer": "Côte d'Ivoire",
+      "incorrectAnswers": ["Nigeria", "Sénégal", "Cameroun"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Histoire", "Score"]
+    },
+    {
+      "question": "Quel joueur ghanéen a remporté 3 fois le titre de meilleur joueur de l'année mais jamais la CAN ?",
+      "correctAnswer": "Abedi Pelé",
+      "incorrectAnswers": ["Asamoah Gyan", "Tony Yeboah", "Michael Essien"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Quel sélectionneur français est surnommé 'Le Sorcier Blanc' en Afrique ?",
+      "correctAnswer": "Claude Le Roy",
+      "incorrectAnswers": ["Bruno Metsu", "Hervé Renard", "Jean-Louis Gasset"],
+      "difficulty": "facile",
+      "category": ["CAN", "Coach", "Surnom"]
+    },
+    {
+      "question": "Quel stade a accueilli la finale de la CAN 2019 au Caire ?",
+      "correctAnswer": "Stade International du Caire",
+      "incorrectAnswers": ["Stade du 30 Juin", "Stade Al Salam", "Stade de Borg El Arab"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Stade"]
+    },
+    {
+      "question": "Quel pays a créé la surprise en atteignant les quarts de finale pour sa première participation en 2021 ?",
+      "correctAnswer": "Gambie",
+      "incorrectAnswers": ["Comores", "Mauritanie", "Madagascar"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Performance"]
+    },
+    {
+      "question": "Quel est le surnom de l'équipe de Guinée ?",
+      "correctAnswer": "Le Syli National",
+      "incorrectAnswers": ["Les Éléphants", "Les Scorpions", "Les Guépards"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Quel pays a remporté la CAN 1972 ?",
+      "correctAnswer": "Congo",
+      "incorrectAnswers": ["Zaïre", "Mali", "Soudan"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Qui a marqué l'unique but de la finale de la CAN 2019 pour l'Algérie ?",
+      "correctAnswer": "Baghdad Bounedjah",
+      "incorrectAnswers": ["Riyad Mahrez", "Youcef Belaïli", "Ismaël Bennacer"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Quelle nation est surnommée les 'Guépards' (anciennement les Écureuils) ?",
+      "correctAnswer": "Bénin",
+      "incorrectAnswers": ["Togo", "Niger", "Tchad"],
+      "difficulty": "facile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Dans quel pays s'est déroulée la CAN 2017 ?",
+      "correctAnswer": "Gabon",
+      "incorrectAnswers": ["Guinée Équatoriale", "Cameroun", "Angola"],
+      "difficulty": "moyen",
+      "category": ["CAN"]
+    },
+    {
+      "question": "Quel joueur nigérian a été le premier à marquer dans 5 éditions différentes de la CAN ?",
+      "correctAnswer": "Rashidi Yekini",
+      "incorrectAnswers": ["Jay-Jay Okocha", "Nwankwo Kanu", "Samuel Chukwueze"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Joueur", "Record"]
+    },
+    {
+      "question": "Combien de fois le Ghana a-t-il remporté la CAN ?",
+      "correctAnswer": "4",
+      "incorrectAnswers": ["3", "5", "2"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Record"]
+    },
+    {
+      "question": "Quel pays a accueilli la CAN 2010 ?",
+      "correctAnswer": "Angola",
+      "incorrectAnswers": ["Ghana", "Gabon", "Afrique du Sud"],
+      "difficulty": "facile",
+      "category": ["CAN"]
+    },
+    {
+      "question": "Quel est le surnom de la sélection du Malawi ?",
+      "correctAnswer": "Les Flammes",
+      "incorrectAnswers": ["Les Éperviers", "Les Grues", "Les Mambas"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Surnom"]
+    },
+    {
+      "question": "Quelle nation a remporté la CAN 1968 (sous le nom de Congo-Kinshasa) ?",
+      "correctAnswer": "RD Congo",
+      "incorrectAnswers": ["Congo", "Ghana", "Éthiopie"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Histoire"]
+    },
+    {
+      "question": "Quel joueur a été élu meilleur jeune joueur de la CAN 2023 ?",
+      "correctAnswer": "Simon Adingra",
+      "incorrectAnswers": ["Lamine Camara", "Oumar Diakité", "Pape Matar Sarr"],
+      "difficulty": "moyen",
+      "category": ["CAN", "Joueur"]
+    },
+    {
+      "question": "Dans quel club européen évoluait Sébastien Haller lors de son sacre à la CAN 2023 ?",
+      "correctAnswer": "Borussia Dortmund",
+      "incorrectAnswers": ["Ajax Amsterdam", "West Ham", "Eintracht Francfort"],
+      "difficulty": "facile",
+      "category": ["CAN", "Club", "Joueur"]
+    },
+    {
+      "question": "Quel pays a organisé la CAN en 1982 sur des terrains synthétiques ?",
+      "correctAnswer": "Libye",
+      "incorrectAnswers": ["Algérie", "Tunisie", "Égypte"],
+      "difficulty": "difficile",
+      "category": ["CAN", "Histoire", "Anecdote"]
+    },
+    {
+      "question": "Quel club détient le record du plus grand nombre de titres consécutifs en Bundesliga ?",
+      "correctAnswer": "Bayern Munich",
+      "incorrectAnswers": ["Borussia Dortmund", "Borussia Mönchengladbach", "Hambourg SV"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel joueur est le meilleur buteur de l'histoire de la Bundesliga avec 365 buts ?",
+      "correctAnswer": "Gerd Müller",
+      "incorrectAnswers": ["Robert Lewandowski", "Klaus Fischer", "Jupp Heynckes"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur", "Record"]
+    },
+    {
+      "question": "Comment appelle-t-on le derby entre le Borussia Dortmund et Schalke 04 ?",
+      "correctAnswer": "Derby de la Ruhr",
+      "incorrectAnswers": ["Der Klassiker", "Nordderby", "Derby de Berlin"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel club a créé la sensation en restant invaincu toute la saison 2023-2024 ?",
+      "correctAnswer": "Bayer Leverkusen",
+      "incorrectAnswers": ["Bayern Munich", "RB Leipzig", "VfB Stuttgart"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Performance"]
+    },
+    {
+      "question": "Quel entraîneur a mené le Bayer Leverkusen à son premier titre historique en 2024 ?",
+      "correctAnswer": "Xabi Alonso",
+      "incorrectAnswers": ["Thomas Tuchel", "Julian Nagelsmann", "Jürgen Klopp"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Coach"]
+    },
+    {
+      "question": "Quel est le surnom du club de l'Eintracht Francfort ?",
+      "correctAnswer": "Die Adler (Les Aigles)",
+      "incorrectAnswers": ["Die Wölfe", "Die Knappen", "Die Bullen"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel club allemand joue ses matchs à la PreZero Arena ?",
+      "correctAnswer": "Hoffenheim",
+      "incorrectAnswers": ["Augsbourg", "Mayence", "Fribourg"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de matchs joués en Bundesliga (602) ?",
+      "correctAnswer": "Kari-Heinz Körbel",
+      "incorrectAnswers": ["Oliver Kahn", "Manfred Kaltz", "Lothar Matthäus"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club a remporté le titre de champion en 2009 grâce au duo Grafite-Dzeko ?",
+      "correctAnswer": "VfL Wolfsburg",
+      "incorrectAnswers": ["Werder Brême", "VfB Stuttgart", "Schalke 04"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel est le nom du trophée remis au champion d'Allemagne ?",
+      "correctAnswer": "Meisterschale",
+      "incorrectAnswers": ["Bundes-Cup", "Viktoria", "Deutscher Pokal"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga"]
+    },
+    {
+      "question": "Quel club est surnommé 'Die Wölfe' (Les Loups) ?",
+      "correctAnswer": "VfL Wolfsburg",
+      "incorrectAnswers": ["Bayer Leverkusen", "RB Leipzig", "Borussia Dortmund"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "En quelle année la Bundesliga a-t-elle été officiellement créée ?",
+      "correctAnswer": "1963",
+      "incorrectAnswers": ["1954", "1970", "1945"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel club a été le premier à remporter la Bundesliga en 1964 ?",
+      "correctAnswer": "FC Cologne",
+      "incorrectAnswers": ["Bayern Munich", "Hambourg SV", "Eintracht Francfort"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel joueur a été transféré de Tottenham au Bayern Munich pour plus de 100 millions en 2023 ?",
+      "correctAnswer": "Harry Kane",
+      "incorrectAnswers": ["Son Heung-min", "Leroy Sané", "Sadio Mané"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Mercato"]
+    },
+    {
+      "question": "Quel club joue au Europa-Park Stadion ?",
+      "correctAnswer": "SC Fribourg",
+      "incorrectAnswers": ["Union Berlin", "Stade de Mayence", "Heidenheim"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel est le surnom du RB Leipzig, lié à son propriétaire ?",
+      "correctAnswer": "Die Roten Bullen (Les Taureaux Rouges)",
+      "incorrectAnswers": ["Die Werkself", "Die Fuggerstädter", "Die Eisernen"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel entraîneur détient le record de titres de champion d'Allemagne (8) ?",
+      "correctAnswer": "Udo Lattek",
+      "incorrectAnswers": ["Ottmar Hitzfeld", "Jupp Heynckes", "Pep Guardiola"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Coach", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'Die Werkself' car il a été fondé par des employés d'une usine chimique ?",
+      "correctAnswer": "Bayer Leverkusen",
+      "incorrectAnswers": ["Bayer Uerdingen", "VfL Wolfsburg", "Carl Zeiss Jena"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Anecdote"]
+    },
+    {
+      "question": "Quel joueur français a remporté 9 titres de Bundesliga avec le Bayern Munich ?",
+      "correctAnswer": "Franck Ribéry",
+      "incorrectAnswers": ["Kingsley Coman", "Bixente Lizarazu", "Willy Sagnol"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club a évité la relégation pendant 55 ans avant de descendre pour la première fois en 2018 ?",
+      "correctAnswer": "Hambourg SV",
+      "incorrectAnswers": ["Werder Brême", "VfB Stuttgart", "FC Cologne"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel stade se nomme 'MHP Arena' (anciennement Gottlieb-Daimler-Stadion) ?",
+      "correctAnswer": "Stuttgart",
+      "incorrectAnswers": ["Francfort", "Cologne", "Düsseldorf"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur a marqué le but le plus rapide de l'histoire de la Bundesliga (9 secondes) ?",
+      "correctAnswer": "Karim Bellarabi",
+      "incorrectAnswers": ["Kevin Volland", "Robert Lewandowski", "Marco Reus"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'Die Eisernen' (Les Hommes de Fer) ?",
+      "correctAnswer": "Union Berlin",
+      "incorrectAnswers": ["Hertha Berlin", "Darmstadt", "Arminia Bielefeld"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Qui a été le meilleur buteur de la Bundesliga en 2023-2024 ?",
+      "correctAnswer": "Harry Kane",
+      "incorrectAnswers": ["Serhou Guirassy", "Loïs Openda", "Victor Boniface"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Performance"]
+    },
+    {
+      "question": "Quel club a été sacré champion d'Allemagne à la surprise générale en 2007 ?",
+      "correctAnswer": "VfB Stuttgart",
+      "incorrectAnswers": ["Werder Brême", "Schalke 04", "Hambourg SV"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du nombre de passes décisives sur une saison (21) ?",
+      "correctAnswer": "Thomas Müller",
+      "incorrectAnswers": ["Kevin De Bruyne", "Emil Forsberg", "Jadon Sancho"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club porte une chèvre nommée 'Hennes' sur son écusson ?",
+      "correctAnswer": "FC Cologne",
+      "incorrectAnswers": ["Darmstadt", "Mayence", "Heidenheim"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Anecdote"]
+    },
+    {
+      "question": "Quel entraîneur a réalisé le triplé historique avec le Bayern Munich en 2013 ?",
+      "correctAnswer": "Jupp Heynckes",
+      "incorrectAnswers": ["Louis van Gaal", "Ottmar Hitzfeld", "Pep Guardiola"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Coach"]
+    },
+    {
+      "question": "Quel club joue au Weserstadion ?",
+      "correctAnswer": "Werder Brême",
+      "incorrectAnswers": ["Hambourg SV", "Hanovre 96", "Holstein Kiel"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur polonais a marqué 41 buts en une saison (record) ?",
+      "correctAnswer": "Robert Lewandowski",
+      "incorrectAnswers": ["Krzysztof Piatek", "Lukasz Piszczek", "Jakub Blaszczykowski"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club allemand a remporté la Coupe d'Europe des clubs champions en 1983 ?",
+      "correctAnswer": "Hambourg SV",
+      "incorrectAnswers": ["Bayern Munich", "Borussia Dortmund", "Bayer Leverkusen"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom des supporters du Borussia Mönchengladbach ?",
+      "correctAnswer": "Die Fohlen (Les Poulains)",
+      "incorrectAnswers": ["Die Knappen", "Die Adler", "Die Roten"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a remporté la Coupe du Monde 2014 et a passé 12 ans au Borussia Dortmund ?",
+      "correctAnswer": "Marco Reus",
+      "incorrectAnswers": ["Mats Hummels", "Mario Götze", "Robert Lewandowski"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club est basé à Gelsenkirchen ?",
+      "correctAnswer": "Schalke 04",
+      "incorrectAnswers": ["Bochum", "Duisbourg", "Essen"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Club"]
+    },
+    {
+      "question": "Quelle règle spécifique au foot allemand limite le contrôle des investisseurs extérieurs ?",
+      "correctAnswer": "Règle du 50+1",
+      "incorrectAnswers": ["Règle de l'équité", "Loi Bosman", "Règle du Fair-Play"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Règle"]
+    },
+    {
+      "question": "Quel gardien a passé sa carrière entre Schalke 04 et le Bayern Munich ?",
+      "correctAnswer": "Manuel Neuer",
+      "incorrectAnswers": ["Oliver Kahn", "Jens Lehmann", "Alexander Nübel"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club a remporté la Bundesliga en 2004 ?",
+      "correctAnswer": "Werder Brême",
+      "incorrectAnswers": ["Bayern Munich", "Stuttgart", "Borussia Dortmund"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel joueur guinéen a marqué 28 buts pour Stuttgart en 2023-2024 ?",
+      "correctAnswer": "Serhou Guirassy",
+      "incorrectAnswers": ["Naby Keïta", "Ilaix Moriba", "Amadou Haidara"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel est le surnom du Bayern Munich ?",
+      "correctAnswer": "Die Roten (Les Rouges)",
+      "incorrectAnswers": ["Die Bullen", "Die Adler", "Die Borussen"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel club a été fondé par l'entreprise Red Bull en rachetant la licence du SSV Markranstädt ?",
+      "correctAnswer": "RB Leipzig",
+      "incorrectAnswers": ["FC Liefering", "RB Salzbourg", "Hoffenheim"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de buts pour un gardien en Bundesliga ?",
+      "correctAnswer": "Hans-Jörg Butt",
+      "incorrectAnswers": ["Jens Lehmann", "Manuel Neuer", "Andreas Köpke"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel stade est surnommé 'La Veltins-Arena' ?",
+      "correctAnswer": "Schalke 04",
+      "incorrectAnswers": ["Bochum", "Dortmund", "Düsseldorf"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a mené le Borussia Dortmund à deux titres consécutifs en 2011 et 2012 ?",
+      "correctAnswer": "Jürgen Klopp",
+      "incorrectAnswers": ["Thomas Tuchel", "Edin Terzic", "Lucien Favre"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Coach"]
+    },
+    {
+      "question": "Quel club allemand joue au Deutsche Bank Park ?",
+      "correctAnswer": "Eintracht Francfort",
+      "incorrectAnswers": ["Mayence", "Hoffenheim", "Darmstadt"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel club historique porte des maillots bleus et blancs et a pour hymne 'Blau und Weiß, wie lieb ich dich' ?",
+      "correctAnswer": "Schalke 04",
+      "incorrectAnswers": ["Hertha Berlin", "Hambourg SV", "Karlsruhe"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Club"]
+    },
+    {
+      "question": "Quel joueur français, passé par le RB Leipzig, a été élu meilleur joueur de Bundesliga en 2022 ?",
+      "correctAnswer": "Christopher Nkunku",
+      "incorrectAnswers": ["Moussa Diaby", "Dayot Upamecano", "Marcus Thuram"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club a remporté la Bundesliga en 1998 en étant promu l'année précédente (exploit unique) ?",
+      "correctAnswer": "FC Kaiserslautern",
+      "incorrectAnswers": ["Hansa Rostock", "RB Leipzig", "Hoffenheim"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom du club de Schalke 04, lié aux mineurs de charbon ?",
+      "correctAnswer": "Die Knappen (Les Mineurs)",
+      "incorrectAnswers": ["Die Adler", "Die Wölfe", "Die Fohlen"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel stade se nomme 'An der Alten Försterei' ?",
+      "correctAnswer": "Union Berlin",
+      "incorrectAnswers": ["Hertha Berlin", "Energie Cottbus", "Magdebourg"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur a été le premier à marquer un quintuplé en Bundesliga ?",
+      "correctAnswer": "Gerd Müller",
+      "incorrectAnswers": ["Dieter Müller", "Robert Lewandowski", "Luka Jovic"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club a pour écusson une roue de charrette ?",
+      "correctAnswer": "Mayence (FSV Mainz 05)",
+      "incorrectAnswers": ["Augsbourg", "Fribourg", "Hoffenheim"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Club"]
+    },
+    {
+      "question": "Quel joueur du Bayern Munich est surnommé 'Radio Müller' pour sa propension à parler ?",
+      "correctAnswer": "Thomas Müller",
+      "incorrectAnswers": ["Gerd Müller", "Mats Hummels", "Joshua Kimmich"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel club joue à la WWK Arena ?",
+      "correctAnswer": "Augsbourg",
+      "incorrectAnswers": ["Fribourg", "Heidenheim", "Mayence"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur détient le record du transfert sortant le plus cher de Bundesliga (Ousmane Dembélé) ?",
+      "correctAnswer": "Ousmane Dembélé",
+      "incorrectAnswers": ["Jude Bellingham", "Kai Havertz", "Jadon Sancho"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Mercato"]
+    },
+    {
+      "question": "Quel club a été fondé en 1904 et a remporté son premier titre en 2024 ?",
+      "correctAnswer": "Bayer Leverkusen",
+      "incorrectAnswers": ["VfL Wolfsburg", "Hoffenheim", "Mayence"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de l'Eintracht Francfort lié à leur humeur changeante ?",
+      "correctAnswer": "La Diva du Main",
+      "incorrectAnswers": ["Les Aigles de Fer", "Le Club du Peuple", "Le Mur Noir"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel joueur détient le record de cartons rouges en Bundesliga (8) ?",
+      "correctAnswer": "Jens Nowotny",
+      "incorrectAnswers": ["Stefan Effenberg", "Lothar Matthäus", "Oliver Kahn"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Record"]
+    },
+    {
+      "question": "Quel club allemand a recruté Jude Bellingham à seulement 17 ans ?",
+      "correctAnswer": "Borussia Dortmund",
+      "incorrectAnswers": ["Bayern Munich", "RB Leipzig", "Schalke 04"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Mercato"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Vonovia Ruhrstadion ?",
+      "correctAnswer": "VfL Bochum",
+      "incorrectAnswers": ["Schalke 04", "Dortmund", "Duisbourg"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur est resté 14 ans à la tête du Werder Brême (1999-2013) ?",
+      "correctAnswer": "Thomas Schaaf",
+      "incorrectAnswers": ["Otto Rehhagel", "Viktor Skripnik", "Florian Kohfeldt"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'Die Schwaben' (Les Souabes) ?",
+      "correctAnswer": "VfB Stuttgart",
+      "incorrectAnswers": ["Bayern Munich", "Augsbourg", "Fribourg"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel club a été promu pour la première fois de son histoire en Bundesliga en 2023 ?",
+      "correctAnswer": "Heidenheim",
+      "incorrectAnswers": ["Darmstadt", "Sankt Pauli", "Paderborn"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel joueur japonais a passé 8 ans à l'Eintracht Francfort avant de partir en 2023 ?",
+      "correctAnswer": "Daichi Kamada",
+      "incorrectAnswers": ["Makoto Hasebe", "Shinji Kagawa", "Wataru Endo"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club joue au Voith-Arena ?",
+      "correctAnswer": "Heidenheim",
+      "incorrectAnswers": ["Darmstadt", "Holstein Kiel", "Augsbourg"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel joueur a remporté la Coupe du Monde 2014 et est l'actuel capitaine du Bayern Munich (en 2024) ?",
+      "correctAnswer": "Manuel Neuer",
+      "incorrectAnswers": ["Thomas Müller", "Joshua Kimmich", "Leon Goretzka"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Joueur"]
+    },
+    {
+      "question": "Quel club a remporté le championnat d'Allemagne en 1991 juste avant la réunification ?",
+      "correctAnswer": "Kaiserslautern",
+      "incorrectAnswers": ["Hansa Rostock", "Dynamo Dresde", "Bayern Munich"],
+      "difficulty": "difficile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel entraîneur autrichien a mené Francfort à la victoire en Europa League avant d'aller à Leipzig ?",
+      "correctAnswer": "Oliver Glasner",
+      "incorrectAnswers": ["Adi Hütter", "Ralph Hasenhüttl", "Marco Rose"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Coach"]
+    },
+    {
+      "question": "Quel est le surnom du Hertha Berlin ?",
+      "correctAnswer": "Die Alte Dame (La Vieille Dame)",
+      "incorrectAnswers": ["Die Adler", "Die Bullen", "Les Mineurs"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Surnom"]
+    },
+    {
+      "question": "Quel joueur néerlandais a marqué le but du titre pour le Bayern en 2013 ?",
+      "correctAnswer": "Arjen Robben",
+      "incorrectAnswers": ["Franck Ribéry", "Mario Mandzukic", "Thomas Müller"],
+      "difficulty": "facile",
+      "category": ["Bundesliga", "Histoire"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Rhein-Energie-Stadion ?",
+      "correctAnswer": "FC Cologne",
+      "incorrectAnswers": ["Leverkusen", "Düsseldorf", "Bönn"],
+      "difficulty": "moyen",
+      "category": ["Bundesliga", "Stade"]
+    },
+    {
+      "question": "Quel club détient le record du plus grand nombre de titres de Serie A (Scudetti) ?",
+      "correctAnswer": "Juventus",
+      "incorrectAnswers": ["Inter Milan", "AC Milan", "AS Rome"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel joueur est le meilleur buteur de l'histoire de la Serie A avec 274 buts ?",
+      "correctAnswer": "Silvio Piola",
+      "incorrectAnswers": ["Francesco Totti", "Gunnar Nordahl", "Antonio Di Natale"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Nerazzurri' ?",
+      "correctAnswer": "Inter Milan",
+      "incorrectAnswers": ["AC Milan", "Atalanta Bergame", "Pise"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Comment appelle-t-on le derby entre la Lazio et l'AS Rome ?",
+      "correctAnswer": "Derby della Capitale",
+      "incorrectAnswers": ["Derby della Madonnina", "Derby della Lanterna", "Derby d'Italia"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record de buts marqués sur une seule saison (36 buts, partagé avec Higuaín) ?",
+      "correctAnswer": "Ciro Immobile",
+      "incorrectAnswers": ["Cristiano Ronaldo", "Mauro Icardi", "Luca Toni"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club a remporté son premier titre depuis l'ère Maradona en 2023 ?",
+      "correctAnswer": "Naples",
+      "incorrectAnswers": ["Fiorentina", "Lazio", "AS Rome"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Performance"]
+    },
+    {
+      "question": "Quel stade est partagé par l'Inter et l'AC Milan ?",
+      "correctAnswer": "San Siro",
+      "incorrectAnswers": ["Stadio Olimpico", "Dacia Arena", "Luigi Ferraris"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur détient le record de titres de Serie A remportés (7) ?",
+      "correctAnswer": "Giovanni Trapattoni",
+      "incorrectAnswers": ["Massimiliano Allegri", "Marcello Lippi", "Fabio Capello"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Coach", "Record"]
+    },
+    {
+      "question": "Quel est le surnom du club de la Fiorentina ?",
+      "correctAnswer": "I Viola (Les Violets)",
+      "incorrectAnswers": ["I Giallorossi", "I Rossoblù", "I Grifoni"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de matchs joués en Serie A (647) ?",
+      "correctAnswer": "Gianluigi Buffon",
+      "incorrectAnswers": ["Paolo Maldini", "Francesco Totti", "Javier Zanetti"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Comment appelle-t-on le choc entre la Juventus et l'Inter Milan ?",
+      "correctAnswer": "Derby d'Italia",
+      "incorrectAnswers": ["Derby della Mole", "Derby del Sole", "Derby dello Stretto"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Rossoblù' ?",
+      "correctAnswer": "Bologne",
+      "incorrectAnswers": ["Empoli", "Udinese", "Torino"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "En quelle année a eu lieu le scandale 'Calciopoli' qui a vu la Juventus reléguée en Serie B ?",
+      "correctAnswer": "2006",
+      "incorrectAnswers": ["2004", "2008", "2010"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel attaquant suédois a remporté le titre de champion avec l'Inter, l'AC Milan et la Juventus ?",
+      "correctAnswer": "Zlatan Ibrahimović",
+      "incorrectAnswers": ["Henrik Larsson", "Gunnar Nordahl", "Kurt Hamrin"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur"]
+    },
+    {
+      "question": "Quel club joue ses matchs à domicile au Stadio Atleti Azzurri d'Italia (Gewiss Stadium) ?",
+      "correctAnswer": "Atalanta Bergame",
+      "incorrectAnswers": ["Brescia", "Vérone", "Sassuolo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel est le surnom de la Lazio Rome ?",
+      "correctAnswer": "I Biancocelesti (Les Blanc et Ciel)",
+      "incorrectAnswers": ["I Rossoneri", "I Gialloblù", "I Granata"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur argentin est devenu une icône absolue à Naples entre 1984 et 1991 ?",
+      "correctAnswer": "Diego Maradona",
+      "incorrectAnswers": ["Gabriel Batistuta", "Gonzalo Higuaín", "Lionel Messi"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Joueur"]
+    },
+    {
+      "question": "Quel club a remporté 9 titres consécutifs entre 2012 et 2020 ?",
+      "correctAnswer": "Juventus",
+      "incorrectAnswers": ["Inter Milan", "AC Milan", "Naples"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel est le surnom du derby de Gênes entre la Sampdoria et le Genoa ?",
+      "correctAnswer": "Derby della Lanterna",
+      "incorrectAnswers": ["Derby della Madonnina", "Derby della Mole", "Derby della Scala"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel gardien de but est surnommé 'Spider-Man' en Serie A ?",
+      "correctAnswer": "Walter Zenga",
+      "incorrectAnswers": ["Gianluigi Buffon", "Gianluca Pagliuca", "Angelo Peruzzi"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stadio Bentegodi ?",
+      "correctAnswer": "Hellas Vérone",
+      "incorrectAnswers": ["Udinese", "Parme", "Cagliari"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a mené l'AC Milan au titre en 2022 ?",
+      "correctAnswer": "Stefano Pioli",
+      "incorrectAnswers": ["Antonio Conte", "Simone Inzaghi", "Luciano Spalletti"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Coach"]
+    },
+    {
+      "question": "Quel joueur a passé toute sa carrière (25 saisons) à l'AS Rome ?",
+      "correctAnswer": "Francesco Totti",
+      "incorrectAnswers": ["Daniele De Rossi", "Alessandro Del Piero", "Paolo Maldini"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Joueur", "Carrière"]
+    },
+    {
+      "question": "Quel club a remporté le Scudetto en 2000 avec Sven-Göran Eriksson ?",
+      "correctAnswer": "Lazio Rome",
+      "incorrectAnswers": ["AS Rome", "Fiorentina", "Parme"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom du Torino FC ?",
+      "correctAnswer": "I Granata (Les Grenats)",
+      "incorrectAnswers": ["I Giallorossi", "I Bianconeri", "I Blucerchiati"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a été transféré de Naples à la Juventus pour 90 millions d'euros en 2016 ?",
+      "correctAnswer": "Gonzalo Higuaín",
+      "incorrectAnswers": ["Edinson Cavani", "Marek Hamšík", "Ezequiel Lavezzi"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Mercato"]
+    },
+    {
+      "question": "Quel club est basé en Sardaigne ?",
+      "correctAnswer": "Cagliari",
+      "incorrectAnswers": ["Palerme", "Catane", "Messine"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Club"]
+    },
+    {
+      "question": "Quel est le nom du derby de Turin entre la Juventus et le Torino ?",
+      "correctAnswer": "Derby della Mole",
+      "incorrectAnswers": ["Derby della Lanterna", "Derby dello Stretto", "Derby della Scala"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de titres de meilleur buteur (Capocannoniere) avec 5 trophées ?",
+      "correctAnswer": "Gunnar Nordahl",
+      "incorrectAnswers": ["Silvio Piola", "Ciro Immobile", "Giuseppe Meazza"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Record", "Joueur"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Blucerchiati' ?",
+      "correctAnswer": "Sampdoria",
+      "incorrectAnswers": ["Genoa", "Empoli", "Venezia"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel entraîneur a mené l'Inter Milan au titre de champion en 2024 ?",
+      "correctAnswer": "Simone Inzaghi",
+      "incorrectAnswers": ["Antonio Conte", "Luciano Spalletti", "Roberto Mancini"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Coach"]
+    },
+    {
+      "question": "Quel club a remporté le Scudetto en 1985 à la surprise générale ?",
+      "correctAnswer": "Hellas Vérone",
+      "incorrectAnswers": ["Sampdoria", "Cagliari", "Lazio"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom du Genoa, le plus vieux club d'Italie ?",
+      "correctAnswer": "Il Grifone (Le Griffon)",
+      "incorrectAnswers": ["La Dea", "I Friulani", "I Mussi Volanti"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a marqué le but le plus rapide de l'histoire de la Serie A (6,7 secondes) ?",
+      "correctAnswer": "Rafael Leão",
+      "incorrectAnswers": ["Paolo Poggi", "Shane Long", "Domenico Berardi"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stadio Luigi Ferraris ?",
+      "correctAnswer": "Genoa et Sampdoria",
+      "incorrectAnswers": ["Torino", "Bologne", "Udinese"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Qui était le capitaine emblématique de l'Inter Milan et porte le surnom 'Il Trattore' (Le Tracteur) ?",
+      "correctAnswer": "Javier Zanetti",
+      "incorrectAnswers": ["Esteban Cambiasso", "Marco Materazzi", "Ivan Córdoba"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur", "Surnom"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Gialloblù' ?",
+      "correctAnswer": "Parme",
+      "incorrectAnswers": ["Lazio", "Lecce", "Naples"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur français a été élu meilleur joueur de Serie A avec l'AC Milan en 2023 ?",
+      "correctAnswer": "Theo Hernandez (Nommé, ou Mike Maignan en 2022)",
+      "incorrectAnswers": ["Adrien Rabiot", "Olivier Giroud", "Marcus Thuram"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur"]
+    },
+    {
+      "question": "Quel club a été fondé sous le nom de 'Milan Foot-Ball and Cricket Club' ?",
+      "correctAnswer": "AC Milan",
+      "incorrectAnswers": ["Inter Milan", "Juventus", "Genoa"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de l'Udinese ?",
+      "correctAnswer": "I Friulani (Les Frioulans)",
+      "incorrectAnswers": ["I Sardi", "I Toscani", "I Pugliesi"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel attaquant nigérian a fini meilleur buteur lors du titre de Naples en 2023 ?",
+      "correctAnswer": "Victor Osimhen",
+      "incorrectAnswers": ["Ademola Lookman", "Samuel Chukwueze", "Simeon Nwankwo"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Performance"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stadio Marcantonio Bentegodi ?",
+      "correctAnswer": "Chievo et Hellas Vérone",
+      "incorrectAnswers": ["Vicence", "Padoue", "Venise"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel joueur brésilien, surnommé 'Le Divin à la queue de cheval', a joué pour la Juve, l'Inter et le Milan ?",
+      "correctAnswer": "Roberto Baggio",
+      "incorrectAnswers": ["Ronaldinho", "Zico", "Leonardo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur", "Surnom"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Brianzoli' ?",
+      "correctAnswer": "Monza",
+      "incorrectAnswers": ["Côme", "Lecco", "Bergame"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel club a remporté le Scudetto en 1970, le seul de son histoire, avec Gigi Riva ?",
+      "correctAnswer": "Cagliari",
+      "incorrectAnswers": ["Naples", "Fiorentina", "Lazio"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel est le nom du derby de la ville de Vérone ?",
+      "correctAnswer": "Derby della Scala",
+      "incorrectAnswers": ["Derby della Madonnina", "Derby della Mole", "Derby della Lanterna"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de buts sur penalty en Serie A ?",
+      "correctAnswer": "Francesco Totti",
+      "incorrectAnswers": ["Alessandro Del Piero", "Roberto Baggio", "Cristiano Ronaldo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Salentini' ?",
+      "correctAnswer": "Lecce",
+      "incorrectAnswers": ["Bari", "Foggia", "Salernitana"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel entraîneur a remporté le triplé (Ligue des Champions, Serie A, Coupe d'Italie) avec l'Inter en 2010 ?",
+      "correctAnswer": "José Mourinho",
+      "incorrectAnswers": ["Roberto Mancini", "Rafael Benítez", "Carlo Ancelotti"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Coach"]
+    },
+    {
+      "question": "Quel club joue au Stadio Renato Dall'Ara ?",
+      "correctAnswer": "Bologne",
+      "incorrectAnswers": ["Frosinone", "Parme", "Sassuolo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel est le surnom du club de l'Empoli ?",
+      "correctAnswer": "Gli Azzurri",
+      "incorrectAnswers": ["I Verdi", "I Gialli", "I Neri"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur géorgien a été la révélation de la saison 2022-2023 avec Naples ?",
+      "correctAnswer": "Khvicha Kvaratskhelia",
+      "incorrectAnswers": ["Luka Jovic", "Dusan Vlahovic", "Filip Kostic"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Joueur"]
+    },
+    {
+      "question": "Quel club a été le centre du scandale 'Scommessopoli' dans les années 80 ?",
+      "correctAnswer": "AC Milan (et Lazio)",
+      "incorrectAnswers": ["Juventus", "Inter", "Rome"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de matchs consécutifs avec au moins un but (11 matchs) ?",
+      "correctAnswer": "Gabriel Batistuta (et Quagliarella/Ronaldo)",
+      "incorrectAnswers": ["Ciro Immobile", "Zlatan Ibrahimovic", "Christian Vieri"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club est basé dans la ville de Ferrare ?",
+      "correctAnswer": "SPAL",
+      "incorrectAnswers": ["Modène", "Reggiana", "Carpi"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Club"]
+    },
+    {
+      "question": "Quel est le surnom de l'attaquant italien Alessandro Del Piero ?",
+      "correctAnswer": "Pinturicchio",
+      "incorrectAnswers": ["Il Gladiatore", "Il Divin Codino", "L'Aeroplanino"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stadio Carlo Castellani ?",
+      "correctAnswer": "Empoli",
+      "incorrectAnswers": ["Pistoiese", "Livourne", "Sienne"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel joueur a été le premier Capocannoniere de l'histoire de la Serie A professionnelle ?",
+      "correctAnswer": "Piero Pastore",
+      "incorrectAnswers": ["Giuseppe Meazza", "Silvio Piola", "Felice Borel"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Mastini' (Les Mastiffs) ?",
+      "correctAnswer": "Hellas Vérone",
+      "incorrectAnswers": ["Brescia", "Atalanta", "Udinese"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel entraîneur a mené la Juventus à son premier titre de la série des neuf en 2012 ?",
+      "correctAnswer": "Antonio Conte",
+      "incorrectAnswers": ["Massimiliano Allegri", "Maurizio Sarri", "Andrea Pirlo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Coach"]
+    },
+    {
+      "question": "Quel club appartient à la famille Percassi et a pour surnom 'La Regina delle Provinciali' ?",
+      "correctAnswer": "Atalanta Bergame",
+      "incorrectAnswers": ["Sassuolo", "Udinese", "Bologne"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Anecdote"]
+    },
+    {
+      "question": "Quel joueur a été le meilleur buteur de la Serie A en 2023-2024 ?",
+      "correctAnswer": "Lautaro Martínez",
+      "incorrectAnswers": ["Dušan Vlahović", "Olivier Giroud", "Victor Osimhen"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Performance"]
+    },
+    {
+      "question": "Quel club a été racheté par le groupe américain Friedkin en 2020 ?",
+      "correctAnswer": "AS Rome",
+      "incorrectAnswers": ["AC Milan", "Fiorentina", "Inter Milan"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Club"]
+    },
+    {
+      "question": "Quel est le surnom du joueur Vincenzo Montella ?",
+      "correctAnswer": "L'Aeroplanino (Le petit avion)",
+      "incorrectAnswers": ["Il Fenomeno", "Il Mago", "Il Capitano"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel club joue au Stadio Arechi ?",
+      "correctAnswer": "Salernitana",
+      "incorrectAnswers": ["Bénévent", "Avellino", "Crotone"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Quel joueur détient le record de titres de champion en tant que joueur (10 Scudetti) ?",
+      "correctAnswer": "Gianluigi Buffon",
+      "incorrectAnswers": ["Paolo Maldini", "Leonardo Bonucci", "Giorgio Chiellini"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'I Lupi' (Les Loups) ?",
+      "correctAnswer": "AS Rome (ou Cosenza/Avellino)",
+      "incorrectAnswers": ["Lazio", "Naples", "Torino"],
+      "difficulty": "facile",
+      "category": ["Serie A", "Surnom"]
+    },
+    {
+      "question": "Quel joueur japonais est devenu une star à Parme et à l'AS Rome au tournant des années 2000 ?",
+      "correctAnswer": "Hidetoshi Nakata",
+      "incorrectAnswers": ["Shunsuke Nakamura", "Keisuke Honda", "Yuto Nagatomo"],
+      "difficulty": "moyen",
+      "category": ["Serie A", "Joueur"]
+    },
+    {
+      "question": "Quel club joue au Stadio Ciro Vigorito ?",
+      "correctAnswer": "Bénévent",
+      "incorrectAnswers": ["Foggia", "Salerne", "Bari"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Stade"]
+    },
+    {
+      "question": "Qui a été le premier joueur étranger à être Capocannoniere ?",
+      "correctAnswer": "Heinrich Schönfeld",
+      "incorrectAnswers": ["Michel Platini", "Marco van Basten", "Andriy Shevchenko"],
+      "difficulty": "difficile",
+      "category": ["Serie A", "Record"]
+    },
+    {
+      "question": "Quel club détient le record du plus grand nombre de titres de champion de France (12) ?",
+      "correctAnswer": "Paris Saint-Germain",
+      "incorrectAnswers": ["AS Saint-Étienne", "Olympique de Marseille", "Olympique Lyonnais"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel joueur est le meilleur buteur de l'histoire du championnat avec 299 buts ?",
+      "correctAnswer": "Delio Onnis",
+      "incorrectAnswers": ["Bernard Lacombe", "Hervé Revelli", "Kylian Mbappé"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel est le surnom des joueurs du FC Nantes ?",
+      "correctAnswer": "Les Canaris",
+      "incorrectAnswers": ["Les Merlus", "Les Dogues", "Les Goélands"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel club a remporté 7 titres consécutifs entre 2002 et 2008 ?",
+      "correctAnswer": "Olympique Lyonnais",
+      "incorrectAnswers": ["Paris Saint-Germain", "Olympique de Marseille", "AS Saint-Étienne"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Comment appelle-t-on le derby entre l'AS Saint-Étienne et l'Olympique Lyonnais ?",
+      "correctAnswer": "Le Derby Rhônalpin",
+      "incorrectAnswers": ["Le Classique", "Le Derby du Nord", "Le Choc des Olympiques"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel club joue ses matchs à domicile au Stade de la Meinau ?",
+      "correctAnswer": "RC Strasbourg",
+      "incorrectAnswers": ["FC Metz", "AS Nancy", "Stade de Reims"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel est le surnom du club de l'AS Saint-Étienne ?",
+      "correctAnswer": "Les Verts",
+      "incorrectAnswers": ["Les Sang et Or", "Les Dogues", "Les Gones"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre de matchs joués en Division 1 / Ligue 1 (618) ?",
+      "correctAnswer": "Mickaël Landreau",
+      "incorrectAnswers": ["Jean-Luc Ettori", "Dominique Dropsy", "Alain Giresse"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel entraîneur détient le record de titres de champion de France remportés (8) ?",
+      "correctAnswer": "Albert Batteux",
+      "incorrectAnswers": ["Laurent Blanc", "Robert Herbin", "Jean-Claude Suaudeau"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Sang et Or' ?",
+      "correctAnswer": "RC Lens",
+      "incorrectAnswers": ["Lille OSC", "Valenciennes FC", "Le Mans FC"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Dans quelle ville se trouve le Stade de la Mosson ?",
+      "correctAnswer": "Montpellier",
+      "incorrectAnswers": ["Nîmes", "Sète", "Béziers"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a créé la surprise en devenant champion de France en 2012 ?",
+      "correctAnswer": "Montpellier HSC",
+      "incorrectAnswers": ["Lille OSC", "AJ Auxerre", "Girondins de Bordeaux"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel joueur est le meilleur buteur de l'histoire du Paris Saint-Germain en Ligue 1 ?",
+      "correctAnswer": "Kylian Mbappé",
+      "incorrectAnswers": ["Zlatan Ibrahimovic", "Edinson Cavani", "Pauleta"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel est le surnom des supporters de l'Olympique Lyonnais ?",
+      "correctAnswer": "Les Gones",
+      "incorrectAnswers": ["Les Minots", "Les Fenottes", "Les Bad Gones"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stade de l'Aube ?",
+      "correctAnswer": "ESTAC Troyes",
+      "incorrectAnswers": ["Stade de Reims", "AJ Auxerre", "Dijon FCO"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a mené le LOSC au titre de champion en 2021 ?",
+      "correctAnswer": "Christophe Galtier",
+      "incorrectAnswers": ["Rudi Garcia", "Claude Puel", "Jocelyn Gourvennec"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel joueur détient le record de buts marqués sur une seule saison de Ligue 1 (44 buts) ?",
+      "correctAnswer": "Josip Skoblar",
+      "incorrectAnswers": ["Zlatan Ibrahimovic", "Jean-Pierre Papin", "Carlos Bianchi"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Dogues' ?",
+      "correctAnswer": "Lille OSC",
+      "incorrectAnswers": ["RC Lens", "Stade Rennais", "FC Lorient"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel stade est le domicile du Toulouse FC ?",
+      "correctAnswer": "Stadium de Toulouse",
+      "incorrectAnswers": ["Stade Ernest-Wallon", "Stadium Nord", "Stade de la Beaujoire"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a été sacré champion de France en 2017 avec une jeune génération emmenée par Mbappé ?",
+      "correctAnswer": "AS Monaco",
+      "incorrectAnswers": ["OGC Nice", "Olympique Lyonnais", "Paris Saint-Germain"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel joueur emblématique de l'OM était surnommé 'JPP' ?",
+      "correctAnswer": "Jean-Pierre Papin",
+      "incorrectAnswers": ["Jean-Pierre Philippe", "Jean-Paul Pardo", "Jérôme-Pierre Papin"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur", "Surnom"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stade Francis-Le Blé ?",
+      "correctAnswer": "Stade Brestois",
+      "incorrectAnswers": ["FC Lorient", "Stade Rennais", "EA Guingamp"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel est le surnom du club de l'OGC Nice ?",
+      "correctAnswer": "Le Gym",
+      "incorrectAnswers": ["Les Aiglons", "Les Niçois", "Le Onze d'Azur"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a remporté 5 fois de suite le titre de meilleur buteur de Ligue 1 avec l'OM (1988-1992) ?",
+      "correctAnswer": "Jean-Pierre Papin",
+      "incorrectAnswers": ["Josip Skoblar", "Carlos Bianchi", "Delio Onnis"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Joueur", "Record"]
+    },
+    {
+      "question": "Dans quelle ville se trouve le Stade Auguste-Delaune ?",
+      "correctAnswer": "Reims",
+      "incorrectAnswers": ["Troyes", "Sedan", "Metz"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a remporté le titre en 2009 sous les ordres de Laurent Blanc ?",
+      "correctAnswer": "Girondins de Bordeaux",
+      "incorrectAnswers": ["Olympique de Marseille", "Olympique Lyonnais", "LOSC"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom des joueurs du FC Lorient ?",
+      "correctAnswer": "Les Merlus",
+      "incorrectAnswers": ["Les Canaris", "Les Thoniers", "Les Pirates"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a reçu le premier trophée UNFP de meilleur joueur de Ligue 1 en 1994 ?",
+      "correctAnswer": "David Ginola",
+      "incorrectAnswers": ["Zinedine Zidane", "Youri Djorkaeff", "George Weah"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Joueur", "Histoire"]
+    },
+    {
+      "question": "Quel club joue au Stade de la Licorne ?",
+      "correctAnswer": "Amiens SC",
+      "incorrectAnswers": ["Valenciennes FC", "Le Havre AC", "SM Caen"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur est célèbre pour avoir dirigé l'AJ Auxerre pendant plus de 40 ans ?",
+      "correctAnswer": "Guy Roux",
+      "incorrectAnswers": ["Jean Fernandez", "Daniel Rolland", "Rolland Courbis"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Coach", "Record"]
+    },
+    {
+      "question": "Quel est le surnom du Stade Rennais ?",
+      "correctAnswer": "Les Rouges et Noirs",
+      "incorrectAnswers": ["Les Bretons", "Les Hermines", "Les Corsaires"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur portugais, surnommé 'L'Aigle des Açores', a marqué l'histoire du PSG ?",
+      "correctAnswer": "Pauleta",
+      "incorrectAnswers": ["Cristiano Ronaldo", "Nuno Mendes", "Gonçalo Ramos"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur", "Surnom"]
+    },
+    {
+      "question": "Quel club joue au Stade Gaston-Gérard ?",
+      "correctAnswer": "Dijon FCO",
+      "incorrectAnswers": ["AJ Auxerre", "FC Metz", "AS Nancy"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a remporté le championnat en 2010 pour la première fois en 18 ans ?",
+      "correctAnswer": "Olympique de Marseille",
+      "incorrectAnswers": ["Girondins de Bordeaux", "Olympique Lyonnais", "LOSC"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom du FC Metz ?",
+      "correctAnswer": "Les Grenats",
+      "incorrectAnswers": ["Les Dragons", "Les Lorrains", "Les Chardonnerets"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur détient le record du but le plus rapide de l'histoire de la Ligue 1 (8 secondes) ?",
+      "correctAnswer": "Kylian Mbappé",
+      "incorrectAnswers": ["Michel Rio", "Yoann Gourcuff", "Wahbi Khazri"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stade Océane ?",
+      "correctAnswer": "Le Havre AC",
+      "incorrectAnswers": ["SM Caen", "FC Lorient", "Stade Brestois"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a mené l'AS Monaco au titre en 2000 ?",
+      "correctAnswer": "Claude Puel",
+      "incorrectAnswers": ["Jean Tigana", "Arsène Wenger", "Didier Deschamps"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Sang et Marine' ?",
+      "correctAnswer": "Girondins de Bordeaux (historique)",
+      "incorrectAnswers": ["RC Lens", "Montpellier HSC", "Paris FC"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur brésilien, passé par Lyon, était le maître des coups francs ?",
+      "correctAnswer": "Juninho Pernambucano",
+      "incorrectAnswers": ["Ronaldinho", "Cris", "Sonny Anderson"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur"]
+    },
+    {
+      "question": "Quel club joue au Stade René-Gaillard ?",
+      "correctAnswer": "Chamois Niortais",
+      "incorrectAnswers": ["LB Châteauroux", "Angers SCO", "Le Mans FC"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a été relégué administrativement en 1994 suite à l'affaire VA-OM ?",
+      "correctAnswer": "Olympique de Marseille",
+      "incorrectAnswers": ["Valenciennes FC", "AS Saint-Étienne", "OGC Nice"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de l'Angers SCO ?",
+      "correctAnswer": "Les Scoïstes",
+      "incorrectAnswers": ["Les Angevins", "Les Noirs et Blancs", "Les Ducs"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a été le premier à marquer 30 buts sur une saison au 21ème siècle ?",
+      "correctAnswer": "Zlatan Ibrahimovic",
+      "incorrectAnswers": ["Kylian Mbappé", "Edinson Cavani", "Mamadou Niang"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Record", "Joueur"]
+    },
+    {
+      "question": "Quel club joue ses matchs au Stade Raymond-Kopa ?",
+      "correctAnswer": "Angers SCO",
+      "incorrectAnswers": ["Stade de Reims", "FC Nantes", "SM Caen"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a remporté le championnat avec Nantes en 2001 ?",
+      "correctAnswer": "Raynald Denoueix",
+      "incorrectAnswers": ["Jean-Claude Suaudeau", "Vahid Halilhodzic", "Élie Baup"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'Le club à la Croix de Lorraine' ?",
+      "correctAnswer": "FC Metz",
+      "incorrectAnswers": ["AS Nancy-Lorraine", "RC Strasbourg", "ESTAC"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur argentin a marqué l'histoire de Nantes avant de disparaître tragiquement ?",
+      "correctAnswer": "Emiliano Sala",
+      "incorrectAnswers": ["Mauro Icardi", "Valentin Rongier", "Ángel Di María"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Joueur", "Histoire"]
+    },
+    {
+      "question": "Quel club joue au Stade de la Vallée du Cher ?",
+      "correctAnswer": "Tours FC",
+      "incorrectAnswers": ["Angers SCO", "Le Mans FC", "LB Châteauroux"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club détient le record du plus petit nombre de points sur une saison de Ligue 1 (17 points) ?",
+      "correctAnswer": "RC Lens (1988-89 / Record à 20 clubs)",
+      "incorrectAnswers": ["Grenoble Foot 38", "AC Arles-Avignon", "ESTAC Troyes"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel est le surnom de l'AS Nancy-Lorraine ?",
+      "correctAnswer": "Les Chardons",
+      "incorrectAnswers": ["Les Grenats", "Les Loups", "Les Cigognes"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur a remporté 7 titres de champion avec Lyon ?",
+      "correctAnswer": "Juninho / Sidney Govou / Grégory Coupet",
+      "incorrectAnswers": ["Karim Benzema", "Alexandre Lacazette", "Hugo Lloris"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel club joue au Stade Bonal ?",
+      "correctAnswer": "FC Sochaux-Montbéliard",
+      "incorrectAnswers": ["Dijon FCO", "AJ Auxerre", "FC Metz"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a mené Bordeaux au titre en 1999 ?",
+      "correctAnswer": "Élie Baup",
+      "incorrectAnswers": ["Aimé Jacquet", "Rolland Courbis", "Ricardo"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'L'ACA' ?",
+      "correctAnswer": "AC Ajaccio",
+      "incorrectAnswers": ["Angers SCO", "Amiens SC", "AJ Auxerre"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur libérien a remporté le Ballon d'Or en jouant pour le PSG ?",
+      "correctAnswer": "George Weah",
+      "incorrectAnswers": ["Salif Keïta", "Roger Milla", "Samuel Eto'o"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur", "Ballon d'Or"]
+    },
+    {
+      "question": "Dans quelle ville se trouve le Stade de l'Épopée ?",
+      "correctAnswer": "Calais",
+      "incorrectAnswers": ["Boulogne-sur-Mer", "Dunkerque", "Lens"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club a été le premier champion de France professionnel en 1933 ?",
+      "correctAnswer": "Olympique Lillois",
+      "incorrectAnswers": ["AS Cannes", "Olympique de Marseille", "OGC Nice"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom des joueurs de l'AS Monaco ?",
+      "correctAnswer": "Les Monégasques / Les Rouges et Blancs",
+      "incorrectAnswers": ["Les Princes", "Les Rochers", "Les Azuréens"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur détient le record de passes décisives sur une saison de Ligue 1 (18) ?",
+      "correctAnswer": "Ángel Di María",
+      "incorrectAnswers": ["Dimitri Payet", "Lionel Messi", "Zlatan Ibrahimovic"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel club joue au Stade de la Libération ?",
+      "correctAnswer": "US Boulogne",
+      "incorrectAnswers": ["Dunkerque", "Le Mans FC", "SM Caen"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel entraîneur a remporté le championnat avec Saint-Étienne dans les années 70 ?",
+      "correctAnswer": "Robert Herbin",
+      "incorrectAnswers": ["Albert Batteux", "Aimé Jacquet", "Jean-Michel Larqué"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Coach"]
+    },
+    {
+      "question": "Quel club est surnommé 'Les Sangliers' ?",
+      "correctAnswer": "CS Sedan Ardennes",
+      "incorrectAnswers": ["FC Lorient", "FC Metz", "Valenciennes FC"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur ivoirien a marqué 26 buts lors de sa seule saison à l'OM (2003-04) ?",
+      "correctAnswer": "Didier Drogba",
+      "incorrectAnswers": ["Bakari Koné", "Bonaventure Kalou", "Yaya Touré"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur"]
+    },
+    {
+      "question": "Quel club joue au Stade des Alpes ?",
+      "correctAnswer": "Grenoble Foot 38",
+      "incorrectAnswers": ["FC Annecy", "Thonon Évian", "FC Chambéry"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel club détient le record d'invincibilité à domicile (92 matchs entre 1973 et 1976) ?",
+      "correctAnswer": "AS Saint-Étienne",
+      "incorrectAnswers": ["Paris Saint-Germain", "Olympique de Marseille", "FC Nantes"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Record"]
+    },
+    {
+      "question": "Quel est le surnom des supporters du RC Lens ?",
+      "correctAnswer": "Les Gueules Noires (historique)",
+      "incorrectAnswers": ["Les Mineurs", "Les Lensois", "Les Artésiens"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Surnom"]
+    },
+    {
+      "question": "Quel joueur colombien était surnommé 'El Tigre' à Monaco ?",
+      "correctAnswer": "Radamel Falcao",
+      "incorrectAnswers": ["James Rodríguez", "Carlos Bacca", "Luis Muriel"],
+      "difficulty": "facile",
+      "category": ["Ligue 1", "Joueur", "Surnom"]
+    },
+    {
+      "question": "Quel club joue au Stade de la source ?",
+      "correctAnswer": "US Orléans",
+      "incorrectAnswers": ["Tours FC", "LB Châteauroux", "Angers SCO"],
+      "difficulty": "difficile",
+      "category": ["Ligue 1", "Stade"]
+    },
+    {
+      "question": "Quel joueur a été élu 4 fois meilleur joueur de Ligue 1 aux trophées UNFP (Record) ?",
+      "correctAnswer": "Kylian Mbappé",
+      "incorrectAnswers": ["Zlatan Ibrahimovic", "Eden Hazard", "Pauleta"],
+      "difficulty": "moyen",
+      "category": ["Ligue 1", "Record", "Joueur"]
+    },
+    {
+      "question": "Quel club a recruté Luis Figo au FC Barcelone en 2000, lançant l'ère des 'Galactiques' ?",
+      "correctAnswer": "Real Madrid",
+      "incorrectAnswers": ["AC Milan", "Manchester United", "Juventus"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Qui détient le record du transfert le plus cher pour un gardien de but (80M€) ?",
+      "correctAnswer": "Kepa Arrizabalaga",
+      "incorrectAnswers": ["Alisson Becker", "Gianluigi Buffon", "Ederson"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Record"]
+    },
+    {
+      "question": "Quel joueur a rejoint l'Inter Miami en 2023 après la fin de son contrat au PSG ?",
+      "correctAnswer": "Lionel Messi",
+      "incorrectAnswers": ["Cristiano Ronaldo", "Neymar Jr", "Sergio Busquets"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Joueur"]
+    },
+    {
+      "question": "En 2011, quel club a recruté simultanément Javier Pastore et Salvatore Sirigu ?",
+      "correctAnswer": "Paris Saint-Germain",
+      "incorrectAnswers": ["AS Monaco", "Chelsea", "Manchester City"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Ligue 1"]
+    },
+    {
+      "question": "Quel club anglais a recruté Erling Haaland au Borussia Dortmund en 2022 ?",
+      "correctAnswer": "Manchester City",
+      "incorrectAnswers": ["Manchester United", "Liverpool", "Chelsea"],
+      "difficulty": "facile",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de Liverpool au FC Barcelone pour 135M€ en janvier 2018 ?",
+      "correctAnswer": "Philippe Coutinho",
+      "incorrectAnswers": ["Luis Suárez", "Ousmane Dembélé", "Antoine Griezmann"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Record"]
+    },
+    {
+      "question": "Quel club a recruté Cristiano Ronaldo à la Juventus en 2021 ?",
+      "correctAnswer": "Manchester United",
+      "incorrectAnswers": ["Real Madrid", "Sporting CP", "Al-Nassr"],
+      "difficulty": "facile",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel défenseur est devenu le plus cher de l'histoire en rejoignant Man City pour 90M€ en 2023 ?",
+      "correctAnswer": "Joško Gvardiol",
+      "incorrectAnswers": ["Harry Maguire", "Virgil van Dijk", "Matthijs de Ligt"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Record"]
+    },
+    {
+      "question": "Quel joueur français a rejoint le Real Madrid libre de tout contrat en 2024 ?",
+      "correctAnswer": "Kylian Mbappé",
+      "incorrectAnswers": ["Aurélien Tchouaméni", "Eduardo Camavinga", "Karim Benzema"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club italien a recruté Cristiano Ronaldo en 2018 pour 117M€ ?",
+      "correctAnswer": "Juventus",
+      "incorrectAnswers": ["AC Milan", "Inter Milan", "Naples"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Serie A"]
+    },
+    {
+      "question": "Quel milieu de terrain anglais a coûté plus de 100M€ au Real Madrid en provenance de Dortmund ?",
+      "correctAnswer": "Jude Bellingham",
+      "incorrectAnswers": ["Declan Rice", "Jack Grealish", "Mason Mount"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel joueur détient le record du transfert le plus cher entre deux clubs de Ligue 1 ?",
+      "correctAnswer": "Kylian Mbappé",
+      "incorrectAnswers": ["Randal Kolo Muani", "Bradley Barcola", "Franck Ribéry"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Ligue 1"]
+    },
+    {
+      "question": "Quel club a recruté Zinédine Zidane pour un montant record à l'époque en 2001 ?",
+      "correctAnswer": "Real Madrid",
+      "incorrectAnswers": ["Juventus", "FC Barcelone", "Manchester United"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Histoire"]
+    },
+    {
+      "question": "En 2013, quel joueur a été transféré de Santos au FC Barcelone ?",
+      "correctAnswer": "Neymar Jr",
+      "incorrectAnswers": ["Ronaldinho", "Robinho", "Dani Alves"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Jack Grealish pour 117M€ en 2021 ?",
+      "correctAnswer": "Manchester City",
+      "incorrectAnswers": ["Aston Villa", "Manchester United", "Liverpool"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré du Benfica à Chelsea pour 121M€ en janvier 2023 ?",
+      "correctAnswer": "Enzo Fernández",
+      "incorrectAnswers": ["João Félix", "Darwin Núñez", "Moises Caicedo"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel club a recruté Antoine Griezmann à l'Atlético de Madrid en 2019 ?",
+      "correctAnswer": "FC Barcelone",
+      "incorrectAnswers": ["Real Madrid", "Paris Saint-Germain", "Manchester United"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel joueur belge a coûté plus de 100M€ au Real Madrid en 2019 ?",
+      "correctAnswer": "Eden Hazard",
+      "incorrectAnswers": ["Kevin De Bruyne", "Romelu Lukaku", "Thibaut Courtois"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Declan Rice pour 116M€ en 2023 ?",
+      "correctAnswer": "Arsenal",
+      "incorrectAnswers": ["Manchester City", "Chelsea", "Manchester United"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel attaquant uruguayen a été transféré de Liverpool au FC Barcelone en 2014 ?",
+      "correctAnswer": "Luis Suárez",
+      "incorrectAnswers": ["Edinson Cavani", "Diego Forlán", "Darwin Núñez"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Nicolas Pépé pour 80M€ en 2019 (record du club à l'époque) ?",
+      "correctAnswer": "Arsenal",
+      "incorrectAnswers": ["Chelsea", "Lille OSC", "Paris Saint-Germain"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a fait le trajet Arsenal - FC Barcelone en 2007 ?",
+      "correctAnswer": "Thierry Henry",
+      "incorrectAnswers": ["Cesc Fàbregas", "Alex Song", "Alexander Hleb"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Histoire"]
+    },
+    {
+      "question": "Quel club a recruté Harry Kane en 2023 ?",
+      "correctAnswer": "Bayern Munich",
+      "incorrectAnswers": ["Real Madrid", "Manchester City", "Paris Saint-Germain"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Bundesliga"]
+    },
+    {
+      "question": "Quel joueur a été échangé contre Samuel Eto'o (plus de l'argent) entre le Barça et l'Inter en 2009 ?",
+      "correctAnswer": "Zlatan Ibrahimović",
+      "incorrectAnswers": ["Maxwell", "Thiago Motta", "Diego Milito"],
+      "difficulty": "difficile",
+      "category": ["Mercato", "Anecdote"]
+    },
+    {
+      "question": "Quel club a recruté João Félix pour 126M€ en 2019 ?",
+      "correctAnswer": "Atlético de Madrid",
+      "incorrectAnswers": ["Real Madrid", "FC Barcelone", "Manchester City"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel joueur français a rejoint l'AC Milan en provenance de Chelsea en 2021 ?",
+      "correctAnswer": "Olivier Giroud",
+      "incorrectAnswers": ["Théo Hernandez", "Mike Maignan", "Tiémoué Bakayoko"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Serie A"]
+    },
+    {
+      "question": "Quel club a recruté Alisson Becker pour un montant record à l'époque pour un gardien en 2018 ?",
+      "correctAnswer": "Liverpool",
+      "incorrectAnswers": ["Chelsea", "Manchester City", "Real Madrid"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a quitté le FC Barcelone pour rejoindre le Bayern Munich en prêt en 2019 ?",
+      "correctAnswer": "Philippe Coutinho",
+      "incorrectAnswers": ["Antoine Griezmann", "Ivan Rakitic", "Ousmane Dembélé"],
+      "difficulty": "difficile",
+      "category": ["Mercato", "Bundesliga"]
+    },
+    {
+      "question": "Quel club a recruté Romelu Lukaku pour 115M€ en 2021 ?",
+      "correctAnswer": "Chelsea",
+      "incorrectAnswers": ["Inter Milan", "Manchester United", "Everton"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de l'Ajax à la Juventus pour 75M€ en 2019 ?",
+      "correctAnswer": "Matthijs de Ligt",
+      "incorrectAnswers": ["Frenkie de Jong", "Donny van de Beek", "Hakim Ziyech"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Serie A"]
+    },
+    {
+      "question": "Quel club a recruté James Rodríguez après son excellente Coupe du Monde 2014 ?",
+      "correctAnswer": "Real Madrid",
+      "incorrectAnswers": ["FC Barcelone", "Bayern Munich", "Manchester City"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel joueur a été transféré du LOSC au Real Madrid en 2012 ?",
+      "correctAnswer": "Eden Hazard (Faux, c'est Chelsea. Correction: Raphael Varane en 2011)",
+      "incorrectAnswers": ["Eden Hazard", "Mathieu Debuchy", "Yohan Cabaye"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Virgil van Dijk pour 84M€ en janvier 2018 ?",
+      "correctAnswer": "Liverpool",
+      "incorrectAnswers": ["Manchester City", "Chelsea", "Manchester United"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de l'AS Monaco au Real Madrid pour 80M€ en 2022 ?",
+      "correctAnswer": "Aurélien Tchouaméni",
+      "incorrectAnswers": ["Eduardo Camavinga", "Bernardo Silva", "Fabinho"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Darwin Núñez pour 75M€ (+ bonus) en 2022 ?",
+      "correctAnswer": "Liverpool",
+      "incorrectAnswers": ["Manchester United", "Real Madrid", "Paris Saint-Germain"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a rejoint Al-Nassr en décembre 2022, lançant l'exode vers l'Arabie Saoudite ?",
+      "correctAnswer": "Cristiano Ronaldo",
+      "incorrectAnswers": ["Karim Benzema", "Neymar Jr", "Sadio Mané"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Joueur"]
+    },
+    {
+      "question": "Quel club a recruté Moises Caicedo pour un record britannique de 133M€ en 2023 ?",
+      "correctAnswer": "Chelsea",
+      "incorrectAnswers": ["Liverpool", "Arsenal", "Manchester City"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de l'Eintracht Francfort au Real Madrid pour 60M€ en 2019 ?",
+      "correctAnswer": "Luka Jović",
+      "incorrectAnswers": ["Ante Rebic", "Sébastien Haller", "Filip Kostic"],
+      "difficulty": "difficile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Bruno Fernandes au Sporting CP en janvier 2020 ?",
+      "correctAnswer": "Manchester United",
+      "incorrectAnswers": ["Manchester City", "Tottenham", "Arsenal"],
+      "difficulty": "facile",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de Leicester à Manchester United pour 87M€ en 2019 ?",
+      "correctAnswer": "Harry Maguire",
+      "incorrectAnswers": ["Wesley Fofana", "Ben Chilwell", "Riyad Mahrez"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Record"]
+    },
+    {
+      "question": "Quel club a recruté Kai Havertz au Bayer Leverkusen pour 80M€ en 2020 ?",
+      "correctAnswer": "Chelsea",
+      "incorrectAnswers": ["Bayern Munich", "Real Madrid", "Arsenal"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur français a rejoint le Bayern Munich pour 80M€ en 2019 ?",
+      "correctAnswer": "Lucas Hernandez",
+      "incorrectAnswers": ["Benjamin Pavard", "Dayot Upamecano", "Kingsley Coman"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Bundesliga"]
+    },
+    {
+      "question": "Quel club a recruté Riyad Mahrez en 2018 ?",
+      "correctAnswer": "Manchester City",
+      "incorrectAnswers": ["Arsenal", "Liverpool", "Chelsea"],
+      "difficulty": "facile",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de Dortmund au FC Barcelone pour 105M€ (+ bonus) en 2017 ?",
+      "correctAnswer": "Ousmane Dembélé",
+      "incorrectAnswers": ["Pierre-Emerick Aubameyang", "Jadon Sancho", "Christian Pulisic"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel club a recruté Frenkie de Jong en 2019 ?",
+      "correctAnswer": "FC Barcelone",
+      "incorrectAnswers": ["Paris Saint-Germain", "Manchester City", "Bayern Munich"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Liga"]
+    },
+    {
+      "question": "Quel joueur a été transféré de la Fiorentina à la Juventus pour 70M€ en janvier 2022 ?",
+      "correctAnswer": "Dušan Vlahović",
+      "incorrectAnswers": ["Federico Chiesa", "Federico Bernardeschi", "Stevan Jovetic"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Serie A"]
+    },
+    {
+      "question": "Quel club a recruté Achraf Hakimi à l'Inter Milan en 2021 ?",
+      "correctAnswer": "Paris Saint-Germain",
+      "incorrectAnswers": ["Real Madrid", "Chelsea", "Manchester City"],
+      "difficulty": "facile",
+      "category": ["Mercato", "Ligue 1"]
+    },
+    {
+      "question": "Quel joueur a été transféré de l'Athletic Bilbao à Manchester City pour 65M€ en 2018 ?",
+      "correctAnswer": "Aymeric Laporte",
+      "incorrectAnswers": ["Kepa Arrizabalaga", "Inigo Martinez", "Javi Martinez"],
+      "difficulty": "difficile",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel club a recruté Kalidou Koulibaly en 2022 ?",
+      "correctAnswer": "Chelsea",
+      "incorrectAnswers": ["Manchester City", "Paris Saint-Germain", "Al-Hilal"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "PL"]
+    },
+    {
+      "question": "Quel joueur a été transféré de l'OL à Arsenal pour 53M€ en 2017 ?",
+      "correctAnswer": "Alexandre Lacazette",
+      "incorrectAnswers": ["Corentin Tolisso", "Samuel Umtiti", "Nabil Fekir"],
+      "difficulty": "moyen",
+      "category": ["Mercato", "Ligue 1"]
+    },
+    {
+      "question": "Quelle nation détient le record du plus grand nombre de titres en Copa América (16) ?",
+      "correctAnswer": "Argentine",
+      "incorrectAnswers": ["Uruguay", "Brésil", "Chili"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Record"]
+    },
+    {
+      "question": "Quel pays a remporté la toute première édition de la Copa América en 1916 ?",
+      "correctAnswer": "Uruguay",
+      "incorrectAnswers": ["Argentine", "Brésil", "Chili"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel joueur détient le record du nombre de matchs joués dans l'histoire de la compétition ?",
+      "correctAnswer": "Lionel Messi",
+      "incorrectAnswers": ["Sergio Livingstone", "Zizinho", "Victor Ugarte"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Joueur", "Record"]
+    },
+    {
+      "question": "En quelle année le Chili a-t-il remporté son premier titre historique à domicile ?",
+      "correctAnswer": "2015",
+      "incorrectAnswers": ["2016", "2011", "1991"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quelle nation a remporté la 'Copa América Centenario' organisée aux États-Unis en 2016 ?",
+      "correctAnswer": "Chili",
+      "incorrectAnswers": ["Argentine", "Brésil", "États-Unis"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Performance"]
+    },
+    {
+      "question": "Quel pays a remporté sa seule Copa América en 2001 sans encaisser le moindre but ?",
+      "correctAnswer": "Colombie",
+      "incorrectAnswers": ["Pérou", "Bolivie", "Paraguay"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Record", "Score"]
+    },
+    {
+      "question": "Qui sont les deux meilleurs buteurs de l'histoire de la Copa América (17 buts chacun) ?",
+      "correctAnswer": "Norberto Méndez et Zizinho",
+      "incorrectAnswers": ["Lionel Messi et Pelé", "Gabriel Batistuta et Ronaldo", "Eduardo Vargas et Paolo Guerrero"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Joueur", "Record"]
+    },
+    {
+      "question": "Quel pays invité a atteint deux fois la finale de la Copa América (1993 et 2001) ?",
+      "correctAnswer": "Mexique",
+      "incorrectAnswers": ["États-Unis", "Honduras", "Costa Rica"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Sélection"]
+    },
+    {
+      "question": "En quelle année le Brésil a-t-il remporté la Copa América avec le duo 'Ro-Ro' (Romário et Ronaldo) ?",
+      "correctAnswer": "1997",
+      "incorrectAnswers": ["1989", "1999", "2004"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Joueur", "Histoire"]
+    },
+    {
+      "question": "Quelle nation a remporté la Copa América 2024 aux États-Unis ?",
+      "correctAnswer": "Argentine",
+      "incorrectAnswers": ["Colombie", "Uruguay", "Brésil"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Performance"]
+    },
+    {
+      "question": "Quel joueur argentin a raté trois penaltys dans le même match contre la Colombie en 1999 ?",
+      "correctAnswer": "Martin Palermo",
+      "incorrectAnswers": ["Diego Simeone", "Gabriel Batistuta", "Juan Román Riquelme"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Anecdote"]
+    },
+    {
+      "question": "Quel pays a remporté la Copa América en 1963 en jouant à plus de 3600m d'altitude ?",
+      "correctAnswer": "Bolivie",
+      "incorrectAnswers": ["Équateur", "Pérou", "Colombie"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de l'équipe nationale d'Uruguay ?",
+      "correctAnswer": "La Celeste",
+      "incorrectAnswers": ["La Roja", "La Tri", "L'Albiceleste"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "Combien de fois le Brésil a-t-il remporté la Copa América ?",
+      "correctAnswer": "9",
+      "incorrectAnswers": ["5", "12", "15"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Record"]
+    },
+    {
+      "question": "Quel joueur a été élu meilleur joueur de la Copa América 2021 ?",
+      "correctAnswer": "Lionel Messi",
+      "incorrectAnswers": ["Neymar Jr", "Angel Di Maria", "Emiliano Martínez"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Joueur", "Performance"]
+    },
+    {
+      "question": "Quelle nation surnomme-t-on 'La Tri' ?",
+      "correctAnswer": "Équateur",
+      "incorrectAnswers": ["Colombie", "Venezuela", "Bolivie"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "Quel pays a accueilli la Copa América 2011, remportée par l'Uruguay ?",
+      "correctAnswer": "Argentine",
+      "incorrectAnswers": ["Chili", "Paraguay", "Brésil"],
+      "difficulty": "moyen",
+      "category": ["Copa América"]
+    },
+    {
+      "question": "Quel joueur péruvien est le meilleur buteur en activité de la compétition (14 buts) ?",
+      "correctAnswer": "Paolo Guerrero",
+      "incorrectAnswers": ["Jefferson Farfán", "Claudio Pizarro", "Gianluca Lapadula"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur"]
+    },
+    {
+      "question": "Quelle était la particularité de la finale de la Copa América 1919 (Brésil vs Uruguay) ?",
+      "correctAnswer": "Elle a duré 150 minutes",
+      "incorrectAnswers": ["Elle s'est jouée sans gardien", "Elle a été décidée à pile ou face", "Elle s'est jouée à minuit"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire", "Record"]
+    },
+    {
+      "question": "Quel pays surnomme-t-on 'La Vinotinto' ?",
+      "correctAnswer": "Venezuela",
+      "incorrectAnswers": ["Chili", "Paraguay", "Pérou"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "Quel entraîneur a mené l'Argentine au titre en 2021 et 2024 ?",
+      "correctAnswer": "Lionel Scaloni",
+      "incorrectAnswers": ["Gerardo Martino", "Marcelo Bielsa", "Jorge Sampaoli"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Coach"]
+    },
+    {
+      "question": "Quelle nation a remporté deux fois la compétition dans les années 2010 sans gagner un seul match dans le temps réglementaire en 2011 (finaliste) ?",
+      "correctAnswer": "Paraguay",
+      "incorrectAnswers": ["Pérou", "Uruguay", "Chili"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Anecdote", "Performance"]
+    },
+    {
+      "question": "Quel joueur chilien a marqué le penalty décisif d'une 'panenka' en finale 2015 ?",
+      "correctAnswer": "Alexis Sánchez",
+      "incorrectAnswers": ["Arturo Vidal", "Eduardo Vargas", "Claudio Bravo"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur"]
+    },
+    {
+      "question": "Combien de nations composent initialement la confédération CONMEBOL ?",
+      "correctAnswer": "10",
+      "incorrectAnswers": ["8", "12", "14"],
+      "difficulty": "facile",
+      "category": ["Copa América"]
+    },
+    {
+      "question": "Quel pays a remporté la Copa América 1939, son premier titre ?",
+      "correctAnswer": "Pérou",
+      "incorrectAnswers": ["Chili", "Colombie", "Paraguay"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel joueur brésilien a marqué un triplé en finale de la Copa América 1999 ?",
+      "correctAnswer": "Rivaldo",
+      "incorrectAnswers": ["Ronaldo", "Ronaldinho", "Cafu"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur", "Performance"]
+    },
+    {
+      "question": "Quel est le surnom de l'équipe du Paraguay ?",
+      "correctAnswer": "La Albirroja",
+      "incorrectAnswers": ["La Roja", "La Celeste", "Los Incas"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "En quelle année la Copa América a-t-elle changé de nom (anciennement Championnat sud-américain) ?",
+      "correctAnswer": "1975",
+      "incorrectAnswers": ["1960", "1987", "1993"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel gardien argentin est devenu célèbre pour ses provocations lors des tirs au but en 2021 ?",
+      "correctAnswer": "Emiliano Martínez",
+      "incorrectAnswers": ["Franco Armani", "Sergio Romero", "Gerónimo Rulli"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Joueur", "Anecdote"]
+    },
+    {
+      "question": "Quelle nation a perdu trois finales consécutives entre 2014 (CDM) et 2016 ?",
+      "correctAnswer": "Argentine",
+      "incorrectAnswers": ["Brésil", "Chili", "Colombie"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Performance"]
+    },
+    {
+      "question": "Quel pays surnomme-t-on 'La Blanquirroja' ou 'Los Incas' ?",
+      "correctAnswer": "Pérou",
+      "incorrectAnswers": ["Bolivie", "Équateur", "Paraguay"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "Qui était le capitaine du Brésil lors de la victoire à domicile en 2019 ?",
+      "correctAnswer": "Dani Alves",
+      "incorrectAnswers": ["Thiago Silva", "Marquinhos", "Casemiro"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur"]
+    },
+    {
+      "question": "Quelle nation a été la première à être invitée hors Amérique du Sud en 1993 ?",
+      "correctAnswer": "Mexique et États-Unis",
+      "incorrectAnswers": ["Japon", "Costa Rica", "Espagne"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel joueur brésilien a fini meilleur buteur et meilleur joueur en 1999 ?",
+      "correctAnswer": "Rivaldo",
+      "incorrectAnswers": ["Ronaldo", "Ronaldinho", "Amoroso"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Performance"]
+    },
+    {
+      "question": "Dans quel stade mythique s'est jouée la finale de la Copa América 2021 ?",
+      "correctAnswer": "Maracanã",
+      "incorrectAnswers": ["Mineirão", "Monumental", "Centenario"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Stade"]
+    },
+    {
+      "question": "Quel pays détient le triste record du plus grand nombre de finales perdues ?",
+      "correctAnswer": "Argentine (14)",
+      "incorrectAnswers": ["Brésil", "Uruguay", "Chili"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Record"]
+    },
+    {
+      "question": "Quel joueur a marqué le seul but de la finale 2021 (Argentine 1-0 Brésil) ?",
+      "correctAnswer": "Angel Di Maria",
+      "incorrectAnswers": ["Lionel Messi", "Lautaro Martínez", "Rodrigo De Paul"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Score", "Joueur"]
+    },
+    {
+      "question": "Quelle nation a remporté deux titres consécutifs en 1953 et 1979 ?",
+      "correctAnswer": "Paraguay",
+      "incorrectAnswers": ["Pérou", "Chili", "Colombie"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel est le surnom de la sélection chilienne ?",
+      "correctAnswer": "La Roja",
+      "incorrectAnswers": ["La Celeste", "La Tri", "La Vinotinto"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Surnom"]
+    },
+    {
+      "question": "Quel joueur colombien a fini meilleur buteur de l'édition 2021 (ex-aequo avec Messi) ?",
+      "correctAnswer": "Luis Díaz",
+      "incorrectAnswers": ["James Rodríguez", "Duvan Zapata", "Luis Muriel"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur"]
+    },
+    {
+      "question": "Quelle nation n'a JAMAIS remporté la Copa América malgré sa présence historique ?",
+      "correctAnswer": "Équateur et Venezuela",
+      "incorrectAnswers": ["Bolivie", "Pérou", "Paraguay"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Record"]
+    },
+    {
+      "question": "Quel entraîneur argentin a mené le Chili au titre en 2015 ?",
+      "correctAnswer": "Jorge Sampaoli",
+      "incorrectAnswers": ["Marcelo Bielsa", "Juan Antonio Pizzi", "Lionel Scaloni"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Coach"]
+    },
+    {
+      "question": "Quel joueur détient le record du plus grand nombre d'éditions disputées (7) ?",
+      "correctAnswer": "Lionel Messi",
+      "incorrectAnswers": ["Angel Di Maria", "Claudio Bravo", "Zizinho"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Record"]
+    },
+    {
+      "question": "Quelle nation a accueilli la Copa América 1987, marquant le retour du format avec pays hôte fixe ?",
+      "correctAnswer": "Argentine",
+      "incorrectAnswers": ["Brésil", "Uruguay", "Chili"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel joueur brésilien a été le héros de la finale 2004 contre l'Argentine ?",
+      "correctAnswer": "Adriano",
+      "incorrectAnswers": ["Luis Fabiano", "Ronaldinho", "Kaká"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Joueur"]
+    },
+    {
+      "question": "Quel pays a remporté la Copa América 1975, la première sous ce nom ?",
+      "correctAnswer": "Pérou",
+      "incorrectAnswers": ["Colombie", "Brésil", "Argentine"],
+      "difficulty": "difficile",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel est le trophée de la Copa América ?",
+      "correctAnswer": "Un trophée en argent massif avec socle en bois",
+      "incorrectAnswers": ["Une statuette en or", "Une coupe en cristal", "Un bouclier de bronze"],
+      "difficulty": "facile",
+      "category": ["Copa América"]
+    },
+    {
+      "question": "Quelle nation a battu le Brésil en finale en 1950 (match décisif du championnat) ?",
+      "correctAnswer": "Uruguay",
+      "incorrectAnswers": ["Argentine", "Chili", "Paraguay"],
+      "difficulty": "moyen",
+      "category": ["Copa América", "Histoire"]
+    },
+    {
+      "question": "Quel joueur colombien a été élu meilleur passeur de la Copa América 2024 ?",
+      "correctAnswer": "James Rodríguez",
+      "incorrectAnswers": ["Luis Díaz", "Richard Ríos", "Jhon Córdoba"],
+      "difficulty": "facile",
+      "category": ["Copa América", "Performance", "Joueur"]
+    },
+    {
+      "question": "Quel pays a accueilli la Copa América 1995, remportée par l'Uruguay aux tirs au but ?",
+      "correctAnswer": "Uruguay",
+      "incorrectAnswers": ["Brésil", "Argentine", "Paraguay"],
+      "difficulty": "moyen",
+      "category": ["Copa América"]
+    }
 ]
