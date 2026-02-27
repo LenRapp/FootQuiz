@@ -9,12 +9,12 @@ function App() {
   // Navigation States
   const [currentScreen, setCurrentScreen] = useState('menu'); // 'menu', 'theme', 'difficulty', 'quantity', 'game'
   const [gameMode, setGameMode] = useState('solo'); // 'solo' ou 'duel'
-  
+
   // Game Config States
   const [category, setCategory] = useState('mix');
   const [difficulty, setDifficulty] = useState('mix');
   const [matchType, setMatchType] = useState('quick'); // 'quick', 'all', 'survival'
-  const [gameId, setGameId] = useState(0); 
+  const [gameId, setGameId] = useState(0);
   const [lastPlayedQuestions, setLastPlayedQuestions] = useState([]);
 
   // Extraire toutes les catégories
@@ -40,7 +40,7 @@ function App() {
       hash = str.charCodeAt(i) + ((hash << 5) - hash);
     }
     const h = Math.abs(hash % 360);
-    return `hsl(${h}, 70%, 60%)`; 
+    return `hsl(${h}, 70%, 60%)`;
   };
 
   // --- ACTIONS NAVIGATION ---
@@ -52,7 +52,7 @@ function App() {
 
   const selectTheme = (cat, count) => {
     setCategory(cat);
-    
+
     // Si DUEL -> On lance direct (ou on pourrait demander la quantité, mais restons simple : 10 questions)
     if (gameMode === 'duel') {
       launchGame();
@@ -114,25 +114,21 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className="background-balls">
-        <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
-        <span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span><span>⚽</span>
-      </div>
 
       {currentScreen !== 'game' ? (
         <div className="card home-card">
-          <h1>Foot<span>Quiz</span> ⚽</h1>
-          
+          <h1>FOOT<span>QUIZ</span></h1>
+
           {/* ECRAN 1 : MENU PRINCIPAL (CHOIX DU MODE) */}
           {currentScreen === 'menu' && (
             <>
               <p>Choisis ton mode de jeu :</p>
               <div className="difficulty-grid">
-                <button className="diff-btn" style={{borderBottomColor: '#00e676'}} onClick={() => selectGameMode('solo')}>
+                <button className="diff-btn" style={{ borderBottomColor: '#00e676' }} onClick={() => selectGameMode('solo')}>
                   👤 SOLO
                   <span>(Carrière)</span>
                 </button>
-                <button className="diff-btn" style={{borderBottomColor: '#ff1744'}} onClick={() => selectGameMode('duel')}>
+                <button className="diff-btn" style={{ borderBottomColor: '#ff1744' }} onClick={() => selectGameMode('duel')}>
                   ⚔️ DUEL 1v1
                   <span>(Même écran)</span>
                 </button>
@@ -150,9 +146,9 @@ function App() {
                   <span>(Général)</span>
                 </button>
                 {categoryStats.map(cat => (
-                  <button 
-                    key={cat.name} 
-                    className="diff-btn" 
+                  <button
+                    key={cat.name}
+                    className="diff-btn"
                     style={{ borderBottomColor: getCategoryColor(cat.name) }}
                     onClick={() => selectTheme(cat.name, cat.count)}
                   >
@@ -192,15 +188,15 @@ function App() {
             <>
               <p>Type de match ?</p>
               <div className="difficulty-grid">
-                <button className="diff-btn" style={{borderBottomColor: '#00e676'}} onClick={() => selectQuantity('quick')}>
+                <button className="diff-btn" style={{ borderBottomColor: '#00e676' }} onClick={() => selectQuantity('quick')}>
                   ⚡ Match Rapide
                   <span>(10 questions)</span>
                 </button>
-                <button className="diff-btn" style={{borderBottomColor: '#ffea00'}} onClick={() => selectQuantity('all')}>
+                <button className="diff-btn" style={{ borderBottomColor: '#ffea00' }} onClick={() => selectQuantity('all')}>
                   🏃 Marathon
                   <span>(Toutes les questions)</span>
                 </button>
-                <button className="diff-btn" style={{borderBottomColor: '#ff1744', gridColumn: 'span 2'}} onClick={() => selectQuantity('survival')}>
+                <button className="diff-btn" style={{ borderBottomColor: '#ff1744', gridColumn: 'span 2' }} onClick={() => selectQuantity('survival')}>
                   💀 Mort Subite
                   <span>(3 vies, survie max)</span>
                 </button>
@@ -213,20 +209,20 @@ function App() {
       ) : (
         /* JEU */
         gameMode === 'duel' ? (
-          <DuelQuiz 
-            key={gameId} 
-            category={category} 
-            onBackToMenu={backToMenu} 
+          <DuelQuiz
+            key={gameId}
+            category={category}
+            onBackToMenu={backToMenu}
             onReplay={() => selectGameMode('duel')} // Replay Duel simple
           />
         ) : (
-          <Quiz 
-            key={gameId} 
+          <Quiz
+            key={gameId}
             category={category}
             difficulty={difficulty}
             mode={matchType}
-            excludeQuestions={lastPlayedQuestions} 
-            onBackToMenu={backToMenu} 
+            excludeQuestions={lastPlayedQuestions}
+            onBackToMenu={backToMenu}
             onReplay={replayGame}
           />
         )

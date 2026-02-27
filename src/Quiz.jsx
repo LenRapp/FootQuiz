@@ -26,7 +26,7 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
         'hard': ['difficile', 'hard']
       };
       const validTags = difficultyMap[difficulty];
-      
+
       filteredQuestions = questionsData.filter(q => {
         if (q.difficulty) {
           return validTags.includes(q.difficulty.toLowerCase());
@@ -55,13 +55,14 @@ const prepareQuestions = (category, difficulty, mode, excludeList = []) => {
 
 const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onReplay }) => {
   const [questions] = useState(() => prepareQuestions(category, difficulty, mode, excludeQuestions));
-  
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [userAnswer, setUserAnswer] = useState(null);
   const [lives, setLives] = useState(3);
-  
+  const [feedbackAnimation, setFeedbackAnimation] = useState(null); // 'goal' | 'post' | null
+
   const TIME_PER_QUESTION = 15;
   const [timeLeft, setTimeLeft] = useState(TIME_PER_QUESTION);
 
@@ -100,26 +101,26 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
         if (prevTime <= 1) {
           clearInterval(timerId);
           setTimeout(() => {
-             // Timeout = Perte de vie en mode survie
-             if (mode === 'survival') {
-               setLives(prev => prev - 1);
-             }
-             
-             setUserAnswer((prev) => {
-                 if (!prev) return { selected: null, isCorrect: false, timeOut: true };
-                 return prev;
-             });
-             
-             setTimeout(() => {
-               // Vérification manuelle si mort pour l'affichage immédiat
-               // On utilise une closure pour capturer la valeur à jour si possible ou on se base sur la logique
-               // Ici nextQuestion gérera la fin si lives <= 0
-               if (mode === 'survival' && lives - 1 <= 0) {
-                 setGameOver(true);
-               } else if (currentQuestionIndex < questions.length) { 
-                   nextQuestion(currentQuestionIndex + 1);
-               }
-             }, 2000);
+            // Timeout = Perte de vie en mode survie
+            if (mode === 'survival') {
+              setLives(prev => prev - 1);
+            }
+
+            setUserAnswer((prev) => {
+              if (!prev) return { selected: null, isCorrect: false, timeOut: true };
+              return prev;
+            });
+
+            setTimeout(() => {
+              // Vérification manuelle si mort pour l'affichage immédiat
+              // On utilise une closure pour capturer la valeur à jour si possible ou on se base sur la logique
+              // Ici nextQuestion gérera la fin si lives <= 0
+              if (mode === 'survival' && lives - 1 <= 0) {
+                setGameOver(true);
+              } else if (currentQuestionIndex < questions.length) {
+                nextQuestion(currentQuestionIndex + 1);
+              }
+            }, 2000);
           }, 0);
           return 0;
         }
@@ -142,7 +143,7 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
       const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
       const randomInRange = (min, max) => Math.random() * (max - min) + min;
 
-      const interval = setInterval(function() {
+      const interval = setInterval(function () {
         const timeLeft = animationEnd - Date.now();
         if (timeLeft <= 0) return clearInterval(interval);
         const particleCount = 50 * (timeLeft / duration);
@@ -157,8 +158,12 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
 
     const currentQ = questions[currentQuestionIndex];
     const isCorrect = answer === currentQ.correctAnswer;
-    
+
     setUserAnswer({ selected: answer, isCorrect });
+
+    // Trigger goal or post animation
+    setFeedbackAnimation(isCorrect ? 'goal' : 'post');
+    setTimeout(() => setFeedbackAnimation(null), 1400);
 
     if (isCorrect) {
       setScore(prev => prev + 1);
@@ -211,33 +216,33 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
   return (
     <div className="card quiz-container">
       <button className="quit-btn" onClick={onBackToMenu}>✕</button>
-      
+
       <div className="progress-container">
-        <div 
-          className="progress-bar" 
+        <div
+          className="progress-bar"
           style={{ width: `${((currentQuestionIndex + 1) / questions.length) * 100}%` }}
         ></div>
       </div>
 
       <div className="stats-bar">
         {mode === 'survival' ? (
-           <span style={{color: '#ff1744'}}>Vies: {"⚽".repeat(Math.max(0, lives))}</span>
+          <span style={{ color: '#ff1744' }}>Vies: {"⚽".repeat(Math.max(0, lives))}</span>
         ) : (
-           <span>⚽ {currentQuestionIndex + 1}/{questions.length}</span>
+          <span>⚽ {currentQuestionIndex + 1}/{questions.length}</span>
         )}
-        
+
         <span style={{ color: getTimerColor(), fontSize: '1.4rem' }}>
           ⏱️ {timeLeft}s
         </span>
         <span>🏆 Score: {score}</span>
       </div>
-      
+
       <h2 className="question-text">{currentQ.question}</h2>
 
       <div className="answers-grid">
         {shuffledAnswers.map((answer, index) => {
           let className = "answer-btn";
-          
+
           if (userAnswer) {
             if (answer === currentQ.correctAnswer) {
               className += " correct";
@@ -246,10 +251,10 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
               className += " wrong";
             }
           }
-          
+
           return (
-            <button 
-              key={index} 
+            <button
+              key={index}
               onClick={() => handleAnswerClick(answer)}
               className={className}
               disabled={!!userAnswer}
@@ -259,14 +264,28 @@ const Quiz = ({ onBackToMenu, category, difficulty, mode, excludeQuestions, onRe
           );
         })}
       </div>
-      
-      <button 
-        className="skip-btn" 
-        onClick={handleSkip} 
+
+      <button
+        className="skip-btn"
+        onClick={handleSkip}
         disabled={!!userAnswer}
       >
         Passer cette question ⏩
       </button>
+
+      {/* Goal / Post Feedback Overlay */}
+      {feedbackAnimation === 'goal' && (
+        <div className="goal-overlay" key={Date.now()}>
+          <div className="feedback-emoji">⚽🥅</div>
+          <div className="feedback-text">BUUUUT !</div>
+        </div>
+      )}
+      {feedbackAnimation === 'post' && (
+        <div className="post-overlay" key={Date.now()}>
+          <div className="feedback-emoji">💥</div>
+          <div className="feedback-text">POTEAU !</div>
+        </div>
+      )}
     </div>
   );
 };

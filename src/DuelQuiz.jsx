@@ -19,13 +19,14 @@ const prepareDuelQuestions = (category) => {
 const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
   const [questions] = useState(() => prepareDuelQuestions(category));
   const [currentQIndex, setCurrentQIndex] = useState(0);
-  
+
   const [scoreP1, setScoreP1] = useState(0);
   const [scoreP2, setScoreP2] = useState(0);
-  
+
   const [currentPlayer, setCurrentPlayer] = useState(1);
   const [userAnswer, setUserAnswer] = useState(null);
-  
+  const [feedbackAnimation, setFeedbackAnimation] = useState(null); // 'goal' | 'post' | null
+
   // Initialisation des réponses mélangées
   const [shuffledAnswers, setShuffledAnswers] = useState(() => {
     if (questions.length > 0) {
@@ -63,11 +64,11 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
         if (prevTime <= 1) {
           clearInterval(timerId);
           setTimeout(() => {
-             // Timeout = Raté
-             setUserAnswer({ selected: null, isCorrect: false, timeOut: true });
-             setTimeout(() => {
-               nextTurn(currentQIndex + 1);
-             }, 1500);
+            // Timeout = Raté
+            setUserAnswer({ selected: null, isCorrect: false, timeOut: true });
+            setTimeout(() => {
+              nextTurn(currentQIndex + 1);
+            }, 1500);
           }, 0);
           return 0;
         }
@@ -83,8 +84,12 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
 
     const currentQ = questions[currentQIndex];
     const isCorrect = answer === currentQ.correctAnswer;
-    
+
     setUserAnswer({ selected: answer, isCorrect });
+
+    // Trigger goal or post animation
+    setFeedbackAnimation(isCorrect ? 'goal' : 'post');
+    setTimeout(() => setFeedbackAnimation(null), 1400);
 
     if (isCorrect) {
       if (currentPlayer === 1) setScoreP1(s => s + 1);
@@ -141,13 +146,13 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
       <div className="duel-header">
         <div className={`badge p1 ${currentPlayer === 1 ? 'active' : ''}`}>J1: {scoreP1}</div>
         <div className="turn-indicator">
-            À TOI <strong>JOUEUR {currentPlayer}</strong>
+          À TOI <strong>JOUEUR {currentPlayer}</strong>
         </div>
         <div className={`badge p2 ${currentPlayer === 2 ? 'active' : ''}`}>J2: {scoreP2}</div>
       </div>
 
       <div className="round-info">
-        Question {currentQIndex + 1}/10 • <span style={{color: timeLeft < 6 ? '#ff1744' : 'inherit'}}>⏱️ {timeLeft}s</span>
+        Question {currentQIndex + 1}/10 • <span style={{ color: timeLeft < 6 ? '#ff1744' : 'inherit' }}>⏱️ {timeLeft}s</span>
       </div>
 
       <h2 className="question-text">{currentQ.question}</h2>
@@ -155,7 +160,7 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
       <div className="answers-grid">
         {shuffledAnswers.map((answer, index) => {
           let className = "answer-btn";
-          
+
           if (userAnswer) {
             if (answer === currentQ.correctAnswer) {
               className += " correct";
@@ -164,10 +169,10 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
               className += " wrong";
             }
           }
-          
+
           return (
-            <button 
-              key={index} 
+            <button
+              key={index}
               onClick={() => handleAnswer(answer)}
               className={className}
               disabled={!!userAnswer}
@@ -177,6 +182,20 @@ const DuelQuiz = ({ onBackToMenu, category, onReplay }) => {
           );
         })}
       </div>
+
+      {/* Goal / Post Feedback Overlay */}
+      {feedbackAnimation === 'goal' && (
+        <div className="goal-overlay" key={Date.now()}>
+          <div className="feedback-emoji">⚽🥅</div>
+          <div className="feedback-text">BUUUUT !</div>
+        </div>
+      )}
+      {feedbackAnimation === 'post' && (
+        <div className="post-overlay" key={Date.now()}>
+          <div className="feedback-emoji">💥</div>
+          <div className="feedback-text">POTEAU !</div>
+        </div>
+      )}
     </div>
   );
 };
